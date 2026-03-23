@@ -38,26 +38,39 @@ export default async function MakePage({ params }: Props) {
   })
   if (!make) notFound()
 
+  // Group models by groupSlug (fall back to the model slug itself)
+  type ModelRow = (typeof make.models)[number]
+  const groupMap = new Map<string, { groupName: string; groupSlug: string; models: ModelRow[] }>()
+  for (const model of make.models) {
+    const key  = model.groupSlug ?? model.slug
+    const name = model.groupName ?? model.name
+    if (!groupMap.has(key)) groupMap.set(key, { groupName: name, groupSlug: key, models: [] })
+    groupMap.get(key)!.models.push(model)
+  }
+  const groups = Array.from(groupMap.values()).sort((a, b) =>
+    a.groupName.localeCompare(b.groupName, undefined, { numeric: true, sensitivity: 'base' })
+  )
+
   const schema = {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'ItemList',
-        '@id': `https://cardata.wiki/${make.slug}#modellist`,
+        '@id': `https://cardata.wiki/${make.slug}#grouplist`,
         name: `${make.name} Models`,
-        numberOfItems: make.models.length,
-        itemListElement: make.models.slice(0, 20).map((m, i) => ({
+        numberOfItems: groups.length,
+        itemListElement: groups.slice(0, 20).map((g, i) => ({
           '@type': 'ListItem',
           position: i + 1,
-          name: `${make.name} ${m.name}`,
-          url: `https://cardata.wiki/${make.slug}/${m.slug}`,
+          name: `${make.name} ${g.groupName}`,
+          url: `https://cardata.wiki/${make.slug}/${g.groupSlug}`,
         })),
       },
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cardata.wiki/' },
-          { '@type': 'ListItem', position: 2, name: make.name, item: `https://cardata.wiki/${make.slug}` },
+          { '@type': 'ListItem', position: 1, name: 'Home',      item: 'https://cardata.wiki/' },
+          { '@type': 'ListItem', position: 2, name: make.name,   item: `https://cardata.wiki/${make.slug}` },
         ],
       },
     ],
@@ -71,34 +84,45 @@ export default async function MakePage({ params }: Props) {
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
         <div>
           <h1 className="text-3xl font-bold text-slate-900">{make.name}</h1>
-          <p className="text-slate-500 text-sm mt-1">{make.models.length} models · {make.country ?? 'International'}</p>
+          <p className="text-slate-500 text-sm mt-1">
+            {groups.length} model {groups.length === 1 ? 'family' : 'families'}
+            {' · '}{make.models.length} body styles
+            {' · '}{make.country ?? 'International'}
+          </p>
         </div>
         <a
           href={`/api/download/make/${make.slug}`}
           className="btn-outline flex items-center gap-2 self-start"
           download
         >
-          <svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"/></svg>
+          <svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+            <path fillRule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"/>
+          </svg>
           Download all {make.name} specs (CSV)
         </a>
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
-        {make.models.map(model => (
-          <Link
-            key={model.id}
-            href={`/${make.slug}/${model.slug}`}
-            className="card p-4 hover:border-primary-300 hover:shadow-sm transition-all group"
-          >
-            <div className="font-medium text-sm text-slate-800 group-hover:text-primary-700">
-              {make.name} {model.name}
-            </div>
-            {model.bodyStyle && (
-              <div className="text-xs text-slate-400 mt-0.5">{model.bodyStyle}</div>
-            )}
-            <div className="text-xs text-slate-400">{model._count.variants} variants</div>
-          </Link>
-        ))}
+        {groups.map(group => {
+          const totalVariants = group.models.reduce((sum, m) => sum + m._count.variants, 0)
+          return (
+            <Link
+              key={group.groupSlug}
+              href={`/${make.slug}/${group.groupSlug}`}
+              className="card p-4 hover:border-primary-300 hover:shadow-sm transition-all group"
+            >
+              <div className="font-medium text-sm text-slate-800 group-hover:text-primary-700">
+                {make.name} {group.groupName}
+              </div>
+              <div className="text-xs text-slate-400 mt-0.5">
+                {group.models.length > 1
+                  ? `${group.models.length} body styles`
+                  : group.models[0]?.bodyStyle ?? ''}
+              </div>
+              <div className="text-xs text-slate-400">{totalVariants} variants</div>
+            </Link>
+          )
+        })}
       </div>
     </div>
   )

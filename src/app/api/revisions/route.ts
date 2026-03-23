@@ -78,10 +78,11 @@ export async function POST(req: NextRequest) {
   ])
 
   // Revalidate the variant page on-demand
-  const makeSl  = variant.model.make.slug
-  const modelSl = variant.model.slug
-  const varSl   = variant.slug
-  revalidatePath(`/${makeSl}/${modelSl}/${varSl}`)
+  const makeSl   = variant.model.make.slug
+  const groupSl  = variant.model.groupSlug ?? variant.model.slug
+  const modelSl  = variant.model.slug
+  const varSl    = variant.slug
+  revalidatePath(`/${makeSl}/${groupSl}/${modelSl}/${varSl}`)
 
   return NextResponse.json({ revision }, { status: 201 })
 }

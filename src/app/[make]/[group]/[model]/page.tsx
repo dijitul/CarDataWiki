@@ -4,9 +4,20 @@ import { prisma } from '@/lib/prisma'
 import { Breadcrumb } from '@/components/layout/Breadcrumb'
 import type { Metadata } from 'next'
 
-interface Props { params: { make: string; model: string } }
+interface Props { params: { make: string; group: string; model: string } }
 
 export const revalidate = 3600
+
+export async function generateStaticParams() {
+  const models = await prisma.model.findMany({
+    select: { slug: true, groupSlug: true, make: { select: { slug: true } } },
+  })
+  return models.map(m => ({
+    make:  m.make.slug,
+    group: m.groupSlug ?? m.slug,
+    model: m.slug,
+  }))
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const model = await prisma.model.findUnique({
@@ -17,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${model.make.name} ${model.name} Specifications & Variants`,
     description: `Full technical specifications for all ${model.make.name} ${model.name} variants. Compare engine options, dimensions, power output, torque, fuel economy and performance figures across ${model._count.variants} variants. Download data free.`,
-    alternates: { canonical: `https://cardata.wiki/${params.make}/${model.slug}` },
+    alternates: { canonical: `https://cardata.wiki/${params.make}/${params.group}/${model.slug}` },
   }
 }
 
@@ -26,34 +37,39 @@ export default async function ModelPage({ params }: Props) {
     where: { slug: params.model },
     include: {
       make: true,
-      variants: {
-        orderBy: [{ yearFrom: 'desc' }, { name: 'asc' }],
-      },
+      variants: { orderBy: [{ yearFrom: 'desc' }, { name: 'asc' }] },
     },
   })
-  if (!model || model.make.slug !== params.make) notFound()
+  if (
+    !model ||
+    model.make.slug !== params.make ||
+    (model.groupSlug ?? model.slug) !== params.group
+  ) notFound()
+
+  const groupName = model.groupName ?? params.group
 
   const schema = {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'ItemList',
-        '@id': `https://cardata.wiki/${params.make}/${model.slug}#variantlist`,
+        '@id': `https://cardata.wiki/${params.make}/${params.group}/${model.slug}#variantlist`,
         name: `${model.make.name} ${model.name} Variants`,
         numberOfItems: model.variants.length,
         itemListElement: model.variants.slice(0, 20).map((v, i) => ({
           '@type': 'ListItem',
           position: i + 1,
           name: `${model.make.name} ${model.name} ${v.name}`,
-          url: `https://cardata.wiki/${params.make}/${model.slug}/${v.slug}`,
+          url: `https://cardata.wiki/${params.make}/${params.group}/${model.slug}/${v.slug}`,
         })),
       },
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home',            item: 'https://cardata.wiki/' },
-          { '@type': 'ListItem', position: 2, name: model.make.name,    item: `https://cardata.wiki/${params.make}` },
-          { '@type': 'ListItem', position: 3, name: model.name,         item: `https://cardata.wiki/${params.make}/${model.slug}` },
+          { '@type': 'ListItem', position: 1, name: 'Home',        item: 'https://cardata.wiki/' },
+          { '@type': 'ListItem', position: 2, name: model.make.name, item: `https://cardata.wiki/${params.make}` },
+          { '@type': 'ListItem', position: 3, name: groupName,     item: `https://cardata.wiki/${params.make}/${params.group}` },
+          { '@type': 'ListItem', position: 4, name: model.name,    item: `https://cardata.wiki/${params.make}/${params.group}/${model.slug}` },
         ],
       },
     ],
@@ -63,22 +79,27 @@ export default async function ModelPage({ params }: Props) {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <Breadcrumb crumbs={[
-        { label: 'Home', href: '/' },
-        { label: model.make.name, href: `/${params.make}` },
+        { label: 'Home',            href: '/' },
+        { label: model.make.name,   href: `/${params.make}` },
+        { label: groupName,         href: `/${params.make}/${params.group}` },
         { label: model.name },
       ]} />
 
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
         <div>
           <h1 className="text-3xl font-bold text-slate-900">{model.make.name} {model.name}</h1>
-          <p className="text-slate-500 text-sm mt-1">{model.variants.length} variants{model.bodyStyle ? ` · ${model.bodyStyle}` : ''}</p>
+          <p className="text-slate-500 text-sm mt-1">
+            {model.variants.length} variants{model.bodyStyle ? ` · ${model.bodyStyle}` : ''}
+          </p>
         </div>
         <a
           href={`/api/download/model/${model.slug}`}
           className="btn-outline flex items-center gap-2 self-start"
           download
         >
-          <svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"/></svg>
+          <svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+            <path fillRule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"/>
+          </svg>
           Download CSV
         </a>
       </div>
@@ -102,7 +123,10 @@ export default async function ModelPage({ params }: Props) {
               {model.variants.map(v => (
                 <tr key={v.id} className="hover:bg-slate-50 transition-colors">
                   <td className="px-4 py-3">
-                    <Link href={`/${params.make}/${model.slug}/${v.slug}`} className="text-primary-700 hover:underline font-medium">
+                    <Link
+                      href={`/${params.make}/${params.group}/${model.slug}/${v.slug}`}
+                      className="text-primary-700 hover:underline font-medium"
+                    >
                       {v.name}
                     </Link>
                   </td>

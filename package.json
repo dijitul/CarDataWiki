@@ -12,7 +12,8 @@
     "db:push": "prisma db push",
     "db:seed": "tsx prisma/seed.ts",
     "db:studio": "prisma studio",
-    "import:data": "tsx scripts/import-data.ts"
+    "import:data": "tsx scripts/import-data.ts",
+    "group:models": "tsx scripts/group-models.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.30.0",

@@ -91,6 +91,8 @@ model Model {
   name      String
   slug      String   @unique
   bodyStyle String?
+  groupSlug String?
+  groupName String?
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
@@ -100,6 +102,7 @@ model Model {
   @@unique([makeId, name])
   @@index([makeId])
   @@index([slug])
+  @@index([makeId, groupSlug])
 }
 
 model ModelVariant {
