@@ -48,7 +48,7 @@ const config: Config = {
         mono:  ['JetBrains Mono', 'Fira Code', 'monospace'],
       },
       fontSize: {
-        'data': ['0.8125rem', { lineHeight: '1.25rem', fontWeight: '400', fontVariantNumeric: 'tabular-nums' }],
+        'data': ['0.8125rem', { lineHeight: '1.25rem', fontWeight: '400' }],
       },
     },
   },
