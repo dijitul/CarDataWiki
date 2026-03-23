@@ -1,0 +1,330 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─── Auth ─────────────────────────────────────────────────────────────────────
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  emailVerified DateTime?
+  image         String?
+  passwordHash  String?
+  role          UserRole  @default(USER)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  accounts      Account[]
+  sessions      Session[]
+  revisions     Revision[]
+  apiKeys       ApiKey[]
+  subscription  Subscription?
+  submissions   CsvSubmission[]
+
+  @@index([email])
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@index([userId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+// ─── Vehicle Hierarchy ────────────────────────────────────────────────────────
+
+model Make {
+  id        String   @id @default(cuid())
+  name      String   @unique
+  slug      String   @unique
+  country   String?
+  logoUrl   String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  models Model[]
+
+  @@index([slug])
+}
+
+model Model {
+  id        String   @id @default(cuid())
+  makeId    String
+  name      String
+  slug      String   @unique
+  bodyStyle String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  make     Make           @relation(fields: [makeId], references: [id])
+  variants ModelVariant[]
+
+  @@unique([makeId, name])
+  @@index([makeId])
+  @@index([slug])
+}
+
+model ModelVariant {
+  id       String  @id @default(cuid())
+  modelId  String
+  name     String
+  slug     String  @unique
+  yearFrom Int?
+  yearTo   Int?
+
+  // Engine
+  engineCode         String?
+  engineDisplacement Int?
+  engineCylinders    Int?
+  engineValves       Int?
+  engineFuelType     FuelType?
+  enginePowerKw      Decimal?  @db.Decimal(6, 2)
+  enginePowerBhp     Decimal?  @db.Decimal(6, 2)
+  engineTorqueNm     Decimal?  @db.Decimal(7, 2)
+  enginePosition     String?
+  engineAspiration   String?
+
+  // Transmission
+  gearboxType GearboxType?
+  gears       Int?
+  drivetrain  DrivetrainType?
+
+  // Performance
+  acceleration0100 Decimal? @db.Decimal(4, 1)
+  topSpeedKph      Int?
+  topSpeedMph      Int?
+
+  // Fuel economy
+  fuelEconomyUrbanL100      Decimal? @db.Decimal(4, 1)
+  fuelEconomyExtraUrbanL100 Decimal? @db.Decimal(4, 1)
+  fuelEconomyCombinedL100   Decimal? @db.Decimal(4, 1)
+  fuelEconomyCombinedMpg    Decimal? @db.Decimal(5, 1)
+  fuelTankLitres            Int?
+
+  // Emissions
+  co2Gkm            Int?
+  emissionsStandard String?
+  noxMgkm           Decimal? @db.Decimal(5, 2)
+
+  // Dimensions
+  lengthMm      Int?
+  widthMm       Int?
+  heightMm      Int?
+  wheelbaseMm   Int?
+  weightKg      Int?
+  grossWeightKg Int?
+  bootLitres    Int?
+  bootLitresMax Int?
+
+  // Tyres & brakes
+  tyreFront  String?
+  tyreRear   String?
+  brakeFront String?
+  brakeRear  String?
+
+  // Body
+  doors    Int?
+  seats    Int?
+  bodyType String?
+
+  // Electric / hybrid
+  batteryKwh      Decimal? @db.Decimal(5, 1)
+  electricRangeKm Int?
+  chargingKw      Decimal? @db.Decimal(5, 1)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  model     Model      @relation(fields: [modelId], references: [id])
+  revisions Revision[]
+
+  @@index([modelId])
+  @@index([slug])
+  @@index([engineFuelType])
+  @@index([yearFrom, yearTo])
+}
+
+// ─── Revisions ────────────────────────────────────────────────────────────────
+
+model Revision {
+  id        String   @id @default(cuid())
+  variantId String
+  userId    String
+  fieldName String
+  oldValue  String?  @db.Text
+  newValue  String?  @db.Text
+  comment   String?
+  createdAt DateTime @default(now())
+
+  variant ModelVariant @relation(fields: [variantId], references: [id])
+  user    User         @relation(fields: [userId], references: [id])
+
+  @@index([variantId, fieldName])
+  @@index([variantId, createdAt])
+  @@index([userId])
+}
+
+// ─── CSV Submissions ──────────────────────────────────────────────────────────
+
+model CsvSubmission {
+  id           String           @id @default(cuid())
+  userId       String
+  originalName String
+  storagePath  String
+  rowCount     Int
+  status       SubmissionStatus @default(PENDING_ANALYSIS)
+  aiReport     Json?
+  adminNote    String?
+  reviewedBy   String?
+  reviewedAt   DateTime?
+  createdAt    DateTime         @default(now())
+  updatedAt    DateTime         @updatedAt
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@index([status])
+  @@index([userId])
+}
+
+// ─── Subscriptions & API ──────────────────────────────────────────────────────
+
+model Subscription {
+  id                   String             @id @default(cuid())
+  userId               String             @unique
+  stripeCustomerId     String             @unique
+  stripeSubscriptionId String?            @unique
+  stripePriceId        String?
+  status               SubscriptionStatus @default(INACTIVE)
+  currentPeriodEnd     DateTime?
+  createdAt            DateTime           @default(now())
+  updatedAt            DateTime           @updatedAt
+
+  user    User     @relation(fields: [userId], references: [id])
+  apiKeys ApiKey[]
+
+  @@index([stripeCustomerId])
+  @@index([stripeSubscriptionId])
+}
+
+model ApiKey {
+  id             String    @id @default(cuid())
+  userId         String
+  subscriptionId String
+  keyHash        String    @unique
+  keyPrefix      String
+  name           String?
+  isActive       Boolean   @default(true)
+  lastUsedAt     DateTime?
+  createdAt      DateTime  @default(now())
+  revokedAt      DateTime?
+
+  user         User         @relation(fields: [userId], references: [id])
+  subscription Subscription @relation(fields: [subscriptionId], references: [id])
+  usageLogs    ApiUsage[]
+
+  @@index([keyHash])
+  @@index([userId])
+}
+
+model ApiUsage {
+  id         String   @id @default(cuid())
+  apiKeyId   String
+  endpoint   String
+  method     String   @default("GET")
+  statusCode Int
+  durationMs Int?
+  createdAt  DateTime @default(now())
+
+  apiKey ApiKey @relation(fields: [apiKeyId], references: [id])
+
+  @@index([apiKeyId, createdAt])
+  @@index([createdAt])
+}
+
+// ─── Enums ────────────────────────────────────────────────────────────────────
+
+enum UserRole {
+  USER
+  ADMIN
+}
+
+enum FuelType {
+  PETROL
+  DIESEL
+  ELECTRIC
+  HYBRID_PETROL
+  HYBRID_DIESEL
+  PLUG_IN_HYBRID
+  HYDROGEN
+  LPG
+}
+
+enum GearboxType {
+  MANUAL
+  AUTOMATIC
+  CVT
+  DCT
+  SEMI_AUTOMATIC
+}
+
+enum DrivetrainType {
+  FWD
+  RWD
+  AWD
+  FOUR_WD
+}
+
+enum SubmissionStatus {
+  PENDING_ANALYSIS
+  ANALYSING
+  AWAITING_REVIEW
+  APPROVED
+  DISCARDED
+  FAILED
+}
+
+enum SubscriptionStatus {
+  ACTIVE
+  INACTIVE
+  PAST_DUE
+  CANCELLED
+  TRIALING
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary:       #1e40af;
+  --color-primary-light: #3b82f6;
+  --color-accent:        #f59e0b;
+  --color-surface:       #f8fafc;
+  --color-surface-muted: #f1f5f9;
+  --color-border:        #e2e8f0;
+  --color-text:          #0f172a;
+  --color-text-muted:    #64748b;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-slate-900 bg-white antialiased;
+  }
+
+  h1 { @apply text-3xl font-bold tracking-tight; }
+  h2 { @apply text-2xl font-semibold tracking-tight; }
+  h3 { @apply text-xl font-semibold; }
+  h4 { @apply text-base font-semibold; }
+}
+
+@layer components {
+  /* Spec table — monospace numbers, no rounded rows */
+  .spec-table {
+    @apply w-full border-collapse text-sm;
+  }
+  .spec-table th {
+    @apply text-left text-xs font-semibold uppercase tracking-wider text-slate-500
+           border-b border-slate-200 py-2 px-3 bg-slate-50;
+  }
+  .spec-table td {
+    @apply py-2 px-3 border-b border-slate-100;
+  }
+  .spec-table td.spec-value {
+    @apply font-mono text-right tabular-nums text-slate-800;
+  }
+  .spec-table td.spec-unit {
+    @apply text-slate-400 text-xs pl-1 w-12;
+  }
+  .spec-table tr:last-child td {
+    @apply border-b-0;
+  }
+  .spec-table tr:hover td {
+    @apply bg-slate-50;
+  }
+
+  /* Edit highlight */
+  .field-edited {
+    @apply bg-amber-50 border-l-2 border-amber-400;
+  }
+
+  /* Diff view */
+  .diff-removed { @apply bg-red-50 text-red-700 line-through; }
+  .diff-added   { @apply bg-green-50 text-green-700; }
+
+  /* Badge */
+  .badge {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs font-medium;
+  }
+  .badge-blue   { @apply bg-primary-100 text-primary-800; }
+  .badge-green  { @apply bg-green-100 text-green-800; }
+  .badge-red    { @apply bg-red-100 text-red-800; }
+  .badge-yellow { @apply bg-yellow-100 text-yellow-800; }
+  .badge-grey   { @apply bg-slate-100 text-slate-700; }
+
+  /* Button primitives */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 font-medium rounded
+           transition-colors focus-visible:outline-none focus-visible:ring-2
+           focus-visible:ring-primary-500 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-primary { @apply btn bg-primary-800 text-white hover:bg-primary-900 px-4 py-2 text-sm; }
+  .btn-outline { @apply btn border border-slate-300 text-slate-700 hover:bg-slate-50 px-4 py-2 text-sm; }
+  .btn-ghost   { @apply btn text-slate-600 hover:bg-slate-100 px-3 py-1.5 text-sm; }
+  .btn-accent  { @apply btn bg-accent-500 text-white hover:bg-accent-600 px-4 py-2 text-sm; }
+
+  /* Card */
+  .card {
+    @apply bg-white border border-slate-200 rounded-lg;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar       { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
