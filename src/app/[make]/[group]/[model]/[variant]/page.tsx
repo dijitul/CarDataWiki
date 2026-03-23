@@ -1,7 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { prisma } from '@/lib/prisma'
-import { auth } from '@/lib/auth'
 import { Breadcrumb } from '@/components/layout/Breadcrumb'
 import { SpecSections } from '@/components/browse/SpecSections'
 import { FUEL_TYPE_LABELS, GEARBOX_LABELS, DRIVETRAIN_LABELS } from '@/lib/constants'
@@ -43,13 +42,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function VariantPage({ params }: Props) {
-  const [variant, session] = await Promise.all([
-    prisma.modelVariant.findUnique({
-      where: { slug: params.variant },
-      include: { model: { include: { make: true } } },
-    }),
-    auth(),
-  ])
+  const variant = await prisma.modelVariant.findUnique({
+    where: { slug: params.variant },
+    include: { model: { include: { make: true } } },
+  })
   if (
     !variant ||
     variant.model.slug !== params.model ||
@@ -130,9 +126,6 @@ export default async function VariantPage({ params }: Props) {
           >
             View edit history
           </Link>
-          {session && (
-            <span className="badge badge-blue text-xs">Editing enabled</span>
-          )}
         </div>
       </div>
 
@@ -158,7 +151,6 @@ export default async function VariantPage({ params }: Props) {
       <SpecSections
         variant={variant as Record<string, unknown>}
         variantId={variant.id}
-        canEdit={!!session}
         fuelTypeLabels={FUEL_TYPE_LABELS}
         gearboxLabels={GEARBOX_LABELS}
         drivetrainLabels={DRIVETRAIN_LABELS}

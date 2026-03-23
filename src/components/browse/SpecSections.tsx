@@ -1,13 +1,13 @@
 'use client'
 
 import { useState } from 'react'
+import { useSession } from 'next-auth/react'
 import { SPEC_SECTIONS } from '@/lib/constants'
 import { EditField } from '@/components/edit/EditField'
 
 interface Props {
   variant: Record<string, unknown>
   variantId: string
-  canEdit: boolean
   fuelTypeLabels: Record<string, string>
   gearboxLabels: Record<string, string>
   drivetrainLabels: Record<string, string>
@@ -23,7 +23,10 @@ function displayValue(key: string, raw: unknown, labels: Labels): string {
   return String(raw)
 }
 
-export function SpecSections({ variant, variantId, canEdit, fuelTypeLabels, gearboxLabels, drivetrainLabels }: Props) {
+export function SpecSections({ variant, variantId, fuelTypeLabels, gearboxLabels, drivetrainLabels }: Props) {
+  const { data: session } = useSession()
+  const canEdit = !!session
+
   const [localVariant, setLocalVariant] = useState(variant)
   const [editingField, setEditingField] = useState<string | null>(null)
 
@@ -34,16 +37,25 @@ export function SpecSections({ variant, variantId, canEdit, fuelTypeLabels, gear
     setEditingField(null)
   }
 
-  // Only show sections that have at least one non-null value
+  // When editing, show all fields so gaps can be filled; otherwise only non-empty
   const activeSections = SPEC_SECTIONS.filter(section =>
     section.fields.some(f => {
       const v = localVariant[f.key]
-      return v !== null && v !== undefined && v !== ''
+      return canEdit || (v !== null && v !== undefined && v !== '')
     })
   )
 
   return (
     <div className="space-y-6">
+      {canEdit && (
+        <div className="flex items-center gap-2 px-3 py-2 bg-amber-50 border border-amber-200 rounded-lg text-sm text-amber-800">
+          <svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0">
+            <path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z"/>
+          </svg>
+          <span>You&apos;re logged in — click any <strong>pencil icon</strong> to edit a value. All fields shown including gaps you can fill.</span>
+        </div>
+      )}
+
       {activeSections.map(section => (
         <div key={section.id} className="card overflow-hidden">
           <div className="bg-slate-50 border-b border-slate-200 px-4 py-2">
@@ -71,7 +83,7 @@ export function SpecSections({ variant, variantId, canEdit, fuelTypeLabels, gear
                           onCancel={() => setEditingField(null)}
                         />
                       ) : (
-                        <div className="flex items-center justify-between gap-2 group">
+                        <div className="flex items-center justify-between gap-2">
                           <span className={`spec-value font-mono tabular-nums ${!hasValue ? 'text-slate-300 italic' : 'text-slate-800'}`}>
                             {hasValue ? displayed : 'not set'}
                             {hasValue && field.unit && (
@@ -81,11 +93,11 @@ export function SpecSections({ variant, variantId, canEdit, fuelTypeLabels, gear
                           {canEdit && (
                             <button
                               onClick={() => setEditingField(field.key)}
-                              className="opacity-0 group-hover:opacity-100 transition-opacity text-slate-400 hover:text-primary-600 p-1"
+                              className="flex-shrink-0 text-slate-300 hover:text-primary-600 hover:bg-primary-50 rounded p-1 transition-colors"
                               title={`Edit ${field.label}`}
                               aria-label={`Edit ${field.label}`}
                             >
-                              <svg width="12" height="12" viewBox="0 0 20 20" fill="currentColor">
+                              <svg width="13" height="13" viewBox="0 0 20 20" fill="currentColor">
                                 <path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z"/>
                               </svg>
                             </button>

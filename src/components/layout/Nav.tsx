@@ -2,14 +2,11 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
-import type { Session } from 'next-auth'
+import { useSession } from 'next-auth/react'
 
-interface NavProps {
-  session: Session | null
-}
-
-export function Nav({ session }: NavProps) {
+export function Nav() {
   const [open, setOpen] = useState(false)
+  const { data: session } = useSession()
 
   return (
     <header className="border-b border-slate-200 bg-white sticky top-0 z-50">
@@ -58,7 +55,7 @@ export function Nav({ session }: NavProps) {
               </>
             ) : (
               <>
-                <Link href="/login" className="btn-ghost">Sign in</Link>
+                <Link href="/login"    className="btn-ghost">Sign in</Link>
                 <Link href="/register" className="btn-primary text-xs px-3 py-1.5">Get started</Link>
               </>
             )}
@@ -87,7 +84,12 @@ export function Nav({ session }: NavProps) {
           <Link href="/api-docs"   className="block px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 rounded">API</Link>
           <Link href="/about"      className="block px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 rounded">About</Link>
           {session ? (
-            <Link href="/dashboard" className="block px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 rounded">Dashboard</Link>
+            <>
+              {session.user?.role === 'ADMIN' && (
+                <Link href="/admin" className="block px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 rounded">Admin</Link>
+              )}
+              <Link href="/dashboard" className="block px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 rounded">Dashboard</Link>
+            </>
           ) : (
             <>
               <Link href="/login"    className="block px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 rounded">Sign in</Link>
