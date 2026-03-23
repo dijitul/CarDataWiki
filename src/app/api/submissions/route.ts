@@ -1,10 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { auth } from '@/lib/auth'
 import { prisma } from '@/lib/prisma'
-import { put } from '@vercel/blob'
 import { analyseCsvWithAI } from '@/lib/csv/ai-analyser'
+import { writeFile, mkdir } from 'fs/promises'
+import { join } from 'path'
 
 export const dynamic = 'force-dynamic'
+
+// Local upload directory — files stored on the server itself
+const UPLOAD_DIR = process.env.UPLOAD_DIR ?? join(process.cwd(), 'uploads', 'submissions')
 
 export async function GET(_req: NextRequest) {
   const session = await auth()
@@ -36,16 +40,18 @@ export async function POST(req: NextRequest) {
   const lines = text.split('\n').filter(l => l.trim()).length
   const rowCount = Math.max(0, lines - 1) // subtract header
 
-  // Upload to Vercel Blob
-  const blob = await put(`submissions/${session.user.id}/${Date.now()}-${file.name}`, file, {
-    access: 'private',
-  })
+  // Save file to local disk
+  const userDir = join(UPLOAD_DIR, session.user.id)
+  await mkdir(userDir, { recursive: true })
+  const filename = `${Date.now()}-${file.name.replace(/[^a-z0-9._-]/gi, '_')}`
+  const filePath = join(userDir, filename)
+  await writeFile(filePath, Buffer.from(await file.arrayBuffer()))
 
   const submission = await prisma.csvSubmission.create({
     data: {
       userId:       session.user.id,
       originalName: file.name,
-      storagePath:  blob.url,
+      storagePath:  filePath,   // local path instead of blob URL
       rowCount,
       status:       'PENDING_ANALYSIS',
     },
