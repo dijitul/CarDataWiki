@@ -13,7 +13,9 @@ interface Props {
   drivetrainLabels: Record<string, string>
 }
 
-function displayValue(key: string, raw: unknown, labels: Props): string {
+type Labels = Pick<Props, 'fuelTypeLabels' | 'gearboxLabels' | 'drivetrainLabels'>
+
+function displayValue(key: string, raw: unknown, labels: Labels): string {
   if (raw === null || raw === undefined || raw === '') return '—'
   if (key === 'engineFuelType') return labels.fuelTypeLabels[String(raw)] ?? String(raw)
   if (key === 'gearboxType')    return labels.gearboxLabels[String(raw)]    ?? String(raw)
