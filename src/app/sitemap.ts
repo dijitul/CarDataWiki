@@ -8,8 +8,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const [makes, models, variants] = await Promise.all([
     prisma.make.findMany({ select: { slug: true, updatedAt: true } }),
-    prisma.model.findMany({ select: { slug: true, make: { select: { slug: true } }, updatedAt: true }, include: { make: true } }),
-    prisma.modelVariant.findMany({ select: { slug: true, model: { select: { slug: true, make: { select: { slug: true } } } }, updatedAt: true }, include: { model: { include: { make: true } } } }),
+    prisma.model.findMany({ select: { slug: true, make: { select: { slug: true } }, updatedAt: true } }),
+    prisma.modelVariant.findMany({ select: { slug: true, model: { select: { slug: true, make: { select: { slug: true } } } }, updatedAt: true } }),
   ])
 
   const static_: MetadataRoute.Sitemap = [
