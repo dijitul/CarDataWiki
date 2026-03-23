@@ -32,8 +32,8 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
         return { id: user.id, email: user.email, name: user.name, role: user.role }
       },
     }),
-    ...(process.env.AUTH_GOOGLE_ID ? [Google()] : []),
-    ...(process.env.AUTH_GITHUB_ID ? [GitHub()] : []),
+    ...(process.env.AUTH_GOOGLE_ID ? [Google({ clientId: process.env.AUTH_GOOGLE_ID, clientSecret: process.env.AUTH_GOOGLE_SECRET! })] : []),
+    ...(process.env.AUTH_GITHUB_ID ? [GitHub({ clientId: process.env.AUTH_GITHUB_ID, clientSecret: process.env.AUTH_GITHUB_SECRET! })] : []),
   ],
   callbacks: {
     async jwt({ token, user }) {
