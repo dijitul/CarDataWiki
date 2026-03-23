@@ -30,10 +30,16 @@ export function Nav({ session }: NavProps) {
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-1 text-sm">
             <Link href="/makes" className="px-3 py-1.5 rounded text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors">
-              Browse Makes
+              Browse
+            </Link>
+            <Link href="/contribute" className="px-3 py-1.5 rounded text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors">
+              Contribute
             </Link>
             <Link href="/api-docs" className="px-3 py-1.5 rounded text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors">
               API
+            </Link>
+            <Link href="/about" className="px-3 py-1.5 rounded text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors">
+              About
             </Link>
           </nav>
 
@@ -76,8 +82,10 @@ export function Nav({ session }: NavProps) {
       {/* Mobile menu */}
       {open && (
         <div className="md:hidden border-t border-slate-100 bg-white px-4 py-3 space-y-1">
-          <Link href="/makes" className="block px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 rounded">Browse Makes</Link>
-          <Link href="/api-docs" className="block px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 rounded">API</Link>
+          <Link href="/makes"      className="block px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 rounded">Browse Makes</Link>
+          <Link href="/contribute" className="block px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 rounded">Contribute</Link>
+          <Link href="/api-docs"   className="block px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 rounded">API</Link>
+          <Link href="/about"      className="block px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 rounded">About</Link>
           {session ? (
             <Link href="/dashboard" className="block px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 rounded">Dashboard</Link>
           ) : (
