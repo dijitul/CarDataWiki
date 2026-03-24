@@ -4,6 +4,7 @@ import './globals.css'
 import { Nav } from '@/components/layout/Nav'
 import { Footer } from '@/components/layout/Footer'
 import { Providers } from '@/components/providers/Providers'
+import { auth } from '@/lib/auth'
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL ?? 'https://cardata.wiki'),
@@ -32,7 +33,8 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const session = await auth()
   return (
     <html lang="en">
       <head>
@@ -48,7 +50,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         `}</Script>
       </head>
       <body className="min-h-screen flex flex-col">
-        <Providers>
+        <Providers session={session}>
           <Nav />
           <main className="flex-1">{children}</main>
           <Footer />
