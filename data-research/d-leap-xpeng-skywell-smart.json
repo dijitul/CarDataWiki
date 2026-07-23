@@ -1,0 +1,512 @@
+[
+  {
+    "make": "Leapmotor",
+    "country": "China",
+    "models": [
+      {
+        "name": "T03",
+        "bodyType": "Hatchback",
+        "variants": [
+          {
+            "name": "T03 37.3 kWh",
+            "yearFrom": 2025, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": 70, "powerBhp": 94, "torqueNm": 158,
+            "batteryKwh": 37.3, "batteryKwhNote": "37.3 kWh gross / 36.0 kWh usable (LFP)",
+            "electricRangeKm": 265, "chargingKw": 48,
+            "acceleration0100": 12.7, "topSpeedKph": 130,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "lengthMm": 3620, "widthMm": 1652, "heightMm": 1577, "wheelbaseMm": 2400,
+            "weightKg": 1250, "bootLitres": 210, "doors": 5, "seats": 4,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "Weight conflict: 1250 kg (ev-database) vs ~1175 kg (evspecifications).",
+            "sources": ["https://www.media.stellantis.com/uk-en/leapmotor/press/leapmotor-t03", "https://ev-database.org/uk/car/3039/Leapmotor-T03"]
+          }
+        ]
+      },
+      {
+        "name": "C10",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "C10 EV 69.9 kWh RWD",
+            "yearFrom": 2025, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": 160, "powerBhp": 215, "torqueNm": 320,
+            "batteryKwh": 69.9, "batteryKwhNote": "69.9 kWh usable / 72.0 kWh gross",
+            "electricRangeKm": 425, "chargingKw": 84,
+            "acceleration0100": 7.5, "topSpeedKph": 170,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "lengthMm": 4739, "widthMm": 1900, "heightMm": 1680, "wheelbaseMm": 2825,
+            "weightKg": 2055, "bootLitres": 435, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "Boot conflict: 435 L (ev-database) vs 400 L (Leapmotor press).",
+            "sources": ["https://ev-database.org/uk/car/3040/Leapmotor-C10-RWD-699-kWh", "https://www.media.stellantis.com/uk-en/leapmotor/press/leapmotor-c10"]
+          },
+          {
+            "name": "C10 REEV (Hybrid EV)",
+            "yearFrom": 2025, "yearTo": null,
+            "fuelType": "PLUG_IN_HYBRID",
+            "powerKw": 158, "powerBhp": 215, "torqueNm": 320,
+            "batteryKwh": 28.4, "batteryKwhNote": "28.4 kWh LFP; series range-extender (REEV), 1.5L petrol drives 50 kW generator only",
+            "electricRangeKm": 151, "chargingKw": 65,
+            "acceleration0100": 8.5, "topSpeedKph": 170,
+            "co2Gkm": 7, "combinedMpg": 942,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "lengthMm": 4739, "widthMm": 1900, "heightMm": 1680, "wheelbaseMm": 2825,
+            "weightKg": 1950, "bootLitres": 400, "doors": 5, "seats": 5,
+            "engineDisplacement": 1499, "cylinders": 4,
+            "notes": "Combined WLTP range 602 miles. CO2/mpg are WLTP weighted figures. UK on-sale reported early 2025; refreshed press pack cites summer 2026 availability.",
+            "sources": ["https://www.media.stellantis.com/uk-en/leapmotor/press/leapmotor-c10-uk-press-information", "https://www.autoexpress.co.uk/news/364450/new-leapmotor-c10-set-arrive-october-priced-ps36500"]
+          }
+        ]
+      },
+      {
+        "name": "B10",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "B10 EV 67.1 kWh RWD",
+            "yearFrom": 2025, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": 160, "powerBhp": 215, "torqueNm": 240,
+            "batteryKwh": 67.1, "batteryKwhNote": "67.1 kWh gross / 65.0 kWh usable (LFP, CATL)",
+            "electricRangeKm": 434, "chargingKw": 168,
+            "acceleration0100": 8.0, "topSpeedKph": 171,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "lengthMm": 4515, "widthMm": 1873, "heightMm": 1652, "wheelbaseMm": 2735,
+            "weightKg": 1920, "bootLitres": 430, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "UK on sale December 2025.",
+            "sources": ["https://ev-database.org/uk/car/3233/Leapmotor-B10-671-kWh", "https://www.media.stellantis.com/uk-en/leapmotor/press/leapmotor-confirms-29-995-retail-price-for-new-electric-b10-suv"]
+          },
+          {
+            "name": "B10 REEV (Hybrid EV)",
+            "yearFrom": 2026, "yearTo": null,
+            "fuelType": "PLUG_IN_HYBRID",
+            "powerKw": 160, "powerBhp": 215, "torqueNm": 240,
+            "batteryKwh": 18.8, "batteryKwhNote": "18.8 kWh LFP; series range-extender (REEV), 1.5L petrol drives 50 kW generator only",
+            "electricRangeKm": 80, "chargingKw": 46,
+            "acceleration0100": 7.5, "topSpeedKph": 169,
+            "co2Gkm": 21, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "lengthMm": 4515, "widthMm": 1885, "heightMm": 1655, "wheelbaseMm": 2735,
+            "weightKg": 1760, "bootLitres": 330, "doors": 5, "seats": 5,
+            "engineDisplacement": 1499, "cylinders": 4,
+            "notes": "Combined WLTP range 559 miles. CO2 21 g/km provisional (Euro 6e-bis). UK availability summer 2026.",
+            "sources": ["https://www.media.stellantis.com/uk-en/leapmotor/press/leapmotor-b10-hybrid-ev-uk-press-information", "https://www.rac.co.uk/drive/car-reviews/leapmotor/b10/b10/"]
+          }
+        ]
+      },
+      {
+        "name": "B05",
+        "bodyType": "Hatchback",
+        "variants": [
+          {
+            "name": "B05 (launch spec)",
+            "yearFrom": 2026, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": null, "powerBhp": null, "torqueNm": null,
+            "batteryKwh": null, "batteryKwhNote": null,
+            "electricRangeKm": null, "chargingKw": null,
+            "acceleration0100": null, "topSpeedKph": null,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": null,
+            "lengthMm": null, "widthMm": null, "heightMm": null, "wheelbaseMm": null,
+            "weightKg": null, "bootLitres": null, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "Order books opened 1 July 2026 at 28,995 GBP; claimed ~300-mile range. Full UK specs not yet published - fields nulled.",
+            "sources": ["https://www.media.stellantis.com/uk-en/leapmotor/press", "https://fleetevolution.com/leapmotor-ev-t03-b10-c10-b05-b03x/"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "XPeng",
+    "country": "China",
+    "models": [
+      {
+        "name": "G6",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "G6 RWD Standard Range (MY24)",
+            "yearFrom": 2025, "yearTo": 2025,
+            "fuelType": "ELECTRIC",
+            "powerKw": 190, "powerBhp": 255, "torqueNm": 440,
+            "batteryKwh": 66.0, "batteryKwhNote": "66.0 kWh gross / 65.3 kWh usable (LFP)",
+            "electricRangeKm": 435, "chargingKw": 215,
+            "acceleration0100": 6.9, "topSpeedKph": 200,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "lengthMm": 4753, "widthMm": 1920, "heightMm": 1650, "wheelbaseMm": 2890,
+            "weightKg": 2100, "bootLitres": 571, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "First-delivery date conflict: March 2025 (cnevpost) vs June 2025 (ev-database). Superseded by MY25 car from March 2026.",
+            "sources": ["https://ev-database.org/uk/car/2181/XPENG-G6-RWD-Standard-Range", "https://cnevpost.com/2025/02/13/xpeng-enters-uk-g6-deliveries-mar/"]
+          },
+          {
+            "name": "G6 RWD Long Range (MY24)",
+            "yearFrom": 2025, "yearTo": 2025,
+            "fuelType": "ELECTRIC",
+            "powerKw": 210, "powerBhp": 282, "torqueNm": 440,
+            "batteryKwh": 87.5, "batteryKwhNote": "87.5 kWh usable / 92.0 kWh gross (NMC)",
+            "electricRangeKm": 570, "chargingKw": 280,
+            "acceleration0100": 6.7, "topSpeedKph": 200,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "lengthMm": 4753, "widthMm": 1920, "heightMm": 1650, "wheelbaseMm": 2890,
+            "weightKg": 2100, "bootLitres": 571, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": null,
+            "sources": ["https://ev-database.org/uk/car/2182/XPENG-G6-RWD-Long-Range", "https://www.electrifying.com/blog/article/xpeng-launches-in-the-uk-with-tesla-rivalling-g6-suv"]
+          },
+          {
+            "name": "G6 RWD Standard Range (MY25)",
+            "yearFrom": 2026, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": 185, "powerBhp": 248, "torqueNm": 440,
+            "batteryKwh": 68.5, "batteryKwhNote": "68.5 kWh gross / 67.8 kWh usable (LFP)",
+            "electricRangeKm": 470, "chargingKw": 382,
+            "acceleration0100": 6.9, "topSpeedKph": 202,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "lengthMm": 4758, "widthMm": 1920, "heightMm": 1650, "wheelbaseMm": 2890,
+            "weightKg": 2140, "bootLitres": 571, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "On sale UK March 2026.",
+            "sources": ["https://ev-database.org/uk/car/3402/XPENG-G6-RWD-Standard-Range", "https://xpengcars.co.uk/2025/12/new-xpeng-g6-set-to-arrive-in-the-uk-in-2026-with-class-leading-charging-speeds-and-dual-motor-awd-performance/"]
+          },
+          {
+            "name": "G6 RWD Long Range (MY25)",
+            "yearFrom": 2026, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": 218, "powerBhp": 292, "torqueNm": 440,
+            "batteryKwh": 80.8, "batteryKwhNote": "80.8 kWh gross / 80.0 kWh usable (LFP)",
+            "electricRangeKm": 525, "chargingKw": 451,
+            "acceleration0100": 6.7, "topSpeedKph": 202,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "lengthMm": 4758, "widthMm": 1920, "heightMm": 1650, "wheelbaseMm": 2890,
+            "weightKg": 2190, "bootLitres": 571, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "10-80% DC in 12 minutes.",
+            "sources": ["https://ev-database.org/uk/car/3275/XPENG-G6-RWD-Long-Range", "https://xpengcars.co.uk/2025/12/new-xpeng-g6-set-to-arrive-in-the-uk-in-2026-with-class-leading-charging-speeds-and-dual-motor-awd-performance/"]
+          },
+          {
+            "name": "G6 AWD Performance Black Edition (MY25)",
+            "yearFrom": 2026, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": 358, "powerBhp": 480, "torqueNm": 660,
+            "batteryKwh": 80.8, "batteryKwhNote": "80.8 kWh gross / 80.0 kWh usable (LFP)",
+            "electricRangeKm": 510, "chargingKw": 451,
+            "acceleration0100": 4.1, "topSpeedKph": 203,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "lengthMm": 4758, "widthMm": 1920, "heightMm": 1650, "wheelbaseMm": 2890,
+            "weightKg": 2295, "bootLitres": 571, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "Press quotes 0-62 in 4.13 s.",
+            "sources": ["https://ev-database.org/uk/car/3276/XPENG-G6-AWD-Performance", "https://xpengcars.co.uk/2025/12/new-xpeng-g6-set-to-arrive-in-the-uk-in-2026-with-class-leading-charging-speeds-and-dual-motor-awd-performance/"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Skywell",
+    "country": "China",
+    "models": [
+      {
+        "name": "BE11",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "BE11 Standard Range 72 kWh",
+            "yearFrom": 2023, "yearTo": 2026,
+            "fuelType": "ELECTRIC",
+            "powerKw": 150, "powerBhp": 201, "torqueNm": 320,
+            "batteryKwh": 72.0, "batteryKwhNote": "72 kWh gross / 68 kWh usable",
+            "electricRangeKm": 400, "chargingKw": 80,
+            "acceleration0100": 9.6, "topSpeedKph": 150,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "lengthMm": 4720, "widthMm": 1908, "heightMm": 1696, "wheelbaseMm": 2800,
+            "weightKg": 1955, "bootLitres": 467, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "WLTP conflict: 248 mi official UK vs 284 mi (ev-database). Boot conflict: 467 L (ev-database) vs 689 L (Skywell UK). yearFrom: first UK deliveries 2023; ev-database availability July 2024 - June 2026, now dealer stock only.",
+            "sources": ["https://skywell-uk.com/vehicle/be11/", "https://ev-database.org/uk/car/3064/Skywell-BE11-Standard-Range", "https://www.carbuyer.co.uk/skywell/be11"]
+          },
+          {
+            "name": "BE11 Long Range 86 kWh",
+            "yearFrom": 2023, "yearTo": 2026,
+            "fuelType": "ELECTRIC",
+            "powerKw": 150, "powerBhp": 201, "torqueNm": 320,
+            "batteryKwh": 86.0, "batteryKwhNote": "86 kWh gross / 81 kWh usable",
+            "electricRangeKm": 489, "chargingKw": 80,
+            "acceleration0100": 9.6, "topSpeedKph": 150,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "lengthMm": 4720, "widthMm": 1908, "heightMm": 1696, "wheelbaseMm": 2800,
+            "weightKg": 2005, "bootLitres": 467, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "304 mi WLTP. No longer sold new as of mid-2026 (dealer stock only).",
+            "sources": ["https://skywell-uk.com/vehicle/be11/", "https://ev-database.org/car/3065/Skywell-BE11-Long-Range", "https://www.carbuyer.co.uk/skywell/be11"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Smart",
+    "country": "Germany/China (joint venture)",
+    "models": [
+      {
+        "name": "#1",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "#1 Pro",
+            "yearFrom": 2024, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": 200, "powerBhp": 268, "torqueNm": 343,
+            "batteryKwh": 49.0, "batteryKwhNote": "49 kWh gross / 47 kWh usable (LFP)",
+            "electricRangeKm": 310, "chargingKw": 130,
+            "acceleration0100": 6.7, "topSpeedKph": 180,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "lengthMm": 4270, "widthMm": 1822, "heightMm": 1636, "wheelbaseMm": 2750,
+            "weightKg": 1855, "bootLitres": 323, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "UK from January 2024 (added below Pro+). AC 7.4 kW only.",
+            "sources": ["https://ev-database.org/uk/car/2041/Smart-1-Pro", "https://media.smart.com/uk/the-new-smart-1--uk-specification-and-pricing-revealed/"]
+          },
+          {
+            "name": "#1 Pro+",
+            "yearFrom": 2023, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": 200, "powerBhp": 268, "torqueNm": 343,
+            "batteryKwh": 66.0, "batteryKwhNote": "66 kWh gross / 62 kWh usable (NMC)",
+            "electricRangeKm": 420, "chargingKw": 150,
+            "acceleration0100": 6.7, "topSpeedKph": 180,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "lengthMm": 4270, "widthMm": 1822, "heightMm": 1636, "wheelbaseMm": 2750,
+            "weightKg": 1863, "bootLitres": 323, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "UK orders opened 2022; ev-database lists availability from September 2023. AC 22 kW.",
+            "sources": ["https://ev-database.org/uk/car/1667/Smart-1-Proplus", "https://media.smart.com/uk/the-new-smart-1--uk-specification-and-pricing-revealed/"]
+          },
+          {
+            "name": "#1 Premium",
+            "yearFrom": 2023, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": 200, "powerBhp": 268, "torqueNm": 343,
+            "batteryKwh": 66.0, "batteryKwhNote": "66 kWh gross / 62 kWh usable (NMC)",
+            "electricRangeKm": 440, "chargingKw": 150,
+            "acceleration0100": 6.7, "topSpeedKph": 180,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "lengthMm": 4270, "widthMm": 1822, "heightMm": 1636, "wheelbaseMm": 2750,
+            "weightKg": null, "bootLitres": 323, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "WLTP 273 miles per ev-database (some press quote 276). AC 22 kW. Kerb weight not per-variant verified.",
+            "sources": ["https://ev-database.org/uk/car/2053/Smart-1-Premium", "https://media.smart.com/uk/the-new-smart-1--uk-specification-and-pricing-revealed/"]
+          },
+          {
+            "name": "#1 Pulse (AWD)",
+            "yearFrom": 2023, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": 315, "powerBhp": 422, "torqueNm": 543,
+            "batteryKwh": 66.0, "batteryKwhNote": "66 kWh gross / 62 kWh usable (NMC)",
+            "electricRangeKm": 400, "chargingKw": 150,
+            "acceleration0100": 4.5, "topSpeedKph": 180,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "lengthMm": 4270, "widthMm": 1822, "heightMm": 1636, "wheelbaseMm": 2750,
+            "weightKg": null, "bootLitres": 323, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "Dual-motor AWD mid trim; WLTP 248.5 miles per ev-database. Kerb weight not per-variant verified.",
+            "sources": ["https://ev-database.org/car/1920/Smart-1-Pulse", "https://www.arenaev.com/smart_1_pulse_2023-specs-605.php"]
+          },
+          {
+            "name": "#1 Brabus (AWD)",
+            "yearFrom": 2023, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": 315, "powerBhp": 422, "torqueNm": 543,
+            "batteryKwh": 66.0, "batteryKwhNote": "66 kWh gross / 62 kWh usable (NMC)",
+            "electricRangeKm": 400, "chargingKw": 150,
+            "acceleration0100": 3.9, "topSpeedKph": 180,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "lengthMm": 4300, "widthMm": 1822, "heightMm": 1636, "wheelbaseMm": 2750,
+            "weightKg": 1975, "bootLitres": 313, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "Torque conflict: 543 Nm (Smart official) vs 584 Nm (ev-database) - 543 used.",
+            "sources": ["https://ev-database.org/uk/car/1748/Smart-1-Brabus", "https://media.smart.com/uk/the-new-smart-1--uk-specification-and-pricing-revealed/"]
+          }
+        ]
+      },
+      {
+        "name": "#3",
+        "bodyType": "Coupe-SUV",
+        "variants": [
+          {
+            "name": "#3 Pro",
+            "yearFrom": 2024, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": 200, "powerBhp": 268, "torqueNm": 343,
+            "batteryKwh": 49.0, "batteryKwhNote": "49 kWh gross / 47 kWh usable (LFP)",
+            "electricRangeKm": 325, "chargingKw": 130,
+            "acceleration0100": 5.9, "topSpeedKph": 180,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "lengthMm": 4400, "widthMm": 1844, "heightMm": 1556, "wheelbaseMm": 2785,
+            "weightKg": 1855, "bootLitres": 370, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "AC 7.4 kW. 15 L frunk.",
+            "sources": ["https://ev-database.org/uk/car/2052/Smart-3-Pro", "https://www.carbuyer.co.uk/smart/3"]
+          },
+          {
+            "name": "#3 Pro+",
+            "yearFrom": 2024, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": 200, "powerBhp": 268, "torqueNm": 343,
+            "batteryKwh": 66.0, "batteryKwhNote": "66 kWh gross / 62 kWh usable (NMC)",
+            "electricRangeKm": 435, "chargingKw": 150,
+            "acceleration0100": 5.8, "topSpeedKph": 180,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "lengthMm": 4400, "widthMm": 1844, "heightMm": 1556, "wheelbaseMm": 2785,
+            "weightKg": 1855, "bootLitres": 370, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "AC 7.4 kW per ev-database (22 kW reserved for Premium/Brabus).",
+            "sources": ["https://ev-database.org/uk/car/1999/Smart-3-Proplus", "https://www.carbuyer.co.uk/smart/3"]
+          },
+          {
+            "name": "#3 Premium",
+            "yearFrom": 2024, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": 200, "powerBhp": 268, "torqueNm": 343,
+            "batteryKwh": 66.0, "batteryKwhNote": "66 kWh gross / 62 kWh usable (NMC)",
+            "electricRangeKm": 455, "chargingKw": 150,
+            "acceleration0100": 5.8, "topSpeedKph": 180,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "lengthMm": 4400, "widthMm": 1844, "heightMm": 1556, "wheelbaseMm": 2785,
+            "weightKg": 1885, "bootLitres": 370, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "AC 22 kW. A UK '25th Anniversary Edition' special (Premium-based) also existed - not broken out.",
+            "sources": ["https://ev-database.org/uk/car/2054/Smart-3-Premium", "https://www.carbuyer.co.uk/smart/3"]
+          },
+          {
+            "name": "#3 Brabus (AWD)",
+            "yearFrom": 2024, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": 315, "powerBhp": 422, "torqueNm": 543,
+            "batteryKwh": 66.0, "batteryKwhNote": "66 kWh gross / 62 kWh usable (NMC)",
+            "electricRangeKm": 415, "chargingKw": 150,
+            "acceleration0100": 3.7, "topSpeedKph": 180,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "lengthMm": 4400, "widthMm": 1844, "heightMm": 1556, "wheelbaseMm": 2785,
+            "weightKg": 1985, "bootLitres": 370, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "AC 22 kW.",
+            "sources": ["https://ev-database.org/uk/car/2000/Smart-3-Brabus", "https://www.autocar.co.uk/car-review/smart/3-brabus"]
+          }
+        ]
+      },
+      {
+        "name": "#5",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "#5 Pro",
+            "yearFrom": 2025, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": 250, "powerBhp": 335, "torqueNm": 373,
+            "batteryKwh": 76.0, "batteryKwhNote": "76 kWh gross / 74.4 kWh usable (LFP, 400V)",
+            "electricRangeKm": 465, "chargingKw": 150,
+            "acceleration0100": 6.9, "topSpeedKph": 200,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "lengthMm": 4695, "widthMm": 1920, "heightMm": 1705, "wheelbaseMm": 2900,
+            "weightKg": 2275, "bootLitres": 630, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "UK orders opened 29 October 2025. AC 11 kW. 72 L frunk.",
+            "sources": ["https://ev-database.org/uk/car/3141/Smart-5-Pro", "https://www.electrifying.com/blog/article/smart-confirms-uk-prices-for-5-electric-suv-starting-from-39-800"]
+          },
+          {
+            "name": "#5 Pro+",
+            "yearFrom": 2025, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": 267, "powerBhp": 358, "torqueNm": 373,
+            "batteryKwh": 100.0, "batteryKwhNote": "100 kWh gross / 96 kWh usable (NMC, 800V); one press summary cites 94.0 kWh usable - conflict",
+            "electricRangeKm": 590, "chargingKw": 400,
+            "acceleration0100": 6.5, "topSpeedKph": 200,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "lengthMm": 4695, "widthMm": 1920, "heightMm": 1705, "wheelbaseMm": 2900,
+            "weightKg": 2335, "bootLitres": 630, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "DC conflict: 400 kW (ev-database) vs 426 kW (some press). 10-80% in 18 min. AC 22 kW.",
+            "sources": ["https://ev-database.org/uk/car/3142/Smart-5-Proplus", "https://www.electrifying.com/blog/article/smart-confirms-uk-prices-for-5-electric-suv-starting-from-39-800"]
+          },
+          {
+            "name": "#5 Premium",
+            "yearFrom": 2025, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": 267, "powerBhp": 358, "torqueNm": 373,
+            "batteryKwh": 100.0, "batteryKwhNote": "100 kWh gross / 96 kWh usable (NMC, 800V)",
+            "electricRangeKm": 590, "chargingKw": 400,
+            "acceleration0100": 6.5, "topSpeedKph": 200,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "lengthMm": 4695, "widthMm": 1920, "heightMm": 1705, "wheelbaseMm": 2900,
+            "weightKg": 2335, "bootLitres": 630, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "WLTP 367 mi (ev-database) vs 'up to 366 mi' (press) - rounding.",
+            "sources": ["https://ev-database.org/uk/car/3143/Smart-5-Premium", "https://www.electrifying.com/blog/article/smart-confirms-uk-prices-for-5-electric-suv-starting-from-39-800"]
+          },
+          {
+            "name": "#5 Pulse (AWD)",
+            "yearFrom": 2025, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": 432, "powerBhp": 579, "torqueNm": 643,
+            "batteryKwh": 100.0, "batteryKwhNote": "100 kWh gross / 96 kWh usable (NMC, 800V)",
+            "electricRangeKm": 540, "chargingKw": 400,
+            "acceleration0100": 4.9, "topSpeedKph": 200,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "lengthMm": 4695, "widthMm": 1920, "heightMm": 1705, "wheelbaseMm": 2900,
+            "weightKg": 2420, "bootLitres": 630, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "Dual-motor AWD with off-road modes; 587 PS.",
+            "sources": ["https://ev-database.org/car/3144/Smart-5-Pulse", "https://www.electrifying.com/blog/article/smart-confirms-uk-prices-for-5-electric-suv-starting-from-39-800"]
+          },
+          {
+            "name": "#5 Brabus (AWD)",
+            "yearFrom": 2025, "yearTo": null,
+            "fuelType": "ELECTRIC",
+            "powerKw": 475, "powerBhp": 637, "torqueNm": 710,
+            "batteryKwh": 100.0, "batteryKwhNote": "100 kWh gross / 96 kWh usable (NMC, 800V)",
+            "electricRangeKm": 540, "chargingKw": 400,
+            "acceleration0100": 3.8, "topSpeedKph": 210,
+            "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "lengthMm": 4695, "widthMm": 1920, "heightMm": 1705, "wheelbaseMm": 2900,
+            "weightKg": 2453, "bootLitres": 630, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "notes": "10-80% DC in 18 min. Torque 524 lb-ft (ev-database) converted to 710 Nm.",
+            "sources": ["https://ev-database.org/uk/car/3179/Smart-5-Brabus", "https://www.autocar.co.uk/car-review/smart/5"]
+          }
+        ]
+      }
+    ]
+  }
+]

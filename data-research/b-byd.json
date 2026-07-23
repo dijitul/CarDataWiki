@@ -1,0 +1,446 @@
+[
+  {
+    "make": "BYD",
+    "country": "China",
+    "ukLaunchYear": 2023,
+    "models": [
+      {
+        "name": "Atto 3",
+        "bodyType": "SUV",
+        "ukLaunchYear": 2023,
+        "variants": [
+          {
+            "name": "Atto 3 60.5kWh (MY23-24)",
+            "yearFrom": 2023, "yearTo": 2025, "fuelType": "ELECTRIC",
+            "powerKw": 150, "powerBhp": 201, "torqueNm": 310,
+            "batteryKwh": 60.5, "batteryKwhNote": "60.5 kWh usable; ev-database estimates 62 kWh gross (Blade LFP)",
+            "electricRangeKm": 420, "chargingKw": 88,
+            "acceleration0100": 7.3, "topSpeedKph": 160, "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "lengthMm": 4455, "widthMm": 1875, "heightMm": 1615, "wheelbaseMm": 2720,
+            "weightKg": 1825, "bootLitres": 440, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "sources": ["https://ev-database.org/uk/car/1782/BYD-ATTO-3", "https://www.carwow.co.uk/byd/atto-3"]
+          },
+          {
+            "name": "Atto 3 60.5kWh (MY25)",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "powerKw": 150, "powerBhp": 201, "torqueNm": 310,
+            "batteryKwh": 60.5, "batteryKwhNote": "60.5 kWh usable; 62 kWh gross estimated; DC charging raised to 110 kW for MY25",
+            "electricRangeKm": 420, "chargingKw": 110,
+            "acceleration0100": 7.3, "topSpeedKph": 160, "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "lengthMm": 4455, "widthMm": 1875, "heightMm": 1615, "wheelbaseMm": 2720,
+            "weightKg": 1825, "bootLitres": 440, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "sources": ["https://ev-database.org/uk/car/3192/BYD-ATTO-3", "https://www.carwow.co.uk/byd/atto-3"]
+          }
+        ]
+      },
+      {
+        "name": "Dolphin",
+        "bodyType": "Hatchback",
+        "ukLaunchYear": 2023,
+        "variants": [
+          {
+            "name": "Active 44.9kWh 70kW",
+            "yearFrom": 2024, "yearTo": 2025, "fuelType": "ELECTRIC",
+            "powerKw": 70, "powerBhp": 94, "torqueNm": 180,
+            "batteryKwh": 44.9, "batteryKwhNote": "44.9 kWh usable (Blade LFP)",
+            "electricRangeKm": 340, "chargingKw": 60,
+            "acceleration0100": 12.3, "topSpeedKph": 150, "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "lengthMm": 4290, "widthMm": 1770, "heightMm": 1570, "wheelbaseMm": 2700,
+            "weightKg": 1581, "bootLitres": 345, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "sources": ["https://ev-database.org/uk/car/1917/BYD-DOLPHIN-449-kWh-Active", "https://electriccarsreport.com/2024/09/byd-uk-expands-dolphin-lineup-with-active-and-boost-trims/"]
+          },
+          {
+            "name": "Boost 44.9kWh 130kW",
+            "yearFrom": 2024, "yearTo": 2025, "fuelType": "ELECTRIC",
+            "powerKw": 130, "powerBhp": 174, "torqueNm": null,
+            "batteryKwh": 44.9, "batteryKwhNote": "44.9 kWh usable; DC conflict: ev-database 60 kW, BYD press 65 kW",
+            "electricRangeKm": 311, "chargingKw": 60,
+            "acceleration0100": 8.0, "topSpeedKph": 160, "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "lengthMm": 4290, "widthMm": 1770, "heightMm": 1570, "wheelbaseMm": 2700,
+            "weightKg": 1643, "bootLitres": 345, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "sources": ["https://ev-database.org/uk/car/1918/BYD-DOLPHIN-449-kWh-Boost", "https://electriccarsreport.com/2024/09/byd-uk-expands-dolphin-lineup-with-active-and-boost-trims/"]
+          },
+          {
+            "name": "Comfort 60.4kWh 150kW",
+            "yearFrom": 2023, "yearTo": null, "fuelType": "ELECTRIC",
+            "powerKw": 150, "powerBhp": 201, "torqueNm": 310,
+            "batteryKwh": 60.4, "batteryKwhNote": "BYD quotes 60.4 kWh; ev-database lists 60.5 usable. DC 88 kW originally, 110 kW from MY25 (Aug 2025)",
+            "electricRangeKm": 426, "chargingKw": 88,
+            "acceleration0100": 7.0, "topSpeedKph": 160, "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "lengthMm": 4290, "widthMm": 1770, "heightMm": 1570, "wheelbaseMm": 2700,
+            "weightKg": 1733, "bootLitres": 345, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "sources": ["https://ev-database.org/uk/car/1919/BYD-DOLPHIN-604-kWh", "https://ev-database.org/uk/car/3297/BYD-DOLPHIN-604-kWh"]
+          },
+          {
+            "name": "Design 60.4kWh 150kW",
+            "yearFrom": 2023, "yearTo": null, "fuelType": "ELECTRIC",
+            "powerKw": 150, "powerBhp": 201, "torqueNm": 310,
+            "batteryKwh": 60.4, "batteryKwhNote": "Same powertrain as Comfort; trim adds panoramic roof, V2L etc.",
+            "electricRangeKm": 426, "chargingKw": 88,
+            "acceleration0100": 7.0, "topSpeedKph": 160, "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "lengthMm": 4290, "widthMm": 1770, "heightMm": 1570, "wheelbaseMm": 2700,
+            "weightKg": 1733, "bootLitres": 345, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "sources": ["https://ev-database.org/uk/car/1919/BYD-DOLPHIN-604-kWh", "https://ev-database.org/uk/car/3297/BYD-DOLPHIN-604-kWh"]
+          }
+        ]
+      },
+      {
+        "name": "Dolphin Surf",
+        "bodyType": "Hatchback",
+        "ukLaunchYear": 2025,
+        "variants": [
+          {
+            "name": "Active 30kWh 65kW",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "powerKw": 65, "powerBhp": 87, "torqueNm": 175,
+            "batteryKwh": 30.0, "batteryKwhNote": "30 kWh usable (Blade LFP)",
+            "electricRangeKm": 220, "chargingKw": 65,
+            "acceleration0100": 11.1, "topSpeedKph": 150, "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "lengthMm": 3990, "widthMm": 1720, "heightMm": 1590, "wheelbaseMm": 2500,
+            "weightKg": null, "bootLitres": 308, "doors": 5, "seats": 4,
+            "engineDisplacement": null, "cylinders": null,
+            "sources": ["https://ev-database.org/car/3193/BYD-DOLPHIN-SURF-30-kWh-Active", "https://www.autocar.co.uk/car-review/byd/dolphin-surf/specs"]
+          },
+          {
+            "name": "Boost 43.2kWh 65kW",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "powerKw": 65, "powerBhp": 87, "torqueNm": 175,
+            "batteryKwh": 43.2, "batteryKwhNote": "43.2 kWh usable; 46 kWh gross estimated",
+            "electricRangeKm": 322, "chargingKw": 85,
+            "acceleration0100": 12.1, "topSpeedKph": 150, "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "lengthMm": 3990, "widthMm": 1720, "heightMm": 1590, "wheelbaseMm": 2500,
+            "weightKg": 1445, "bootLitres": 308, "doors": 5, "seats": 4,
+            "engineDisplacement": null, "cylinders": null,
+            "sources": ["https://ev-database.org/uk/car/3194/BYD-DOLPHIN-SURF-432-kWh-Boost", "https://www.autocar.co.uk/car-review/byd/dolphin-surf/specs"]
+          },
+          {
+            "name": "Comfort 43.2kWh 115kW",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "powerKw": 115, "powerBhp": 154, "torqueNm": 220,
+            "batteryKwh": 43.2, "batteryKwhNote": "43.2 kWh usable; 46 kWh gross estimated",
+            "electricRangeKm": 311, "chargingKw": 85,
+            "acceleration0100": 9.1, "topSpeedKph": 150, "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "lengthMm": 3990, "widthMm": 1720, "heightMm": 1590, "wheelbaseMm": 2500,
+            "weightKg": 1465, "bootLitres": 308, "doors": 5, "seats": 4,
+            "engineDisplacement": null, "cylinders": null,
+            "sources": ["https://ev-database.org/uk/car/3195/BYD-DOLPHIN-SURF-432-kWh-Comfort", "https://www.autocar.co.uk/car-review/byd/dolphin-surf/specs"]
+          }
+        ]
+      },
+      {
+        "name": "Seal",
+        "bodyType": "Saloon",
+        "ukLaunchYear": 2023,
+        "variants": [
+          {
+            "name": "Design 82.5kWh RWD",
+            "yearFrom": 2023, "yearTo": null, "fuelType": "ELECTRIC",
+            "powerKw": 230, "powerBhp": 308, "torqueNm": 360,
+            "batteryKwh": 82.5, "batteryKwhNote": "82.5 kWh usable (Blade LFP). MY26 refresh from Feb 2026, same headline specs; boot restated as 485 L on MY26 ev-database entry (vs 400 L) - conflict",
+            "electricRangeKm": 570, "chargingKw": 150,
+            "acceleration0100": 5.9, "topSpeedKph": 180, "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "lengthMm": 4800, "widthMm": 1875, "heightMm": 1460, "wheelbaseMm": 2920,
+            "weightKg": 2130, "bootLitres": 400, "doors": 4, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "sources": ["https://ev-database.org/uk/car/2001/BYD-SEAL-825-kWh-RWD-Design", "https://ev-database.org/uk/car/3515/BYD-SEAL-825-kWh-RWD-Design"]
+          },
+          {
+            "name": "Excellence 82.5kWh AWD",
+            "yearFrom": 2023, "yearTo": null, "fuelType": "ELECTRIC",
+            "powerKw": 390, "powerBhp": 523, "torqueNm": 670,
+            "batteryKwh": 82.5, "batteryKwhNote": "82.5 kWh usable (Blade LFP); MY26 refresh from Feb 2026 continues variant",
+            "electricRangeKm": 520, "chargingKw": 150,
+            "acceleration0100": 3.8, "topSpeedKph": 180, "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "lengthMm": 4800, "widthMm": 1875, "heightMm": 1460, "wheelbaseMm": 2920,
+            "weightKg": 2260, "bootLitres": 400, "doors": 4, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "sources": ["https://ev-database.org/uk/car/2002/BYD-SEAL-825-kWh-AWD-Excellence", "https://ev-database.org/uk/car/2001/BYD-SEAL-825-kWh-RWD-Design"]
+          }
+        ]
+      },
+      {
+        "name": "Seal U DM-i",
+        "bodyType": "SUV",
+        "ukLaunchYear": 2024,
+        "variants": [
+          {
+            "name": "Boost 18.3kWh",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "PLUG_IN_HYBRID",
+            "powerKw": 160, "powerBhp": 215, "torqueNm": 300,
+            "batteryKwh": 18.3, "batteryKwhNote": "18.3 kWh Blade LFP",
+            "electricRangeKm": 80, "chargingKw": null,
+            "acceleration0100": 8.9, "topSpeedKph": 170, "co2Gkm": 26,
+            "combinedMpg": 403.9,
+            "gearboxType": "AUTOMATIC", "gears": null, "drivetrain": "FWD",
+            "lengthMm": 4775, "widthMm": 1890, "heightMm": 1670, "wheelbaseMm": 2765,
+            "weightKg": 1940, "bootLitres": 425, "doors": 5, "seats": 5,
+            "engineDisplacement": 1498, "cylinders": 4,
+            "note": "System 218 PS (1.5 NA petrol 98 hp + 197 hp e-motor), E-CVT. MPG conflict: 403.9 (cinch) vs 313.9 (Business Car). Length also quoted 4785 mm by BYD UK. DC charging supported, max kW unverified",
+            "sources": ["https://www.auto-data.net/en/byd-seal-u-dm-i-1.5l-218hp-plug-in-hybrid-e-cvt-51824", "https://www.cinch.co.uk/guides/choosing-a-car/byd-seal-u-trim-levels", "https://www.byd.com/uk/hybrid-cars/seal-u-dm-i"]
+          },
+          {
+            "name": "Comfort 26.6kWh",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "PLUG_IN_HYBRID",
+            "powerKw": 160, "powerBhp": 215, "torqueNm": 300,
+            "batteryKwh": 26.6, "batteryKwhNote": "26.6 kWh Blade LFP",
+            "electricRangeKm": 125, "chargingKw": null,
+            "acceleration0100": 8.9, "topSpeedKph": 170, "co2Gkm": 15,
+            "combinedMpg": 706.8,
+            "gearboxType": "AUTOMATIC", "gears": null, "drivetrain": "FWD",
+            "lengthMm": 4775, "widthMm": 1890, "heightMm": 1670, "wheelbaseMm": 2765,
+            "weightKg": null, "bootLitres": 425, "doors": 5, "seats": 5,
+            "engineDisplacement": 1498, "cylinders": 4,
+            "note": "Same 218 PS powertrain as Boost with larger battery; EV range 78 miles WLTP",
+            "sources": ["https://www.cinch.co.uk/guides/choosing-a-car/byd-seal-u-trim-levels", "https://www.byd.com/uk/hybrid-cars/seal-u-dm-i", "https://www.carwow.co.uk/byd/seal-u"]
+          },
+          {
+            "name": "Design 18.3kWh AWD",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "PLUG_IN_HYBRID",
+            "powerKw": 238, "powerBhp": 319, "torqueNm": 550,
+            "batteryKwh": 18.3, "batteryKwhNote": "18.3 kWh Blade LFP",
+            "electricRangeKm": null, "chargingKw": null,
+            "acceleration0100": 5.9, "topSpeedKph": 180, "co2Gkm": 37,
+            "combinedMpg": 282.7,
+            "gearboxType": "AUTOMATIC", "gears": null, "drivetrain": "AWD",
+            "lengthMm": 4775, "widthMm": 1890, "heightMm": 1670, "wheelbaseMm": 2765,
+            "weightKg": null, "bootLitres": 425, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": 4,
+            "note": "324 PS system: 1.5 turbo petrol (96 kW) + 150 kW front + 120 kW rear motors; turbo engine displacement unverified. UK EV range not verified (~43 miles reported)",
+            "sources": ["https://www.byd.com/uk/hybrid-cars/seal-u-dm-i", "https://www.cinch.co.uk/guides/choosing-a-car/byd-seal-u-trim-levels", "https://www.auto-data.net/en/byd-seal-u-dm-i-1.5l-324hp-plug-in-hybrid-awd-e-cvt-52764"]
+          }
+        ]
+      },
+      {
+        "name": "Sealion 7",
+        "bodyType": "SUV",
+        "ukLaunchYear": 2025,
+        "variants": [
+          {
+            "name": "Comfort 82.5kWh RWD",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "powerKw": 230, "powerBhp": 308, "torqueNm": 380,
+            "batteryKwh": 82.5, "batteryKwhNote": "82.5 kWh usable; 84 kWh gross estimated (Blade LFP)",
+            "electricRangeKm": 483, "chargingKw": 150,
+            "acceleration0100": 6.7, "topSpeedKph": 215, "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "lengthMm": 4830, "widthMm": 1925, "heightMm": 1620, "wheelbaseMm": 2930,
+            "weightKg": 2300, "bootLitres": 520, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "sources": ["https://ev-database.org/uk/car/3070/BYD-SEALION-7-825-kWh-RWD-Comfort", "https://bydukmedia.com/en/news-articles/byd-announces-uk-pricing-and-specifications-for-sealion-7.html"]
+          },
+          {
+            "name": "Design 82.5kWh AWD",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "powerKw": 390, "powerBhp": 523, "torqueNm": 690,
+            "batteryKwh": 82.5, "batteryKwhNote": "82.5 kWh usable; 84 kWh gross estimated",
+            "electricRangeKm": 455, "chargingKw": 150,
+            "acceleration0100": 4.5, "topSpeedKph": 215, "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "lengthMm": 4830, "widthMm": 1925, "heightMm": 1620, "wheelbaseMm": 2930,
+            "weightKg": 2415, "bootLitres": 520, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "sources": ["https://ev-database.org/uk/car/3071/BYD-SEALION-7-825-kWh-AWD-Design", "https://bydukmedia.com/en/news-articles/byd-announces-uk-pricing-and-specifications-for-sealion-7.html"]
+          },
+          {
+            "name": "Excellence 91.3kWh AWD",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "powerKw": 390, "powerBhp": 523, "torqueNm": 690,
+            "batteryKwh": 91.3, "batteryKwhNote": "91.3 kWh usable; 93 kWh gross estimated. Top speed conflict: ev-database 216 kph vs BYD 215 kph",
+            "electricRangeKm": 502, "chargingKw": 230,
+            "acceleration0100": 4.5, "topSpeedKph": 215, "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "lengthMm": 4830, "widthMm": 1925, "heightMm": 1620, "wheelbaseMm": 2930,
+            "weightKg": 2510, "bootLitres": 520, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "sources": ["https://ev-database.org/uk/car/3072/BYD-SEALION-7-913-kWh-AWD-Excellence", "https://bydukmedia.com/en/news-articles/byd-announces-uk-pricing-and-specifications-for-sealion-7.html"]
+          }
+        ]
+      },
+      {
+        "name": "Atto 2",
+        "bodyType": "SUV",
+        "ukLaunchYear": 2025,
+        "variants": [
+          {
+            "name": "Boost 51.1kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "powerKw": 130, "powerBhp": 174, "torqueNm": 290,
+            "batteryKwh": 51.1, "batteryKwhNote": "51.1 kWh Blade LFP (BYD quotes single figure)",
+            "electricRangeKm": 344, "chargingKw": 82,
+            "acceleration0100": 7.9, "topSpeedKph": 160, "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "lengthMm": 4310, "widthMm": 1830, "heightMm": 1675, "wheelbaseMm": 2620,
+            "weightKg": null, "bootLitres": 400, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "note": "Kerb weight quoted as 1590-1680 kg range across trims, per-variant split unverified",
+            "sources": ["https://www.electrive.com/2025/08/21/byd-announces-uk-pricing-and-specifications-for-new-atto-2/", "https://www.carwow.co.uk/byd/atto-2/specifications"]
+          },
+          {
+            "name": "Comfort 64.8kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "powerKw": 150, "powerBhp": 201, "torqueNm": 310,
+            "batteryKwh": 64.8, "batteryKwhNote": "64.8 kWh Blade LFP; 155 kW DC (30-80% in 21 min)",
+            "electricRangeKm": 420, "chargingKw": 155,
+            "acceleration0100": null, "topSpeedKph": 160, "co2Gkm": 0, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "lengthMm": 4310, "widthMm": 1830, "heightMm": 1675, "wheelbaseMm": 2620,
+            "weightKg": null, "bootLitres": 450, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "note": "0-62 time not verified. Boot 50 L larger than Boost per Carwow",
+            "sources": ["https://www.electrive.com/2025/08/21/byd-announces-uk-pricing-and-specifications-for-new-atto-2/", "https://www.carwow.co.uk/byd/atto-2/specifications"]
+          }
+        ]
+      },
+      {
+        "name": "Atto 2 DM-i",
+        "bodyType": "SUV",
+        "ukLaunchYear": 2026,
+        "variants": [
+          {
+            "name": "Active 7.8kWh",
+            "yearFrom": 2026, "yearTo": null, "fuelType": "PLUG_IN_HYBRID",
+            "powerKw": 121, "powerBhp": 163, "torqueNm": null,
+            "batteryKwh": 7.8, "batteryKwhNote": "7.8 kWh Blade",
+            "electricRangeKm": 50, "chargingKw": null,
+            "acceleration0100": 9.1, "topSpeedKph": null, "co2Gkm": null, "combinedMpg": null,
+            "gearboxType": "AUTOMATIC", "gears": null, "drivetrain": "FWD",
+            "lengthMm": 4330, "widthMm": null, "heightMm": null, "wheelbaseMm": null,
+            "weightKg": null, "bootLitres": 425, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "note": "165 PS system, 1.5 Xiaoyun petrol as generator (cc unverified). EV range conflict: 31 mi vs 24 mi across sources. UK orders June 2026, deliveries Aug 2026",
+            "sources": ["https://electriccarsreport.com/2026/05/byd-atto-2-dm-i-uk-pricing-and-specs-confirmed-from-26995/", "https://theevreport.com/byd-atto-2-dm-i-uk-pricing-starts-at-26995-undercuts-electric-sibling"]
+          },
+          {
+            "name": "Boost 18kWh",
+            "yearFrom": 2026, "yearTo": null, "fuelType": "PLUG_IN_HYBRID",
+            "powerKw": 156, "powerBhp": 209, "torqueNm": null,
+            "batteryKwh": 18.0, "batteryKwhNote": "18 kWh Blade",
+            "electricRangeKm": 89, "chargingKw": null,
+            "acceleration0100": 7.5, "topSpeedKph": null, "co2Gkm": null, "combinedMpg": 470.8,
+            "gearboxType": "AUTOMATIC", "gears": null, "drivetrain": "FWD",
+            "lengthMm": 4330, "widthMm": null, "heightMm": null, "wheelbaseMm": null,
+            "weightKg": null, "bootLitres": 425, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "note": "212 PS system. EV range 55 mi WLTP combined (93 mi city also cited). Total range 621 mi",
+            "sources": ["https://electriccarsreport.com/2026/05/byd-atto-2-dm-i-uk-pricing-and-specs-confirmed-from-26995/", "https://www.autocar.co.uk/car-review/byd/atto-2-dm-i"]
+          }
+        ]
+      },
+      {
+        "name": "Seal 6 DM-i",
+        "bodyType": "Saloon/Estate",
+        "ukLaunchYear": 2025,
+        "variants": [
+          {
+            "name": "Saloon Boost 10.08kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "PLUG_IN_HYBRID",
+            "powerKw": 135, "powerBhp": 181, "torqueNm": null,
+            "batteryKwh": 10.08, "batteryKwhNote": "10.08 kWh Blade LFP",
+            "electricRangeKm": 55, "chargingKw": null,
+            "acceleration0100": 8.9, "topSpeedKph": null, "co2Gkm": 52, "combinedMpg": 64.2,
+            "gearboxType": "AUTOMATIC", "gears": null, "drivetrain": "FWD",
+            "lengthMm": 4840, "widthMm": 1875, "heightMm": 1495, "wheelbaseMm": null,
+            "weightKg": null, "bootLitres": 491, "doors": 4, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "note": "1.5 petrol + e-motor, E-CVT. EV range 34 mi combined / 47 mi city. Total range 935 mi. Parkers cites 0-60 8.6 s (vs BYD 0-62 8.9 s)",
+            "sources": ["https://bydukmedia.com/en/news-articles/byd-announces-pricing-and-specification-for-new-seal-6-dm-i-saloon-and-touring.html", "https://www.parkers.co.uk/byd/seal-6/touring-2025/engine-15-dm-i-hybrid/specs/"]
+          },
+          {
+            "name": "Saloon Comfort 19kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "PLUG_IN_HYBRID",
+            "powerKw": 156, "powerBhp": 209, "torqueNm": null,
+            "batteryKwh": 19.0, "batteryKwhNote": "19 kWh Blade LFP",
+            "electricRangeKm": 105, "chargingKw": null,
+            "acceleration0100": 8.5, "topSpeedKph": null, "co2Gkm": 34, "combinedMpg": 58.9,
+            "gearboxType": "AUTOMATIC", "gears": null, "drivetrain": "FWD",
+            "lengthMm": 4840, "widthMm": 1875, "heightMm": 1495, "wheelbaseMm": null,
+            "weightKg": null, "bootLitres": 491, "doors": 4, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "note": "EV range 65 mi combined / 87 mi city. Total range 904 mi. Some sources quote weighted mpg up to 188.3 - conflict with BYD's 58.9 combined figure",
+            "sources": ["https://bydukmedia.com/en/news-articles/byd-announces-pricing-and-specification-for-new-seal-6-dm-i-saloon-and-touring.html", "https://www.motoringresearch.com/car-news/byd-seal-6-saloon-touring-uk-prices/"]
+          },
+          {
+            "name": "Touring Boost 10.08kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "PLUG_IN_HYBRID",
+            "powerKw": 135, "powerBhp": 181, "torqueNm": null,
+            "batteryKwh": 10.08, "batteryKwhNote": "10.08 kWh Blade LFP",
+            "electricRangeKm": 50, "chargingKw": null,
+            "acceleration0100": 8.9, "topSpeedKph": null, "co2Gkm": 60, "combinedMpg": 58.9,
+            "gearboxType": "AUTOMATIC", "gears": null, "drivetrain": "FWD",
+            "lengthMm": 4840, "widthMm": 1875, "heightMm": 1505, "wheelbaseMm": null,
+            "weightKg": null, "bootLitres": 500, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "note": "Estate. EV range 31 mi combined. Total range 839 mi. Max boot 1535 L",
+            "sources": ["https://bydukmedia.com/en/news-articles/byd-announces-pricing-and-specification-for-new-seal-6-dm-i-saloon-and-touring.html", "https://www.parkers.co.uk/byd/seal-6/touring-2025/engine-15-dm-i-hybrid/specs/"]
+          },
+          {
+            "name": "Touring Comfort 19kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "PLUG_IN_HYBRID",
+            "powerKw": 156, "powerBhp": 209, "torqueNm": null,
+            "batteryKwh": 19.0, "batteryKwhNote": "19 kWh Blade LFP",
+            "electricRangeKm": 100, "chargingKw": null,
+            "acceleration0100": 8.5, "topSpeedKph": null, "co2Gkm": 38, "combinedMpg": 56.5,
+            "gearboxType": "AUTOMATIC", "gears": null, "drivetrain": "FWD",
+            "lengthMm": 4840, "widthMm": 1875, "heightMm": 1505, "wheelbaseMm": null,
+            "weightKg": null, "bootLitres": 500, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "note": "Estate. EV range 62 mi combined. Total range 839 mi. A 'Comfort Lite' Touring trim also listed by Parkers with same 209 bhp powertrain",
+            "sources": ["https://bydukmedia.com/en/news-articles/byd-announces-pricing-and-specification-for-new-seal-6-dm-i-saloon-and-touring.html", "https://www.parkers.co.uk/byd/seal-6/touring-2025/engine-15-dm-i-hybrid/specs/"]
+          }
+        ]
+      },
+      {
+        "name": "Sealion 5 DM-i",
+        "bodyType": "SUV",
+        "ukLaunchYear": 2026,
+        "variants": [
+          {
+            "name": "Comfort 12.96kWh",
+            "yearFrom": 2026, "yearTo": null, "fuelType": "PLUG_IN_HYBRID",
+            "powerKw": 156, "powerBhp": 209, "torqueNm": null,
+            "batteryKwh": 12.96, "batteryKwhNote": "12.96 kWh Blade",
+            "electricRangeKm": 61, "chargingKw": null,
+            "acceleration0100": 7.7, "topSpeedKph": 171, "co2Gkm": 62, "combinedMpg": 104.6,
+            "gearboxType": "AUTOMATIC", "gears": null, "drivetrain": "FWD",
+            "lengthMm": null, "widthMm": null, "heightMm": null, "wheelbaseMm": null,
+            "weightKg": null, "bootLitres": 463, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "note": "212 PS system, 1.5 petrol (43% thermal efficiency, cc unverified). EV range 38+ mi. Total range 631 mi. AC charging 3.3 kW only, no DC quoted. UK showrooms from 7 Feb 2026",
+            "sources": ["https://bydukmedia.com/en/news-articles/byd-announces-sealion-5-dm-i-as-its-ninth-model-for-uk-and-confirms-pricing-and-specification.html", "https://www.thecarexpert.co.uk/byd-sealion-5-review-first-uk-drive/"]
+          },
+          {
+            "name": "Design 18.3kWh",
+            "yearFrom": 2026, "yearTo": null, "fuelType": "PLUG_IN_HYBRID",
+            "powerKw": 156, "powerBhp": 209, "torqueNm": null,
+            "batteryKwh": 18.3, "batteryKwhNote": "18.3 kWh Blade",
+            "electricRangeKm": 86, "chargingKw": null,
+            "acceleration0100": 8.1, "topSpeedKph": 171, "co2Gkm": 48, "combinedMpg": 134.5,
+            "gearboxType": "AUTOMATIC", "gears": null, "drivetrain": "FWD",
+            "lengthMm": null, "widthMm": null, "heightMm": null, "wheelbaseMm": null,
+            "weightKg": null, "bootLitres": 463, "doors": 5, "seats": 5,
+            "engineDisplacement": null, "cylinders": null,
+            "note": "EV range 53.4 mi WLTP. Slower 0-62 than Comfort due to larger battery weight",
+            "sources": ["https://bydukmedia.com/en/news-articles/byd-announces-sealion-5-dm-i-as-its-ninth-model-for-uk-and-confirms-pricing-and-specification.html", "https://www.carwow.co.uk/byd/sealion-5"]
+          }
+        ]
+      }
+    ]
+  }
+]

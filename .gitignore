@@ -36,3 +36,11 @@ next-env.d.ts
 
 # prisma
 prisma/migrations/
+
+# local-only data (never commit)
+sva1.sql*
+*.sql.gz
+oev.csv
+data-research/05-sva-engine-variants.csv
+data-research/05-sva-generations.csv
+data-research/05-sva-vehicle-tree.json

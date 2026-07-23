@@ -1,0 +1,1704 @@
+[
+  {
+    "make": "MG",
+    "country": "China",
+    "models": [
+      {
+        "name": "MGS5 EV",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "Standard Range 49kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 170, "powerBhp": 228, "torqueNm": 350,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "acceleration0100": 6.3, "topSpeedKph": 180, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 49, "batteryKwhNote": "49 kWh gross / 47.1 kWh usable (LFP)",
+            "electricRangeKm": 340, "chargingKw": 120,
+            "lengthMm": 4476, "widthMm": 1849, "heightMm": 1621, "weightKg": null,
+            "bootLitres": 453, "doors": 5, "seats": 5,
+            "sources": ["https://ev-database.org/uk/car/3146/MG-MGS5-EV-Standard-Range", "https://www.mg.co.uk/new-cars/mgs5-ev"]
+          },
+          {
+            "name": "Long Range 64kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 170, "powerBhp": 228, "torqueNm": 350,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "acceleration0100": 6.3, "topSpeedKph": 180, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 64, "batteryKwhNote": "64 kWh gross / 62.1 kWh usable (NMC)",
+            "electricRangeKm": 480, "electricRangeNote": "298 mi WLTP (SE trim); Trophy trim 289 mi",
+            "chargingKw": 139,
+            "lengthMm": 4476, "widthMm": 1849, "heightMm": 1621, "weightKg": null,
+            "bootLitres": 453, "doors": 5, "seats": 5,
+            "sources": ["https://ev-database.org/uk/car/3147/MG-MGS5-EV-Long-Range", "https://www.topgear.com/car-reviews/107592/MG%20MOTOR%20UK/MGS5%20ELECTRIC%20ESTATE/170kW%20SE%20EV%20Long%20Range%2064kWh%205dr%20Auto/spec"]
+          }
+        ]
+      },
+      {
+        "name": "HS (2024 gen)",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "1.5T petrol 170PS",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "PETROL",
+            "engineDisplacement": 1498, "cylinders": 4,
+            "powerKw": 125, "powerBhp": 168, "torqueNm": 275,
+            "gearboxType": "MANUAL_OR_DCT", "gears": 7, "gearsNote": "6-spd manual or 7-spd DCT auto",
+            "drivetrain": "FWD",
+            "acceleration0100": 9.4, "topSpeedKph": 190, "combinedMpg": 38.2, "combinedMpgNote": "manual; auto slightly lower", "co2Gkm": null,
+            "batteryKwh": null, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 4670, "widthMm": 1890, "heightMm": 1663, "weightKg": null,
+            "bootLitres": 507, "doors": 5, "seats": 5,
+            "sources": ["https://www.parkers.co.uk/mg/hs/suv-2024/", "https://www.motorpoint.co.uk/car-news/2024-mg-hs-suv-price-specs-and-release-date"]
+          },
+          {
+            "name": "1.5T PHEV",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "PLUGIN_HYBRID",
+            "engineDisplacement": 1498, "cylinders": 4,
+            "powerKw": 225, "powerBhp": 302, "powerNote": "System output; 1.5T 143PS engine + 154kW e-motor. Sources vary 272-307 PS - CONFLICT flagged",
+            "torqueNm": 432, "torqueNmNote": "Combined system figure per ultimatespecs; motor alone 340 Nm",
+            "gearboxType": "AUTOMATIC", "gears": 2, "gearsNote": "2-speed hybrid transmission",
+            "drivetrain": "FWD",
+            "acceleration0100": 6.8, "topSpeedKph": 190, "combinedMpg": null, "co2Gkm": 12,
+            "batteryKwh": 24.7, "electricRangeKm": 121, "electricRangeNote": "75 mi WLTP EV-only", "chargingKw": null,
+            "lengthMm": 4670, "widthMm": 1890, "heightMm": 1663, "weightKg": null,
+            "bootLitres": 441, "doors": 5, "seats": 5,
+            "sources": ["https://www.parkers.co.uk/mg/hs/suv-2024/15-t-gdi-phev-se-5dr-auto/specs/", "https://www.ultimatespecs.com/car-specs/MG/139235/MG-HS-2024-15T-GDI-PHEV-Auto.html"]
+          }
+        ]
+      },
+      {
+        "name": "ZS Hybrid+ (2024 gen)",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "Hybrid+ 196PS",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "HYBRID",
+            "engineDisplacement": 1498, "cylinders": 4,
+            "powerKw": 144, "powerBhp": 193, "powerNote": "System 196 PS; 1.5 NA engine 102 PS + 100 kW e-motor",
+            "torqueNm": 465, "torqueNmNote": "Combined system figure",
+            "gearboxType": "AUTOMATIC", "gears": 3, "gearsNote": "3-speed hybrid transmission",
+            "drivetrain": "FWD",
+            "acceleration0100": 8.7, "topSpeedKph": 161, "combinedMpg": 55.4, "co2Gkm": 113,
+            "batteryKwh": 1.83, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 4430, "widthMm": 1818, "heightMm": 1635, "weightKg": null,
+            "bootLitres": 443, "doors": 5, "seats": 5,
+            "sources": ["https://www.mg.co.uk/new-cars/mg-zs-hybrid", "https://www.mg.co.uk/sites/default/files/2024-12/MG_ZS_Hybrid_Brochure.pdf"]
+          }
+        ]
+      },
+      {
+        "name": "MG3 (2024 gen)",
+        "bodyType": "Hatchback",
+        "variants": [
+          {
+            "name": "Hybrid+ 194PS",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "HYBRID",
+            "engineDisplacement": 1498, "cylinders": 4,
+            "powerKw": 143, "powerBhp": 192, "powerNote": "System output; engine 102 PS + e-motor",
+            "torqueNm": 425, "torqueNmNote": "Combined system figure (motor 250 Nm)",
+            "gearboxType": "AUTOMATIC", "gears": 3,
+            "drivetrain": "FWD",
+            "acceleration0100": 8.0, "topSpeedKph": 171, "combinedMpg": 64.2, "co2Gkm": 100,
+            "batteryKwh": 1.83, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 4113, "widthMm": 1797, "heightMm": 1502, "weightKg": null,
+            "bootLitres": 293, "doors": 5, "seats": 5,
+            "sources": ["https://www.mg.co.uk/new-cars/mg3-hybrid", "https://www.mg.co.uk/media-centre/new-mg3-hybrid-has-arrived"]
+          },
+          {
+            "name": "1.5 VTi-tech 115PS (non-hybrid)",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "PETROL",
+            "engineDisplacement": 1498, "cylinders": 4,
+            "powerKw": 85, "powerBhp": 113, "torqueNm": 150,
+            "gearboxType": "MANUAL", "gears": 5, "drivetrain": "FWD",
+            "acceleration0100": null, "topSpeedKph": null, "combinedMpg": null, "co2Gkm": null,
+            "batteryKwh": null, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 4113, "widthMm": 1797, "heightMm": 1502, "weightKg": null,
+            "bootLitres": 293, "doors": 5, "seats": 5,
+            "notes": "Petrol manual added to UK range 2025; verify detailed figures",
+            "sources": ["https://www.mg.co.uk/new-cars"]
+          }
+        ]
+      },
+      {
+        "name": "Cyberster",
+        "bodyType": "Convertible",
+        "variants": [
+          {
+            "name": "Trophy RWD 77kWh",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 250, "powerBhp": 335, "torqueNm": 475,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "acceleration0100": 5.0, "topSpeedKph": 195, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 77, "electricRangeKm": 509, "electricRangeNote": "316 mi WLTP", "chargingKw": 144,
+            "lengthMm": 4535, "widthMm": 1913, "heightMm": 1329, "weightKg": 1885,
+            "bootLitres": 249, "doors": 2, "seats": 2,
+            "sources": ["https://www.mg.co.uk/media-centre/ready-exhilarate-mg-cyberster-trophy-and-gt", "https://www.autoexpress.co.uk/mg/cyberster"]
+          },
+          {
+            "name": "GT AWD 77kWh",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 375, "powerBhp": 503, "torqueNm": 725,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 3.2, "topSpeedKph": 200, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 77, "electricRangeKm": 444, "electricRangeNote": "276 mi WLTP", "chargingKw": 144,
+            "lengthMm": 4535, "widthMm": 1913, "heightMm": 1329, "weightKg": 1985,
+            "bootLitres": 249, "doors": 2, "seats": 2,
+            "sources": ["https://www.mg.co.uk/media-centre/ready-exhilarate-mg-cyberster-trophy-and-gt", "https://www.topgear.com/car-reviews/mg-motor-uk/cyberster"]
+          }
+        ]
+      },
+      {
+        "name": "IM5 (MG IM)",
+        "bodyType": "Saloon",
+        "variants": [
+          {
+            "name": "Standard Range 75kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 217, "powerBhp": 291, "torqueNm": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "acceleration0100": 6.8, "topSpeedKph": null, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 75, "batteryKwhNote": "400V LFP", "electricRangeKm": 489, "electricRangeNote": "304 mi WLTP", "chargingKw": 153,
+            "lengthMm": 4931, "widthMm": 1960, "heightMm": 1474, "weightKg": null,
+            "bootLitres": 457, "doors": 5, "seats": 5,
+            "sources": ["https://ev-database.org/uk/car/3244/MG-IM5-Standard-Range", "https://www.carwow.co.uk/mg/im5/specifications"]
+          },
+          {
+            "name": "Long Range 100kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 300, "powerBhp": 402, "torqueNm": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "acceleration0100": 4.9, "topSpeedKph": null, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 100, "batteryKwhNote": "800V NMC", "electricRangeKm": 710, "electricRangeNote": "441 mi WLTP", "chargingKw": 396,
+            "lengthMm": 4931, "widthMm": 1960, "heightMm": 1474, "weightKg": null,
+            "bootLitres": 457, "doors": 5, "seats": 5,
+            "sources": ["https://ev-database.org/uk/car/3245/MG-IM5-Long-Range", "https://www.cargurus.co.uk/research/articles/2025-mg-im5-im6-price-specs-release-date"]
+          },
+          {
+            "name": "Performance AWD 100kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 572, "powerBhp": 767, "torqueNm": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 3.2, "topSpeedKph": null, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 100, "batteryKwhNote": "800V NMC", "electricRangeKm": 575, "electricRangeNote": "357 mi WLTP", "chargingKw": 396,
+            "lengthMm": 4931, "widthMm": 1960, "heightMm": 1474, "weightKg": null,
+            "bootLitres": 457, "doors": 5, "seats": 5,
+            "sources": ["https://www.cargurus.co.uk/research/articles/2025-mg-im5-im6-price-specs-release-date", "https://www.carwow.co.uk/mg/im5"]
+          }
+        ]
+      },
+      {
+        "name": "IM6 (MG IM)",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "Long Range 100kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 300, "powerBhp": 402, "torqueNm": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "acceleration0100": 5.5, "topSpeedKph": null, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 100, "batteryKwhNote": "800V NMC", "electricRangeKm": 624, "electricRangeNote": "388 mi WLTP", "chargingKw": 396,
+            "lengthMm": 4904, "widthMm": 1988, "heightMm": 1669, "weightKg": null,
+            "bootLitres": null, "doors": 5, "seats": 5,
+            "sources": ["https://www.cargurus.co.uk/research/articles/2025-mg-im5-im6-price-specs-release-date"]
+          },
+          {
+            "name": "Performance AWD 100kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 572, "powerBhp": 767, "torqueNm": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 3.5, "topSpeedKph": null, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 100, "batteryKwhNote": "800V NMC", "electricRangeKm": null, "electricRangeNote": "WLTP figure not confirmed at research time", "chargingKw": 396,
+            "lengthMm": 4904, "widthMm": 1988, "heightMm": 1669, "weightKg": null,
+            "bootLitres": null, "doors": 5, "seats": 5,
+            "sources": ["https://www.cargurus.co.uk/research/articles/2025-mg-im5-im6-price-specs-release-date"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Tesla",
+    "country": "USA",
+    "models": [
+      {
+        "name": "Model Y (Juniper facelift)",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "RWD",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 220, "powerBhp": 295, "powerNote": "Tesla does not publish official output; commonly cited ~220 kW", "torqueNm": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "acceleration0100": 5.9, "topSpeedKph": 201, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 62.5, "batteryKwhNote": "~60-62.5 kWh LFP (est, not officially published)",
+            "electricRangeKm": 500, "electricRangeNote": "311 mi WLTP on 19in wheels", "chargingKw": 175,
+            "lengthMm": 4792, "widthMm": 1982, "heightMm": 1624, "weightKg": null,
+            "bootLitres": 854, "bootLitresNote": "Total rear cargo incl. underfloor; plus 117 L frunk", "doors": 5, "seats": 5,
+            "sources": ["https://ev-database.org/uk/car/3362/Tesla-Model-Y-RWD", "https://insideevs.com/news/751466/tesla-model-y-details-europe/"]
+          },
+          {
+            "name": "Long Range RWD",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 245, "powerBhp": 329, "powerNote": "Estimated, not officially published", "torqueNm": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "acceleration0100": 5.6, "topSpeedKph": 201, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 78.4, "batteryKwhNote": "78.4 kWh NMC (~75 usable)",
+            "electricRangeKm": 622, "electricRangeNote": "386 mi WLTP", "chargingKw": 250,
+            "lengthMm": 4792, "widthMm": 1982, "heightMm": 1624, "weightKg": null,
+            "bootLitres": 854, "doors": 5, "seats": 5,
+            "notes": "Reported discontinued from UK line-up mid-2026",
+            "sources": ["https://ev-database.org/uk/car/3120/Tesla-Model-Y-Long-Range-RWD", "https://insideevs.com/news/751466/tesla-model-y-details-europe/"]
+          },
+          {
+            "name": "Long Range AWD",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 331, "powerBhp": 444, "powerNote": "Estimated dual-motor output", "torqueNm": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 4.8, "topSpeedKph": 201, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 78.4, "batteryKwhNote": "78.4 kWh NMC",
+            "electricRangeKm": 586, "electricRangeNote": "364 mi WLTP (early 2025 figure; later quoted up to 372 mi) - minor CONFLICT", "chargingKw": 250,
+            "lengthMm": 4792, "widthMm": 1982, "heightMm": 1624, "weightKg": null,
+            "bootLitres": 854, "doors": 5, "seats": 5,
+            "sources": ["https://ev-database.org/uk/car/3106/Tesla-Model-Y-Long-Range-AWD-Launch-Series", "https://www.drive-electric.co.uk/reviews/tesla/model-y/"]
+          },
+          {
+            "name": "Performance AWD",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 338, "powerBhp": 453, "powerNote": "Quoted 460 PS", "torqueNm": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 3.5, "accelerationNote": "0-60 mph 3.3 s", "topSpeedKph": 250, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 78.4, "electricRangeKm": 571, "electricRangeNote": "355 mi WLTP", "chargingKw": 250,
+            "lengthMm": 4792, "widthMm": 1982, "heightMm": 1624, "weightKg": null,
+            "bootLitres": 854, "doors": 5, "seats": 5,
+            "sources": ["https://www.drive-electric.co.uk/reviews/tesla/model-y/", "https://www.electriccarscheme.com/blog/new-tesla-model-y-juniper-refresh"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Dacia",
+    "country": "Romania",
+    "models": [
+      {
+        "name": "Bigster",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "TCe 140 (mild hybrid)",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "PETROL_MHEV",
+            "engineDisplacement": 1199, "cylinders": 3,
+            "powerKw": 103, "powerBhp": 138, "torqueNm": 230,
+            "gearboxType": "MANUAL", "gears": 6, "drivetrain": "FWD",
+            "acceleration0100": 9.8, "topSpeedKph": 180, "combinedMpg": 52.3, "co2Gkm": null,
+            "batteryKwh": null, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 4570, "widthMm": 1813, "heightMm": 1705, "weightKg": null,
+            "bootLitres": 667, "doors": 5, "seats": 5,
+            "sources": ["https://www.dacia.co.uk/hybrid-and-electric-range/bigster-suv/engines.html", "https://www.auto-data.net/en/dacia-bigster-1.2-tce-140hp-mild-hybrid-53506"]
+          },
+          {
+            "name": "Hybrid 155",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "HYBRID",
+            "engineDisplacement": 1789, "cylinders": 4,
+            "powerKw": 114, "powerBhp": 153, "powerNote": "System output; 109 bhp 1.8 engine + 2 e-motors",
+            "torqueNm": null,
+            "gearboxType": "AUTOMATIC", "gears": 6, "gearsNote": "Multi-mode clutchless (4 ICE + 2 EV ratios)",
+            "drivetrain": "FWD",
+            "acceleration0100": 9.7, "topSpeedKph": 180, "combinedMpg": 60.1, "co2Gkm": 106,
+            "batteryKwh": 1.4, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 4570, "widthMm": 1813, "heightMm": 1705, "weightKg": null,
+            "bootLitres": 612, "bootLitresNote": "Hybrid loses some capacity vs 667 L TCe", "doors": 5, "seats": 5,
+            "sources": ["https://www.dacia.co.uk/hybrid-and-electric-range/bigster-suv/engines.html", "https://www.autoexpress.co.uk/dacia/bigster"]
+          },
+          {
+            "name": "TCe 130 4x4 (mild hybrid)",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "PETROL_MHEV",
+            "engineDisplacement": 1199, "cylinders": 3,
+            "powerKw": 96, "powerBhp": 128, "torqueNm": 230,
+            "gearboxType": "MANUAL", "gears": 6, "drivetrain": "AWD",
+            "acceleration0100": 11.2, "topSpeedKph": 180, "combinedMpg": 47.1, "co2Gkm": null,
+            "batteryKwh": null, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 4570, "widthMm": 1813, "heightMm": 1705, "weightKg": null,
+            "bootLitres": 667, "doors": 5, "seats": 5,
+            "sources": ["https://www.dacia.co.uk/hybrid-and-electric-range/bigster-suv/engines.html", "https://www.carwow.co.uk/dacia/bigster"]
+          }
+        ]
+      },
+      {
+        "name": "Duster (2024 gen)",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "TCe 100 Bi-Fuel",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "PETROL_LPG",
+            "engineDisplacement": 999, "cylinders": 3,
+            "powerKw": 74, "powerBhp": 99, "torqueNm": 170,
+            "gearboxType": "MANUAL", "gears": 6, "drivetrain": "FWD",
+            "acceleration0100": 14.1, "topSpeedKph": 168, "combinedMpg": null, "co2Gkm": null,
+            "batteryKwh": null, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 4343, "widthMm": 1813, "heightMm": 1656, "weightKg": null,
+            "bootLitres": 472, "doors": 5, "seats": 5,
+            "sources": ["https://www.press.dacia.co.uk/releases/463", "https://www.carwow.co.uk/dacia/duster"]
+          },
+          {
+            "name": "TCe 130 (mild hybrid)",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "PETROL_MHEV",
+            "engineDisplacement": 1199, "cylinders": 3,
+            "powerKw": 96, "powerBhp": 128, "torqueNm": 230,
+            "gearboxType": "MANUAL", "gears": 6, "drivetrain": "FWD",
+            "acceleration0100": 9.9, "topSpeedKph": 180, "combinedMpg": 51.0, "co2Gkm": null,
+            "batteryKwh": null, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 4343, "widthMm": 1813, "heightMm": 1656, "weightKg": 1379,
+            "bootLitres": 472, "doors": 5, "seats": 5,
+            "sources": ["https://www.ultimatespecs.com/car-specs/Dacia/138197/Dacia-Duster-3-TCe-130-Mild-Hybrid.html", "https://www.press.dacia.co.uk/releases/463"]
+          },
+          {
+            "name": "TCe 130 4x4 (mild hybrid)",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "PETROL_MHEV",
+            "engineDisplacement": 1199, "cylinders": 3,
+            "powerKw": 96, "powerBhp": 128, "torqueNm": 230,
+            "gearboxType": "MANUAL", "gears": 6, "drivetrain": "AWD",
+            "acceleration0100": 11.0, "topSpeedKph": 180, "combinedMpg": 47.1, "co2Gkm": null,
+            "batteryKwh": null, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 4343, "widthMm": 1813, "heightMm": 1656, "weightKg": null,
+            "bootLitres": 445, "doors": 5, "seats": 5,
+            "sources": ["https://www.parkers.co.uk/dacia/duster/suv-2024/12-tce-130-extreme-5dr-4x4/specs/", "https://www.encycarpedia.com/dacia/24-duster-tce-130-4x4-suv"]
+          },
+          {
+            "name": "Hybrid 140",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "HYBRID",
+            "engineDisplacement": 1598, "cylinders": 4,
+            "powerKw": 103, "powerBhp": 138, "powerNote": "System output; 94 hp engine + 2 e-motors",
+            "torqueNm": null,
+            "gearboxType": "AUTOMATIC", "gears": 6, "gearsNote": "Multi-mode clutchless (4 ICE + 2 EV ratios)",
+            "drivetrain": "FWD",
+            "acceleration0100": 10.1, "topSpeedKph": 160, "combinedMpg": 56.0, "co2Gkm": 114,
+            "batteryKwh": 1.2, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 4343, "widthMm": 1813, "heightMm": 1656, "weightKg": 1455,
+            "bootLitres": 472, "doors": 5, "seats": 5,
+            "sources": ["https://www.ultimatespecs.com/car-specs/Dacia/138201/Dacia-Duster-3-Hybrid-140.html", "https://www.press.dacia.co.uk/releases/463"]
+          }
+        ]
+      },
+      {
+        "name": "Spring",
+        "bodyType": "Hatchback",
+        "variants": [
+          {
+            "name": "Electric 45",
+            "yearFrom": 2024, "yearTo": 2025, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 33, "powerBhp": 44, "torqueNm": 113,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 19.1, "topSpeedKph": 125, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 26.8, "electricRangeKm": 225, "electricRangeNote": "140 mi WLTP", "chargingKw": null, "chargingNote": "No DC charging on Electric 45; 7 kW AC only",
+            "lengthMm": 3701, "widthMm": 1583, "heightMm": 1519, "weightKg": 984,
+            "bootLitres": 308, "doors": 5, "seats": 4,
+            "notes": "UK sale from late 2024 into 2025; withdrawn from production Dec 2025, replaced by Spring Electric 100 for 2026",
+            "sources": ["https://www.whatcar.com/dacia/spring/hatchback/review/n26964", "https://www.carwow.co.uk/dacia/spring"]
+          },
+          {
+            "name": "Electric 65",
+            "yearFrom": 2024, "yearTo": 2025, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 48, "powerBhp": 64, "torqueNm": 113,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 13.7, "topSpeedKph": 125, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 26.8, "electricRangeKm": 225, "electricRangeNote": "140 mi WLTP", "chargingKw": 30,
+            "lengthMm": 3701, "widthMm": 1583, "heightMm": 1519, "weightKg": 1000,
+            "bootLitres": 308, "doors": 5, "seats": 4,
+            "sources": ["https://ev-database.org/uk/car/2127/Dacia-Spring-Electric-65", "https://www.greencarguide.co.uk/car-reviews-and-road-tests/dacia-spring-extreme-65-review/"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Alpine",
+    "country": "France",
+    "models": [
+      {
+        "name": "A290",
+        "bodyType": "Hatchback",
+        "variants": [
+          {
+            "name": "GT 180hp",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 132, "powerBhp": 178, "torqueNm": 285,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 7.4, "topSpeedKph": 160, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 52, "batteryKwhNote": "52 kWh usable NMC", "electricRangeKm": 380, "electricRangeNote": "236 mi WLTP", "chargingKw": 100,
+            "lengthMm": 3997, "widthMm": 1823, "heightMm": 1512, "weightKg": 1479,
+            "bootLitres": 326, "doors": 5, "seats": 5,
+            "sources": ["https://www.alpine-cars.co.uk/electric-models/a290/electric-performance.html", "https://www.drivingelectric.com/alpine/a290"]
+          },
+          {
+            "name": "GTS 220hp",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 160, "powerBhp": 217, "torqueNm": 300,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 6.4, "topSpeedKph": 170, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 52, "electricRangeKm": 380, "electricRangeNote": "Sources quote 226-236 mi WLTP depending on wheels - minor CONFLICT", "chargingKw": 100,
+            "lengthMm": 3997, "widthMm": 1823, "heightMm": 1512, "weightKg": 1479,
+            "bootLitres": 326, "doors": 5, "seats": 5,
+            "sources": ["https://ev-database.org/uk/car/2269/Alpine-A290-Electric-220-hp", "https://www.parkers.co.uk/alpine/a290/hatchback-2025/trim-gts/specs/"]
+          }
+        ]
+      },
+      {
+        "name": "A390",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "GT (400hp tri-motor)",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 294, "powerBhp": 394, "torqueNm": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD", "drivetrainNote": "1 front + 2 rear motors, active torque vectoring",
+            "acceleration0100": 4.8, "topSpeedKph": 200, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 89, "batteryKwhNote": "89 kWh usable (94 gross est)", "electricRangeKm": 555, "electricRangeNote": "Up to 345 mi WLTP claimed", "chargingKw": 190,
+            "lengthMm": 4615, "widthMm": 1885, "heightMm": 1532, "weightKg": null,
+            "bootLitres": 532, "doors": 5, "seats": 5,
+            "notes": "Revealed 2025; UK first deliveries 2026",
+            "sources": ["https://en.wikipedia.org/wiki/Alpine_A390", "https://ev-database.org/uk/car/3391/Alpine-A390-GTS"]
+          },
+          {
+            "name": "GTS (470hp tri-motor)",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 345, "powerBhp": 463, "torqueNm": 808,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 3.9, "topSpeedKph": 220, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 89, "electricRangeKm": 520, "electricRangeNote": "~323 mi WLTP (approx; ev-database est 290 mi real-world)", "chargingKw": 190,
+            "lengthMm": 4615, "widthMm": 1885, "heightMm": 1532, "weightKg": null,
+            "bootLitres": 532, "doors": 5, "seats": 5,
+            "sources": ["https://ev-database.org/uk/car/3391/Alpine-A390-GTS", "https://en.wikipedia.org/wiki/Alpine_A390"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Geely",
+    "country": "China",
+    "models": [
+      {
+        "name": "EX5",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "60.2kWh FWD",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 160, "powerBhp": 215, "torqueNm": 320,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 6.9, "topSpeedKph": 175, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 60.2, "batteryKwhNote": "LFP", "electricRangeKm": 430, "electricRangeNote": "267 mi WLTP (SE trim); 255 mi Pro trim", "chargingKw": 100,
+            "lengthMm": 4615, "widthMm": 1901, "heightMm": 1670, "weightKg": null,
+            "bootLitres": 461, "doors": 5, "seats": 5,
+            "sources": ["https://www.cargurus.co.uk/research/articles/2025-geely-ex5-price-specs-release-date", "https://www.carwow.co.uk/geely/ex5"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Isuzu",
+    "country": "Japan",
+    "models": [
+      {
+        "name": "D-Max (RG, 2021 gen incl. 2025 facelift)",
+        "bodyType": "Pickup",
+        "variants": [
+          {
+            "name": "1.9TD 164PS 4x2",
+            "yearFrom": 2021, "yearTo": null, "fuelType": "DIESEL",
+            "engineDisplacement": 1898, "cylinders": 4,
+            "powerKw": 120, "powerBhp": 162, "torqueNm": 360,
+            "gearboxType": "MANUAL_OR_AUTO", "gears": 6, "gearsNote": "6-spd manual or 6-spd auto",
+            "drivetrain": "RWD",
+            "acceleration0100": 12.7, "topSpeedKph": 180, "combinedMpg": 33.6, "co2Gkm": 220,
+            "batteryKwh": null, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 5265, "widthMm": 1870, "heightMm": 1790, "weightKg": null,
+            "bootLitres": null, "doors": 2, "seats": 2, "notes": "Single-cab utility; 3.5t towing. 2025 facelift retains identical powertrain",
+            "sources": ["https://www.isuzu.co.uk/", "https://www.parkers.co.uk/isuzu/d-max/"]
+          },
+          {
+            "name": "1.9TD 164PS 4x4 Double Cab",
+            "yearFrom": 2021, "yearTo": null, "fuelType": "DIESEL",
+            "engineDisplacement": 1898, "cylinders": 4,
+            "powerKw": 120, "powerBhp": 162, "torqueNm": 360,
+            "gearboxType": "MANUAL_OR_AUTO", "gears": 6,
+            "drivetrain": "4WD", "drivetrainNote": "Selectable 4WD with low range",
+            "acceleration0100": 13.0, "topSpeedKph": 180, "combinedMpg": 30.7, "co2Gkm": 241,
+            "batteryKwh": null, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 5265, "widthMm": 1870, "heightMm": 1790, "weightKg": 2100,
+            "bootLitres": null, "doors": 4, "seats": 5, "notes": "Covers DL20/DL40/V-Cross trims (identical powertrain). 2025 facelift (new grille, tech) unchanged mechanically",
+            "sources": ["https://www.isuzu.co.uk/", "https://www.parkers.co.uk/isuzu/d-max/"]
+          },
+          {
+            "name": "D-Max EV",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 140, "powerBhp": 188, "powerNote": "Dual motor; sources quote 140 kW / 149.3 kW peak - minor CONFLICT", "torqueNm": 325,
+            "torqueNmNote": "Isuzu quotes 325 Nm; some sources 347.6 Nm",
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD", "drivetrainNote": "Permanent 4WD, front + rear motors",
+            "acceleration0100": 10.1, "topSpeedKph": 130, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 66.9, "electricRangeKm": 263, "electricRangeNote": "163 mi WLTP combined", "chargingKw": 50,
+            "lengthMm": 5280, "widthMm": 1870, "heightMm": 1790, "weightKg": null,
+            "bootLitres": null, "doors": 4, "seats": 5,
+            "notes": "Over 1t payload, 3.5t towing. UK pre-sales late 2025, deliveries from early 2026",
+            "sources": ["https://www.isuzu.co.uk/news/introducing-the-new-electric-isuzu-d-max/", "https://www.electrive.com/2025/07/25/isuzu-uk-reveals-d-max-ev-pricing-ahead-of-2026-launch/"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Polestar",
+    "country": "Sweden",
+    "models": [
+      {
+        "name": "Polestar 3",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "Long Range Single Motor",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 220, "powerBhp": 295, "powerNote": "UK sources also cite 333 bhp after MY26 update - CONFLICT (launch RWD = 295 bhp)", "torqueNm": 490,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "acceleration0100": 7.8, "topSpeedKph": 180, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 111, "batteryKwhNote": "111 kWh gross / 107 usable at launch; MY26 update moves RWD to 92 kWh pack", "electricRangeKm": 706, "electricRangeNote": "438 mi WLTP (launch); MY26 up to 403 mi with new pack", "chargingKw": 250,
+            "lengthMm": 4900, "widthMm": 1968, "heightMm": 1614, "weightKg": 2415,
+            "bootLitres": 484, "doors": 5, "seats": 5,
+            "sources": ["https://www.polestar.com/uk/polestar-3/specifications/", "https://www.autoexpress.co.uk/polestar/3/104074/new-polestar-3-specs-details-and-cheaper-single-motor-version"]
+          },
+          {
+            "name": "Long Range Dual Motor",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 360, "powerBhp": 483, "torqueNm": 840,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 5.0, "topSpeedKph": 210, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 111, "electricRangeKm": 631, "electricRangeNote": "392 mi WLTP", "chargingKw": 250,
+            "lengthMm": 4900, "widthMm": 1968, "heightMm": 1614, "weightKg": 2584,
+            "bootLitres": 484, "doors": 5, "seats": 5,
+            "sources": ["https://www.polestar.com/uk/polestar-3/specifications/", "https://www.carwow.co.uk/polestar/3"]
+          },
+          {
+            "name": "Long Range Dual Motor Performance",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 380, "powerBhp": 510, "torqueNm": 910,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 4.7, "topSpeedKph": 210, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 111, "electricRangeKm": 560, "electricRangeNote": "348 mi WLTP", "chargingKw": 250,
+            "lengthMm": 4900, "widthMm": 1968, "heightMm": 1614, "weightKg": 2584,
+            "bootLitres": 484, "doors": 5, "seats": 5,
+            "notes": "MY26 (announced late 2025) adds 680 bhp Performance and revised 92/106 kWh packs - treat as separate refresh",
+            "sources": ["https://www.polestar.com/uk/polestar-3/performance/", "https://www.electriccarscheme.com/blog/polestar-electric-cars-uk-2-3-4-complete-guide-2026"]
+          }
+        ]
+      },
+      {
+        "name": "Polestar 4",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "Long Range Single Motor",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 200, "powerBhp": 268, "torqueNm": 343,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "acceleration0100": 7.1, "topSpeedKph": 200, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 100, "batteryKwhNote": "100 kWh gross / 94 usable", "electricRangeKm": 620, "electricRangeNote": "385 mi WLTP", "chargingKw": 200,
+            "lengthMm": 4839, "widthMm": 2008, "heightMm": 1544, "weightKg": 2230,
+            "bootLitres": 526, "doors": 5, "seats": 5,
+            "sources": ["https://www.polestar.com/uk/polestar-4/specifications/", "https://www.synergycarleasing.co.uk/guides/polestar-3-vs-4/"]
+          },
+          {
+            "name": "Long Range Dual Motor",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 400, "powerBhp": 536, "torqueNm": 686,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 3.8, "topSpeedKph": 200, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 100, "electricRangeKm": 590, "electricRangeNote": "367 mi WLTP", "chargingKw": 200,
+            "lengthMm": 4839, "widthMm": 2008, "heightMm": 1544, "weightKg": 2355,
+            "bootLitres": 526, "doors": 5, "seats": 5,
+            "sources": ["https://www.polestar.com/uk/polestar-4/specifications/", "https://www.electriccarscheme.com/blog/polestar-electric-cars-uk-2-3-4-complete-guide-2026"]
+          }
+        ]
+      },
+      {
+        "name": "Polestar 5",
+        "bodyType": "Saloon",
+        "variants": [
+          {
+            "name": "Dual Motor",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 550, "powerBhp": 738, "torqueNm": 812,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 3.9, "topSpeedKph": 250, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 112, "batteryKwhNote": "112 kWh gross / 106 usable, 800V", "electricRangeKm": 670, "electricRangeNote": "Up to 416 mi WLTP", "chargingKw": 350,
+            "lengthMm": 5092, "widthMm": 1971, "heightMm": 1420, "weightKg": null,
+            "bootLitres": 365, "bootLitresNote": "Plus 62 L frunk", "doors": 5, "seats": 4,
+            "sources": ["https://ev-database.org/uk/car/3298/Polestar-5-Dual-Motor", "https://paultan.org/2025/09/09/polestar-5-debuts-twin-motor-awd-grand-tourer-ev-with-up-to-884-ps-1015-nm-up-to-670-km-range-wltp/"]
+          },
+          {
+            "name": "Dual Motor Performance",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 650, "powerBhp": 871, "torqueNm": 1015,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 3.2, "topSpeedKph": 250, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 112, "electricRangeKm": 565, "electricRangeNote": "~351 mi WLTP", "chargingKw": 350,
+            "lengthMm": 5092, "widthMm": 1971, "heightMm": 1420, "weightKg": null,
+            "bootLitres": 365, "doors": 5, "seats": 4,
+            "sources": ["https://www.topgear.com/car-reviews/polestar/5-grand-tourer-special-edition-2025/650kw-112kwh-lr-dm-performance-launch-ed", "https://paultan.org/2025/09/09/polestar-5-debuts-twin-motor-awd-grand-tourer-ev-with-up-to-884-ps-1015-nm-up-to-670-km-range-wltp/"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "DS",
+    "country": "France",
+    "models": [
+      {
+        "name": "N°8",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "FWD 74kWh (230hp)",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 169, "powerBhp": 227, "powerNote": "230 PS (boost); some sources quote 256 bhp - minor CONFLICT", "torqueNm": 343,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 7.8, "topSpeedKph": 190, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 73.7, "electricRangeKm": 571, "electricRangeNote": "355 mi WLTP", "chargingKw": 160,
+            "lengthMm": 4820, "widthMm": 1900, "heightMm": 1580, "weightKg": null,
+            "bootLitres": 620, "doors": 5, "seats": 5,
+            "sources": ["https://www.media.stellantis.com/uk-en/ds/press/the-new-all-electric-ds-n08-is-now-available-to-order", "https://www.autoexpress.co.uk/ds/no8"]
+          },
+          {
+            "name": "FWD Long Range 97.2kWh (245hp)",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 180, "powerBhp": 242, "torqueNm": 343,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 7.7, "topSpeedKph": 190, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 97.2, "electricRangeKm": 750, "electricRangeNote": "466 mi WLTP headline", "chargingKw": 200,
+            "lengthMm": 4820, "widthMm": 1900, "heightMm": 1580, "weightKg": null,
+            "bootLitres": 620, "doors": 5, "seats": 5,
+            "sources": ["https://www.autocar.co.uk/car-news/new-cars/new-ds-no8-tops-out-%C2%A363290-370bhp-and-426-miles", "https://en.wikipedia.org/wiki/DS_No._8"]
+          },
+          {
+            "name": "AWD Long Range 97.2kWh (350hp)",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 257, "powerBhp": 345, "torqueNm": 509,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 5.4, "topSpeedKph": 190, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 97.2, "electricRangeKm": 686, "electricRangeNote": "426 mi WLTP", "chargingKw": 200,
+            "lengthMm": 4820, "widthMm": 1900, "heightMm": 1580, "weightKg": null,
+            "bootLitres": 620, "doors": 5, "seats": 5,
+            "sources": ["https://ev-database.org/uk/car/3078/DS-Automobiles-N8-AWD-Long-Range", "https://www.autocar.co.uk/car-news/new-cars/new-ds-no8-tops-out-%C2%A363290-370bhp-and-426-miles"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Suzuki",
+    "country": "Japan",
+    "models": [
+      {
+        "name": "eVitara",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "49kWh 2WD",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 106, "powerBhp": 142, "torqueNm": 193,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": null, "topSpeedKph": 150, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 49, "batteryKwhNote": "Usable (LFP)", "electricRangeKm": 343, "electricRangeNote": "213 mi WLTP", "chargingKw": null, "chargingNote": "DC ~45 min 10-80% (~70 kW class); official peak not published",
+            "lengthMm": 4275, "widthMm": 1800, "heightMm": 1640, "weightKg": null,
+            "bootLitres": 306, "doors": 5, "seats": 5,
+            "sources": ["https://cars.suzuki.co.uk/new-cars/e-vitara/", "https://www.autoexpress.co.uk/suzuki/e-vitara"]
+          },
+          {
+            "name": "61kWh 2WD",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 128, "powerBhp": 172, "torqueNm": 193,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": null, "topSpeedKph": 150, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 61, "electricRangeKm": 425, "electricRangeNote": "264 mi WLTP", "chargingKw": null,
+            "lengthMm": 4275, "widthMm": 1800, "heightMm": 1640, "weightKg": null,
+            "bootLitres": 306, "doors": 5, "seats": 5,
+            "sources": ["https://cars.suzuki.co.uk/new-cars/e-vitara/", "https://www.topgear.com/car-reviews/suzuki/evitara"]
+          },
+          {
+            "name": "61kWh ALLGRIP-e AWD",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 135, "powerBhp": 181, "torqueNm": 307,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": null, "topSpeedKph": 150, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 61, "electricRangeKm": 394, "electricRangeNote": "245 mi WLTP", "chargingKw": null,
+            "lengthMm": 4275, "widthMm": 1800, "heightMm": 1640, "weightKg": null,
+            "bootLitres": 306, "doors": 5, "seats": 5,
+            "sources": ["https://cars.suzuki.co.uk/new-cars/e-vitara/", "https://www.whatcar.com/suzuki/e-vitara/4x4/review/n28299"]
+          }
+        ]
+      },
+      {
+        "name": "Swift (2024 gen)",
+        "bodyType": "Hatchback",
+        "variants": [
+          {
+            "name": "1.2 Mild Hybrid",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "PETROL_MHEV",
+            "engineDisplacement": 1197, "cylinders": 3,
+            "powerKw": 61, "powerBhp": 81, "torqueNm": 112,
+            "gearboxType": "MANUAL_OR_CVT", "gears": 5, "gearsNote": "5-spd manual or CVT; ALLGRIP 4WD manual option",
+            "drivetrain": "FWD",
+            "acceleration0100": 12.5, "topSpeedKph": 165, "combinedMpg": 64.2, "co2Gkm": 99,
+            "batteryKwh": null, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 3860, "widthMm": 1735, "heightMm": 1495, "weightKg": 949,
+            "bootLitres": 265, "doors": 5, "seats": 5,
+            "sources": ["https://cars.suzuki.co.uk/new-cars/swift/", "https://www.parkers.co.uk/suzuki/swift/"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Skoda",
+    "country": "Czech Republic",
+    "models": [
+      {
+        "name": "Elroq",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "Elroq 50",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 125, "powerBhp": 168, "torqueNm": 310,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "acceleration0100": 9.0, "topSpeedKph": 160, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 55, "batteryKwhNote": "55 kWh gross / 52 net", "electricRangeKm": 373, "electricRangeNote": "232 mi WLTP", "chargingKw": 145,
+            "lengthMm": 4488, "widthMm": 1884, "heightMm": 1625, "weightKg": null,
+            "bootLitres": 470, "doors": 5, "seats": 5,
+            "sources": ["https://www.skoda-storyboard.com/en/press-kits/skoda-elroq-press-kit/batteries-and-powertrains-long-range-and-reduced-charging-times-for-an-even-better-customer-experience/", "https://www.autoexpress.co.uk/skoda/elroq"]
+          },
+          {
+            "name": "Elroq 60",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 150, "powerBhp": 201, "torqueNm": 310,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "acceleration0100": 8.0, "topSpeedKph": 160, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 63, "batteryKwhNote": "63 kWh gross / 59 net", "electricRangeKm": 430, "electricRangeNote": "267 mi WLTP", "chargingKw": 165,
+            "lengthMm": 4488, "widthMm": 1884, "heightMm": 1625, "weightKg": null,
+            "bootLitres": 470, "doors": 5, "seats": 5,
+            "sources": ["https://www.carwow.co.uk/skoda/elroq", "https://www.electrifying.com/reviews/skoda-reviews/elroq/review"]
+          },
+          {
+            "name": "Elroq 85",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 210, "powerBhp": 282, "torqueNm": 545,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "acceleration0100": 6.6, "topSpeedKph": 180, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 82, "batteryKwhNote": "82 kWh gross / 77 net", "electricRangeKm": 579, "electricRangeNote": "Up to 360 mi WLTP", "chargingKw": 175,
+            "lengthMm": 4488, "widthMm": 1884, "heightMm": 1625, "weightKg": null,
+            "bootLitres": 470, "doors": 5, "seats": 5,
+            "sources": ["https://www.autocar.co.uk/car-review/skoda/elroq", "https://evspecshub.com/skoda-elroq-85-2024-full-specs-range-battery/"]
+          },
+          {
+            "name": "Elroq vRS",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 250, "powerBhp": 335, "torqueNm": 679,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 5.4, "topSpeedKph": 180, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 84, "batteryKwhNote": "84 kWh gross / 79 net", "electricRangeKm": 554, "electricRangeNote": "~345 mi WLTP", "chargingKw": 185,
+            "lengthMm": 4488, "widthMm": 1884, "heightMm": 1625, "weightKg": null,
+            "bootLitres": 470, "doors": 5, "seats": 5,
+            "sources": ["https://www.autoexpress.co.uk/skoda/elroq", "https://www.carwow.co.uk/skoda/elroq"]
+          }
+        ]
+      },
+      {
+        "name": "Enyaq (2025 facelift)",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "Enyaq 60",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 150, "powerBhp": 201, "torqueNm": 310,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "acceleration0100": 8.1, "topSpeedKph": 160, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 63, "batteryKwhNote": "63 kWh gross / 59 net", "electricRangeKm": 431, "electricRangeNote": "268 mi WLTP", "chargingKw": 165,
+            "lengthMm": 4658, "widthMm": 1879, "heightMm": 1622, "weightKg": null,
+            "bootLitres": 585, "doors": 5, "seats": 5,
+            "notes": "Facelift with Modern Solid front end; Coupe body also available",
+            "sources": ["https://www.skoda.co.uk/models/enyaq", "https://www.carwow.co.uk/skoda/enyaq"]
+          },
+          {
+            "name": "Enyaq 85",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 210, "powerBhp": 282, "torqueNm": 545,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "acceleration0100": 6.7, "topSpeedKph": 180, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 82, "batteryKwhNote": "82 kWh gross / 77 net", "electricRangeKm": 578, "electricRangeNote": "359 mi WLTP", "chargingKw": 175,
+            "lengthMm": 4658, "widthMm": 1879, "heightMm": 1622, "weightKg": null,
+            "bootLitres": 585, "doors": 5, "seats": 5,
+            "sources": ["https://www.skoda.co.uk/models/enyaq", "https://www.autoexpress.co.uk/skoda/enyaq"]
+          },
+          {
+            "name": "Enyaq 85x AWD",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 210, "powerBhp": 282, "torqueNm": 545,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 6.6, "topSpeedKph": 180, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 82, "electricRangeKm": 537, "electricRangeNote": "~334 mi WLTP", "chargingKw": 175,
+            "lengthMm": 4658, "widthMm": 1879, "heightMm": 1622, "weightKg": null,
+            "bootLitres": 585, "doors": 5, "seats": 5,
+            "sources": ["https://www.skoda.co.uk/models/enyaq"]
+          },
+          {
+            "name": "Enyaq vRS",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 250, "powerBhp": 335, "torqueNm": 679,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 5.5, "topSpeedKph": 180, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 84, "electricRangeKm": 547, "electricRangeNote": "~340 mi WLTP", "chargingKw": 185,
+            "lengthMm": 4658, "widthMm": 1879, "heightMm": 1622, "weightKg": null,
+            "bootLitres": 585, "doors": 5, "seats": 5,
+            "sources": ["https://www.skoda.co.uk/models/enyaq"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Renault",
+    "country": "France",
+    "models": [
+      {
+        "name": "5 E-Tech",
+        "bodyType": "Hatchback",
+        "variants": [
+          {
+            "name": "120hp Urban Range 40kWh",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 90, "powerBhp": 118, "torqueNm": 225,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 9.0, "topSpeedKph": 150, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 40, "electricRangeKm": 306, "electricRangeNote": "190 mi WLTP", "chargingKw": 80,
+            "lengthMm": 3922, "widthMm": 1774, "heightMm": 1498, "weightKg": 1372,
+            "bootLitres": 326, "doors": 5, "seats": 5,
+            "sources": ["https://www.renault.co.uk/electric-vehicles/r5-e-tech-electric/specifications.html", "https://www.carwow.co.uk/renault/5-e-tech"]
+          },
+          {
+            "name": "150hp Comfort Range 52kWh",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 110, "powerBhp": 148, "torqueNm": 245,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 8.0, "topSpeedKph": 150, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 52, "electricRangeKm": 406, "electricRangeNote": "252 mi WLTP", "chargingKw": 100,
+            "lengthMm": 3922, "widthMm": 1774, "heightMm": 1498, "weightKg": 1449,
+            "bootLitres": 326, "doors": 5, "seats": 5,
+            "sources": ["https://www.renault.co.uk/electric-vehicles/r5-e-tech-electric/specifications.html", "https://www.carwow.co.uk/renault/5-e-tech"]
+          }
+        ]
+      },
+      {
+        "name": "4 E-Tech",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "150hp Comfort Range 52kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 110, "powerBhp": 148, "torqueNm": 245,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 8.2, "topSpeedKph": 150, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 52, "electricRangeKm": 397, "electricRangeNote": "247 mi WLTP", "chargingKw": 100,
+            "lengthMm": 4144, "widthMm": 1808, "heightMm": 1572, "weightKg": 1462,
+            "bootLitres": 420, "doors": 5, "seats": 5,
+            "notes": "UK sold with 52 kWh battery only",
+            "sources": ["https://www.renault.co.uk/electric-vehicles/r4-e-tech-electric/specifications.html", "https://www.rac.co.uk/drive/car-reviews/renault/4-e-tech/4-e-tech/"]
+          }
+        ]
+      },
+      {
+        "name": "Scenic E-Tech",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "Standard Range 60kWh 170hp",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 125, "powerBhp": 168, "torqueNm": 280,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 8.6, "topSpeedKph": 150, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 60, "electricRangeKm": 418, "electricRangeNote": "260 mi WLTP", "chargingKw": 130,
+            "lengthMm": 4470, "widthMm": 1864, "heightMm": 1571, "weightKg": null,
+            "bootLitres": 545, "doors": 5, "seats": 5,
+            "sources": ["https://www.renault.co.uk/electric-vehicles/scenic-e-tech-electric.html", "https://www.carwow.co.uk/renault/scenic"]
+          },
+          {
+            "name": "Long Range 87kWh 220hp",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 160, "powerBhp": 215, "torqueNm": 300,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 7.9, "topSpeedKph": 170, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 87, "electricRangeKm": 610, "electricRangeNote": "379 mi WLTP", "chargingKw": 150,
+            "lengthMm": 4470, "widthMm": 1864, "heightMm": 1571, "weightKg": 1842,
+            "bootLitres": 545, "doors": 5, "seats": 5,
+            "sources": ["https://www.renault.co.uk/electric-vehicles/scenic-e-tech-electric.html", "https://ev-database.org/uk/car/1946/Renault-Scenic-E-Tech-Long-Range"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Vauxhall",
+    "country": "United Kingdom",
+    "models": [
+      {
+        "name": "Frontera (2024 gen)",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "Hybrid 110 (48V)",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "PETROL_MHEV",
+            "engineDisplacement": 1199, "cylinders": 3,
+            "powerKw": 81, "powerBhp": 108, "torqueNm": 205,
+            "gearboxType": "AUTOMATIC", "gears": 6, "gearsNote": "6-spd e-DCT",
+            "drivetrain": "FWD",
+            "acceleration0100": 11.0, "topSpeedKph": 180, "combinedMpg": 51.4, "co2Gkm": null,
+            "batteryKwh": 0.9, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 4385, "widthMm": 1795, "heightMm": 1635, "weightKg": null,
+            "bootLitres": 460, "doors": 5, "seats": 5, "notes": "7-seat option on hybrid; Hybrid 145 added 2025",
+            "sources": ["https://www.media.stellantis.com/uk-en/vauxhall/press/new-vauxhall-frontera-press-information", "https://www.autoexpress.co.uk/vauxhall/frontera"]
+          },
+          {
+            "name": "Electric 44kWh",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 83, "powerBhp": 111, "torqueNm": 125,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 12.1, "accelerationNote": "Sources quote 12.1-13.0 s - minor CONFLICT", "topSpeedKph": 143, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 44, "batteryKwhNote": "44 kWh gross / 43.7 usable LFP", "electricRangeKm": 299, "electricRangeNote": "186 mi WLTP", "chargingKw": 100,
+            "lengthMm": 4385, "widthMm": 1795, "heightMm": 1635, "weightKg": null,
+            "bootLitres": 460, "doors": 5, "seats": 5,
+            "sources": ["https://ev-database.org/uk/car/2238/Vauxhall-Frontera-Electric-44-kWh", "https://www.autocar.co.uk/car-review/vauxhall/frontera-electric"]
+          },
+          {
+            "name": "Electric Extended Range 54kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 83, "powerBhp": 111, "torqueNm": 125,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": null, "topSpeedKph": 143, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 54, "batteryKwhNote": "54 kWh gross / 51 usable NMC", "electricRangeKm": 407, "electricRangeNote": "253 mi WLTP", "chargingKw": 100,
+            "lengthMm": 4385, "widthMm": 1795, "heightMm": 1635, "weightKg": null,
+            "bootLitres": 460, "doors": 5, "seats": 5,
+            "sources": ["https://www.media.stellantis.com/uk-en/vauxhall/press/vauxhall-announces-details-for-new-frontera-electric-extended-range"]
+          }
+        ]
+      },
+      {
+        "name": "Grandland (2024 gen)",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "Hybrid 145 (48V)",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "PETROL_MHEV",
+            "engineDisplacement": 1199, "cylinders": 3,
+            "powerKw": 107, "powerBhp": 143, "torqueNm": 230,
+            "gearboxType": "AUTOMATIC", "gears": 6, "gearsNote": "6-spd e-DCT",
+            "drivetrain": "FWD",
+            "acceleration0100": 10.2, "topSpeedKph": 202, "combinedMpg": 51.4, "co2Gkm": null,
+            "batteryKwh": 0.9, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 4650, "widthMm": 1905, "heightMm": 1665, "weightKg": null,
+            "bootLitres": 550, "doors": 5, "seats": 5,
+            "sources": ["https://www.media.stellantis.com/uk-en/vauxhall/press/vauxhall-grandland-press-information", "https://www.autoexpress.co.uk/vauxhall/grandland"]
+          },
+          {
+            "name": "Plug-in Hybrid 195",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "PLUGIN_HYBRID",
+            "engineDisplacement": 1598, "cylinders": 4,
+            "powerKw": 143, "powerBhp": 192, "torqueNm": 350,
+            "gearboxType": "AUTOMATIC", "gears": 7, "gearsNote": "7-spd e-DCT",
+            "drivetrain": "FWD",
+            "acceleration0100": 7.8, "topSpeedKph": 220, "combinedMpg": 192.0, "co2Gkm": null,
+            "batteryKwh": 13.2, "batteryKwhNote": "Source quotes 13.2 kWh; some list 17.9 kWh gross - CONFLICT", "electricRangeKm": 63, "electricRangeNote": "39 mi WLTP EV-only", "chargingKw": null,
+            "lengthMm": 4650, "widthMm": 1905, "heightMm": 1665, "weightKg": null,
+            "bootLitres": 550, "doors": 5, "seats": 5,
+            "sources": ["https://www.greencarguide.co.uk/car-reviews-and-road-tests/vauxhall-grandland-plug-in-hybrid-review/", "https://www.vauxhall.co.uk/cars/grandland/model-overview.html"]
+          },
+          {
+            "name": "Electric 73kWh",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 157, "powerBhp": 210, "torqueNm": 345,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 9.0, "topSpeedKph": 170, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 73, "batteryKwhNote": "73 kWh net", "electricRangeKm": 520, "electricRangeNote": "323 mi WLTP", "chargingKw": 160,
+            "lengthMm": 4650, "widthMm": 1905, "heightMm": 1665, "weightKg": 2172,
+            "bootLitres": 550, "doors": 5, "seats": 5,
+            "sources": ["https://ev-database.org/uk/car/3037/Vauxhall-Grandland-Electric-73-kWh", "https://www.media.stellantis.com/uk-en/vauxhall/press/vauxhall-grandland-press-information"]
+          },
+          {
+            "name": "Electric AWD (321hp)",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 239, "powerBhp": 321, "torqueNm": 509,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 6.1, "topSpeedKph": 180, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 73, "electricRangeKm": 500, "electricRangeNote": "311 mi WLTP", "chargingKw": 160,
+            "lengthMm": 4650, "widthMm": 1905, "heightMm": 1665, "weightKg": null,
+            "bootLitres": 550, "doors": 5, "seats": 5,
+            "sources": ["https://www.autoexpress.co.uk/vauxhall/grandland"]
+          },
+          {
+            "name": "Electric Long Range 97kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 170, "powerBhp": 228, "powerNote": "Approx; not fully confirmed", "torqueNm": 345,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": null, "topSpeedKph": 170, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 97, "batteryKwhNote": "97 kWh net", "electricRangeKm": 700, "electricRangeNote": "~435 mi WLTP claimed", "chargingKw": 160,
+            "lengthMm": 4650, "widthMm": 1905, "heightMm": 1665, "weightKg": null,
+            "bootLitres": 550, "doors": 5, "seats": 5,
+            "sources": ["https://www.autoexpress.co.uk/vauxhall/grandland", "https://www.carbuyer.co.uk/vauxhall/grandland/mpg"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Citroen",
+    "country": "France",
+    "models": [
+      {
+        "name": "C3 / e-C3 (2024 gen)",
+        "bodyType": "Hatchback",
+        "variants": [
+          {
+            "name": "1.2 PureTech 100",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "PETROL",
+            "engineDisplacement": 1199, "cylinders": 3,
+            "powerKw": 74, "powerBhp": 99, "torqueNm": 205,
+            "gearboxType": "MANUAL", "gears": 6, "drivetrain": "FWD",
+            "acceleration0100": 10.6, "topSpeedKph": 183, "combinedMpg": null, "co2Gkm": null,
+            "batteryKwh": null, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 4015, "widthMm": 1755, "heightMm": 1577, "weightKg": null,
+            "bootLitres": 310, "doors": 5, "seats": 5,
+            "sources": ["https://www.citroen.co.uk/models/c3.html", "https://www.parkers.co.uk/citroen/c3/"]
+          },
+          {
+            "name": "Hybrid 110 (48V)",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "PETROL_MHEV",
+            "engineDisplacement": 1199, "cylinders": 3,
+            "powerKw": 81, "powerBhp": 108, "torqueNm": 205,
+            "gearboxType": "AUTOMATIC", "gears": 6, "gearsNote": "6-spd e-DCT",
+            "drivetrain": "FWD",
+            "acceleration0100": 10.0, "topSpeedKph": 190, "combinedMpg": null, "co2Gkm": null,
+            "batteryKwh": 0.9, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 4015, "widthMm": 1755, "heightMm": 1577, "weightKg": null,
+            "bootLitres": 310, "doors": 5, "seats": 5,
+            "sources": ["https://www.citroen.co.uk/models/c3.html"]
+          },
+          {
+            "name": "e-C3 44kWh",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 83, "powerBhp": 111, "torqueNm": 124,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 11.0, "topSpeedKph": 135, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 44, "batteryKwhNote": "LFP", "electricRangeKm": 320, "electricRangeNote": "199 mi WLTP", "chargingKw": 100,
+            "lengthMm": 4015, "widthMm": 1755, "heightMm": 1577, "weightKg": 1416,
+            "bootLitres": 310, "doors": 5, "seats": 5,
+            "sources": ["https://ev-database.org/uk/car/2189/Citroen-e-C3", "https://www.citroen.co.uk/models/e-c3.html"]
+          }
+        ]
+      },
+      {
+        "name": "C3 Aircross / e-C3 Aircross (2024 gen)",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "1.2 PureTech 100",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "PETROL",
+            "engineDisplacement": 1199, "cylinders": 3,
+            "powerKw": 74, "powerBhp": 99, "torqueNm": 205,
+            "gearboxType": "MANUAL", "gears": 6, "drivetrain": "FWD",
+            "acceleration0100": 11.5, "topSpeedKph": 180, "combinedMpg": null, "co2Gkm": null,
+            "batteryKwh": null, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 4395, "widthMm": 1795, "heightMm": 1660, "weightKg": null,
+            "bootLitres": 460, "doors": 5, "seats": 5, "notes": "7-seat option on ICE/hybrid versions",
+            "sources": ["https://www.citroen.co.uk/models/c3-aircross.html", "https://www.carsuk.net/new-citroen-c3-aircross-and-electric-e-c3-aircross-uk-specs-and-pricing-announced/"]
+          },
+          {
+            "name": "Hybrid 145",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "PETROL_MHEV",
+            "engineDisplacement": 1199, "cylinders": 3,
+            "powerKw": 107, "powerBhp": 143, "powerNote": "UK material also references Hybrid 136 (revised MY output) - CONFLICT flagged", "torqueNm": 230,
+            "gearboxType": "AUTOMATIC", "gears": 6, "gearsNote": "6-spd e-DCT",
+            "drivetrain": "FWD",
+            "acceleration0100": 8.9, "topSpeedKph": 194, "combinedMpg": null, "co2Gkm": null,
+            "batteryKwh": 0.9, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 4395, "widthMm": 1795, "heightMm": 1660, "weightKg": null,
+            "bootLitres": 460, "doors": 5, "seats": 5,
+            "sources": ["https://www.citroen.co.uk/models/c3-aircross.html", "https://www.carsuk.net/new-citroen-c3-aircross-and-electric-e-c3-aircross-uk-specs-and-pricing-announced/"]
+          },
+          {
+            "name": "e-C3 Aircross 44kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 83, "powerBhp": 111, "torqueNm": 124,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 12.0, "topSpeedKph": 135, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 44, "batteryKwhNote": "LFP", "electricRangeKm": 303, "electricRangeNote": "188 mi WLTP", "chargingKw": 100,
+            "lengthMm": 4395, "widthMm": 1795, "heightMm": 1660, "weightKg": null,
+            "bootLitres": 460, "doors": 5, "seats": 5, "notes": "EV is 5-seat only. 54 kWh Extended Range (~247 mi) announced for later availability",
+            "sources": ["https://www.parkers.co.uk/citroen/e-c3/aircross-2025/specs/", "https://www.autocar.co.uk/car-review/citroen/e-c3-aircross/specs"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Ford",
+    "country": "USA",
+    "models": [
+      {
+        "name": "Explorer EV",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "Standard Range RWD 52kWh",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 125, "powerBhp": 168, "torqueNm": 310,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "acceleration0100": 8.7, "topSpeedKph": 160, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 55, "batteryKwhNote": "52 kWh usable", "electricRangeKm": 384, "electricRangeNote": "239 mi WLTP", "chargingKw": 125,
+            "lengthMm": 4468, "widthMm": 1871, "heightMm": 1630, "weightKg": null,
+            "bootLitres": 470, "doors": 5, "seats": 5,
+            "sources": ["https://www.ford.co.uk/cars/explorer", "https://ev-database.org/uk/car/2091/Ford-Explorer-Standard-Range-RWD"]
+          },
+          {
+            "name": "Extended Range RWD 77kWh",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 210, "powerBhp": 282, "torqueNm": 545,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "acceleration0100": 6.4, "topSpeedKph": 180, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 82, "batteryKwhNote": "77 kWh usable", "electricRangeKm": 602, "electricRangeNote": "374 mi WLTP", "chargingKw": 135,
+            "lengthMm": 4468, "widthMm": 1871, "heightMm": 1630, "weightKg": 2098,
+            "bootLitres": 470, "doors": 5, "seats": 5,
+            "sources": ["https://www.ford.co.uk/cars/explorer", "https://ev-database.org/uk/car/2090/Ford-Explorer-Extended-Range-RWD"]
+          },
+          {
+            "name": "Extended Range AWD 79kWh",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 250, "powerBhp": 335, "torqueNm": 679,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 5.3, "topSpeedKph": 180, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 84, "batteryKwhNote": "79 kWh usable", "electricRangeKm": 529, "electricRangeNote": "329 mi WLTP", "chargingKw": 185,
+            "lengthMm": 4468, "widthMm": 1871, "heightMm": 1630, "weightKg": 2180,
+            "bootLitres": 470, "doors": 5, "seats": 5,
+            "sources": ["https://www.ford.co.uk/cars/explorer", "https://ev-database.org/uk/car/2089/Ford-Explorer-Extended-Range-AWD"]
+          }
+        ]
+      },
+      {
+        "name": "Capri EV",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "Extended Range RWD 77kWh",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 210, "powerBhp": 282, "torqueNm": 545,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "acceleration0100": 6.4, "topSpeedKph": 180, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 82, "batteryKwhNote": "77 kWh usable", "electricRangeKm": 627, "electricRangeNote": "390 mi WLTP", "chargingKw": 135,
+            "lengthMm": 4634, "widthMm": 1872, "heightMm": 1626, "weightKg": 2098,
+            "bootLitres": 572, "doors": 5, "seats": 5,
+            "sources": ["https://www.ford.co.uk/cars/capri", "https://ev-database.org/uk/car/2216/Ford-Capri-Extended-Range-RWD"]
+          },
+          {
+            "name": "Extended Range AWD 79kWh",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 250, "powerBhp": 335, "torqueNm": 679,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 5.3, "topSpeedKph": 180, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 84, "batteryKwhNote": "79 kWh usable", "electricRangeKm": 557, "electricRangeNote": "346 mi WLTP", "chargingKw": 185,
+            "lengthMm": 4634, "widthMm": 1872, "heightMm": 1626, "weightKg": 2180,
+            "bootLitres": 572, "doors": 5, "seats": 5,
+            "sources": ["https://www.ford.co.uk/cars/capri", "https://www.evcourse.com/vs/ford-capri-vs-ford-puma-gen-e"]
+          },
+          {
+            "name": "Standard Range RWD 52kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 125, "powerBhp": 168, "torqueNm": 310,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "acceleration0100": 8.7, "topSpeedKph": 160, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 55, "batteryKwhNote": "52 kWh usable", "electricRangeKm": 391, "electricRangeNote": "~243 mi WLTP (added to range 2025; verify UK availability)", "chargingKw": 125,
+            "lengthMm": 4634, "widthMm": 1872, "heightMm": 1626, "weightKg": null,
+            "bootLitres": 572, "doors": 5, "seats": 5,
+            "sources": ["https://www.ford.co.uk/cars/capri"]
+          }
+        ]
+      },
+      {
+        "name": "Puma Gen-E",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "Gen-E 43kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 123, "powerBhp": 166, "torqueNm": 290,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 8.0, "topSpeedKph": 160, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 43.6, "batteryKwhNote": "43.6 kWh usable / 46 gross", "electricRangeKm": 417, "electricRangeNote": "259 mi WLTP (Select trim; 251 mi Premium). Early launch material quoted 233 mi - figure revised upward", "chargingKw": 100,
+            "lengthMm": 4214, "widthMm": 1805, "heightMm": 1555, "weightKg": 1563,
+            "bootLitres": 523, "bootLitresNote": "With Gigabox underfloor storage; plus 43 L frunk", "doors": 5, "seats": 5,
+            "sources": ["https://www.ford.co.uk/cars/puma-gen-e", "https://www.autoexpress.co.uk/ford/puma/gen-e", "https://insideevs.com/news/742709/ford-puma-gen-e-electric-specs-range-battery/"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Kia",
+    "country": "South Korea",
+    "models": [
+      {
+        "name": "EV3",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "Standard Range 58.3kWh",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 150, "powerBhp": 201, "torqueNm": 283,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 7.5, "topSpeedKph": 170, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 58.3, "electricRangeKm": 434, "electricRangeNote": "270 mi WLTP", "chargingKw": 102,
+            "lengthMm": 4300, "widthMm": 1850, "heightMm": 1560, "weightKg": 1800,
+            "bootLitres": 460, "doors": 5, "seats": 5,
+            "sources": ["https://www.kia.com/uk/new-cars/ev3/", "https://en.wikipedia.org/wiki/Kia_EV3"]
+          },
+          {
+            "name": "Long Range 81.4kWh",
+            "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 150, "powerBhp": 201, "torqueNm": 283,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 7.7, "topSpeedKph": 170, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 81.4, "electricRangeKm": 603, "electricRangeNote": "375 mi WLTP (Air trim)", "chargingKw": 128,
+            "lengthMm": 4300, "widthMm": 1850, "heightMm": 1560, "weightKg": 1885,
+            "bootLitres": 460, "doors": 5, "seats": 5,
+            "sources": ["https://www.kia.com/uk/new-cars/ev3/", "https://en.wikipedia.org/wiki/Kia_EV3"]
+          }
+        ]
+      },
+      {
+        "name": "EV4",
+        "bodyType": "Hatchback",
+        "variants": [
+          {
+            "name": "Standard Range 58.3kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 150, "powerBhp": 201, "torqueNm": 283,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 7.4, "topSpeedKph": 170, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 58.3, "electricRangeKm": 439, "electricRangeNote": "273 mi WLTP", "chargingKw": 128,
+            "lengthMm": 4430, "widthMm": 1860, "heightMm": 1485, "weightKg": null,
+            "bootLitres": 435, "doors": 5, "seats": 5,
+            "notes": "UK hatchback; Fastback saloon body also offered with slightly different figures",
+            "sources": ["https://www.kia.com/uk/new-cars/ev4/", "https://www.drive-electric.co.uk/news/kia-ev4-spec-and-pricing-revealed/"]
+          },
+          {
+            "name": "Long Range 81.4kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 150, "powerBhp": 201, "torqueNm": 283,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 7.7, "topSpeedKph": 170, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 81.4, "electricRangeKm": 624, "electricRangeNote": "388 mi WLTP (hatch); saloon up to 391 mi", "chargingKw": 128,
+            "lengthMm": 4430, "widthMm": 1860, "heightMm": 1485, "weightKg": null,
+            "bootLitres": 435, "doors": 5, "seats": 5,
+            "sources": ["https://www.kia.com/uk/new-cars/ev4/", "https://www.carwow.co.uk/kia/ev4"]
+          }
+        ]
+      },
+      {
+        "name": "EV5",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "81.4kWh FWD",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 160, "powerBhp": 214, "torqueNm": 295,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 8.4, "topSpeedKph": 165, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 81.4, "electricRangeKm": 529, "electricRangeNote": "329 mi WLTP (down to 313 mi on higher trims)", "chargingKw": null, "chargingNote": "400V; 10-80% ~30 min DC",
+            "lengthMm": 4610, "widthMm": 1875, "heightMm": 1675, "weightKg": null,
+            "bootLitres": 566, "doors": 5, "seats": 5,
+            "sources": ["https://www.kia.com/uk/new-cars/ev5/", "https://www.carwow.co.uk/kia/ev5"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "country": "South Korea",
+    "models": [
+      {
+        "name": "Inster",
+        "bodyType": "Hatchback",
+        "variants": [
+          {
+            "name": "Standard Range 42kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 71.1, "powerBhp": 95, "torqueNm": 147,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 11.7, "topSpeedKph": 140, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 42, "electricRangeKm": 327, "electricRangeNote": "203 mi WLTP", "chargingKw": 85,
+            "lengthMm": 3825, "widthMm": 1610, "heightMm": 1575, "weightKg": null,
+            "bootLitres": 280, "doors": 5, "seats": 4,
+            "sources": ["https://www.hyundai.news/uk/articles/press-releases/all-new-inster-pricing-and-specification.html", "https://www.autoexpress.co.uk/hyundai/inster"]
+          },
+          {
+            "name": "Long Range 49kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 84.5, "powerBhp": 113, "torqueNm": 147,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 10.6, "topSpeedKph": 150, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 49, "electricRangeKm": 369, "electricRangeNote": "229 mi WLTP", "chargingKw": 85,
+            "lengthMm": 3825, "widthMm": 1610, "heightMm": 1575, "weightKg": null,
+            "bootLitres": 280, "doors": 5, "seats": 4,
+            "sources": ["https://www.hyundai.news/uk/articles/press-releases/all-new-inster-pricing-and-specification.html", "https://www.carwow.co.uk/hyundai/inster"]
+          }
+        ]
+      },
+      {
+        "name": "Ioniq 9",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "Long Range RWD 218PS",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 160, "powerBhp": 215, "torqueNm": 350,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD",
+            "acceleration0100": 9.4, "topSpeedKph": 200, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 110.3, "batteryKwhNote": "800V architecture", "electricRangeKm": 620, "electricRangeNote": "385 mi WLTP", "chargingKw": 233,
+            "lengthMm": 5060, "widthMm": 1980, "heightMm": 1790, "weightKg": null,
+            "bootLitres": 620, "doors": 5, "seats": 7,
+            "sources": ["https://www.hyundai.news/uk/articles/press-releases/ioniq-9-pricing-specs-tech-0725.html", "https://www.electrive.com/2025/07/15/hyundai-reveals-ioniq-9-uk-pricing-and-specs/"]
+          },
+          {
+            "name": "Long Range AWD 307PS",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 226, "powerBhp": 303, "torqueNm": 605,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 6.7, "topSpeedKph": 200, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 110.3, "electricRangeKm": null, "electricRangeNote": "Slightly below RWD's 385 mi; exact UK WLTP not captured", "chargingKw": 233,
+            "lengthMm": 5060, "widthMm": 1980, "heightMm": 1790, "weightKg": null,
+            "bootLitres": 620, "doors": 5, "seats": 7,
+            "sources": ["https://www.hyundai.news/uk/articles/press-releases/ioniq-9-pricing-specs-tech-0725.html"]
+          },
+          {
+            "name": "Performance AWD 427PS",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 314.7, "powerBhp": 422, "torqueNm": 700,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 5.2, "topSpeedKph": 200, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 110.3, "electricRangeKm": null, "electricRangeNote": "Exact UK WLTP not captured", "chargingKw": 233,
+            "lengthMm": 5060, "widthMm": 1980, "heightMm": 1790, "weightKg": null,
+            "bootLitres": 620, "doors": 5, "seats": 7,
+            "sources": ["https://www.hyundai.news/uk/articles/press-releases/ioniq-9-pricing-specs-tech-0725.html", "https://www.carwow.co.uk/hyundai/ioniq-9"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Honda",
+    "country": "Japan",
+    "models": [
+      {
+        "name": "e:Ny1",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "68.8kWh FWD",
+            "yearFrom": 2023, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 150, "powerBhp": 201, "torqueNm": 310,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 7.6, "topSpeedKph": 160, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 68.8, "batteryKwhNote": "68.8 gross / 61.9 usable", "electricRangeKm": 412, "electricRangeNote": "256 mi WLTP", "chargingKw": 78,
+            "lengthMm": 4387, "widthMm": 1790, "heightMm": 1584, "weightKg": 1730,
+            "bootLitres": 344, "doors": 5, "seats": 5,
+            "notes": "CHECK ITEM: launched 2023 (pre-Oct-2024) so may already be in dataset - included for completeness",
+            "sources": ["https://www.honda.co.uk/cars/new/e-ny1/overview.html", "https://ev-database.org/uk/car/1616/Honda-eNy1"]
+          }
+        ]
+      },
+      {
+        "name": "Prelude",
+        "bodyType": "Coupe",
+        "variants": [
+          {
+            "name": "2.0 e:HEV",
+            "yearFrom": 2026, "yearTo": null, "fuelType": "HYBRID",
+            "engineDisplacement": 1993, "cylinders": 4,
+            "powerKw": 135, "powerBhp": 181, "torqueNm": 315,
+            "gearboxType": "AUTOMATIC", "gears": 1, "gearsNote": "e-CVT with simulated S+ Shift ratios",
+            "drivetrain": "FWD",
+            "acceleration0100": 8.2, "topSpeedKph": 188, "combinedMpg": null, "co2Gkm": null,
+            "batteryKwh": null, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 4520, "widthMm": 1880, "heightMm": 1355, "weightKg": null,
+            "bootLitres": null, "doors": 2, "seats": 4,
+            "notes": "UK technical spec published late 2025; UK deliveries from early 2026",
+            "sources": ["https://hondanews.eu/eu/el/cars/media/pressreleases/553086/2026-honda-prelude-coupe-ehev-technical-specification-uk", "https://www.autocar.co.uk/car-review/honda/prelude"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Toyota",
+    "country": "Japan",
+    "models": [
+      {
+        "name": "Urban Cruiser",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "49kWh FWD",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 106, "powerBhp": 142, "torqueNm": 189,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": null, "topSpeedKph": 150, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 49, "batteryKwhNote": "LFP", "electricRangeKm": 344, "electricRangeNote": "214 mi WLTP", "chargingKw": 67,
+            "lengthMm": 4285, "widthMm": 1800, "heightMm": 1640, "weightKg": null,
+            "bootLitres": 306, "doors": 5, "seats": 5,
+            "notes": "UK on sale Dec 2025, deliveries Q1 2026. Twin of Suzuki eVitara",
+            "sources": ["https://media.toyota.co.uk/the-all-new-toyota-urban-cruiser-uk-sales-launch/", "https://ev-database.org/uk/car/3209/Toyota-Urban-Cruiser-611-kWh"]
+          },
+          {
+            "name": "61kWh FWD",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 128, "powerBhp": 172, "torqueNm": 189,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": null, "topSpeedKph": 150, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 61, "electricRangeKm": 425, "electricRangeNote": "264 mi WLTP", "chargingKw": 67,
+            "lengthMm": 4285, "widthMm": 1800, "heightMm": 1640, "weightKg": null,
+            "bootLitres": 306, "doors": 5, "seats": 5,
+            "sources": ["https://media.toyota.co.uk/the-all-new-toyota-urban-cruiser-uk-sales-launch/", "https://www.carwow.co.uk/toyota/urban-cruiser"]
+          },
+          {
+            "name": "61kWh AWD",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 135, "powerBhp": 181, "torqueNm": 300,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": null, "topSpeedKph": 150, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 61, "electricRangeKm": null, "electricRangeNote": "UK WLTP not yet published", "chargingKw": 67,
+            "lengthMm": 4285, "widthMm": 1800, "heightMm": 1640, "weightKg": null,
+            "bootLitres": 306, "doors": 5, "seats": 5,
+            "notes": "AWD UK availability to be confirmed",
+            "sources": ["https://newsroom.toyota.eu/the-all-new-toyota-urban-cruiser/"]
+          }
+        ]
+      },
+      {
+        "name": "C-HR+",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "57.7kWh FWD",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 123, "powerBhp": 165, "torqueNm": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": null, "topSpeedKph": 160, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 57.7, "electricRangeKm": 455, "electricRangeNote": "283 mi WLTP", "chargingKw": 150,
+            "lengthMm": 4520, "widthMm": 1870, "heightMm": 1595, "weightKg": null,
+            "bootLitres": 416, "doors": 5, "seats": 5,
+            "notes": "UK launch Q4 2025",
+            "sources": ["https://media.toyota.co.uk/the-all-new-battery-electric-toyota-c-hr/", "https://www.green.car/guides/all-new-toyota-c-hr-electric-suv-confirmed-for-uk/"]
+          },
+          {
+            "name": "77kWh FWD",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 165, "powerBhp": 221, "torqueNm": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 7.4, "topSpeedKph": 160, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 77, "electricRangeKm": 608, "electricRangeNote": "378 mi WLTP", "chargingKw": 150,
+            "lengthMm": 4520, "widthMm": 1870, "heightMm": 1595, "weightKg": null,
+            "bootLitres": 416, "doors": 5, "seats": 5,
+            "sources": ["https://media.toyota.co.uk/the-all-new-battery-electric-toyota-c-hr/"]
+          },
+          {
+            "name": "77kWh AWD",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 252, "powerBhp": 338, "torqueNm": null,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD",
+            "acceleration0100": 5.2, "topSpeedKph": 160, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 77, "electricRangeKm": null, "electricRangeNote": "UK WLTP not captured", "chargingKw": 150,
+            "lengthMm": 4520, "widthMm": 1870, "heightMm": 1595, "weightKg": null,
+            "bootLitres": 416, "doors": 5, "seats": 5,
+            "sources": ["https://media.toyota.co.uk/the-all-new-battery-electric-toyota-c-hr/"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Nissan",
+    "country": "Japan",
+    "models": [
+      {
+        "name": "Micra (2025 EV)",
+        "bodyType": "Hatchback",
+        "variants": [
+          {
+            "name": "40kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 90, "powerBhp": 121, "torqueNm": 225,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 9.0, "topSpeedKph": 150, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 40, "electricRangeKm": 319, "electricRangeNote": "198 mi WLTP", "chargingKw": 80,
+            "lengthMm": 3974, "widthMm": 1774, "heightMm": 1498, "weightKg": null,
+            "bootLitres": 326, "doors": 5, "seats": 5,
+            "notes": "Twin of Renault 5 E-Tech, built in France",
+            "sources": ["https://www.thecarexpert.co.uk/nissan-micra-2025/", "https://www.drive-electric.co.uk/news/electric-nissan-micra-lands-with-up-to-260-mile-range/"]
+          },
+          {
+            "name": "52kWh Extended Range",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 110, "powerBhp": 148, "torqueNm": 245,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 8.0, "topSpeedKph": 150, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 52, "electricRangeKm": 418, "electricRangeNote": "260 mi WLTP", "chargingKw": 100,
+            "lengthMm": 3974, "widthMm": 1774, "heightMm": 1498, "weightKg": null,
+            "bootLitres": 326, "doors": 5, "seats": 5,
+            "sources": ["https://ev-database.org/car/3203/Nissan-Micra-Extended-Range-52-kWh", "https://comcar.co.uk/news/2025/Aug/Pricing-and-Specs-Revealed-for-the-All-New-Electric-Nissan-Micra/0001027123"]
+          }
+        ]
+      },
+      {
+        "name": "Leaf (3rd gen)",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "52kWh",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 130, "powerBhp": 174, "torqueNm": 345,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 8.6, "topSpeedKph": 160, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 52, "batteryKwhNote": "Some sources describe entry pack as '60 kWh LFP / 265 mi' - CONFLICT; UK spec understood as 52 kWh NMC", "electricRangeKm": 436, "electricRangeNote": "271 mi WLTP", "chargingKw": 105,
+            "lengthMm": 4350, "widthMm": 1810, "heightMm": 1550, "weightKg": null,
+            "bootLitres": 437, "doors": 5, "seats": 5,
+            "notes": "Built at Sunderland UK; coupe-crossover body",
+            "sources": ["https://europe.nissannews.com/en-GB/releases/an-electrifying-2025-ahead-for-nissan-return-of-micra-as-an-ev-third-generation-leaf-to-launch-and-updated-e-power-for-qashqai", "https://www.nissan.co.uk/vehicles/new-vehicles/leaf.html"]
+          },
+          {
+            "name": "75kWh Extended Range",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC",
+            "engineDisplacement": null, "cylinders": null,
+            "powerKw": 160, "powerBhp": 215, "torqueNm": 345,
+            "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD",
+            "acceleration0100": 7.6, "topSpeedKph": 160, "combinedMpg": null, "co2Gkm": 0,
+            "batteryKwh": 75, "electricRangeKm": 622, "electricRangeNote": "Up to 386 mi WLTP (some sources quote '87 kWh / 340 mi' - CONFLICT, treated as non-UK figure)", "chargingKw": 150,
+            "lengthMm": 4350, "widthMm": 1810, "heightMm": 1550, "weightKg": null,
+            "bootLitres": 437, "doors": 5, "seats": 5,
+            "sources": ["https://www.nissan.co.uk/vehicles/new-vehicles/leaf.html", "https://www.smithsmotorgroup.co.uk/news/nissan-accelerates-european-electrification-with-all-new-leaf-and-micra-ev-launches-in-2025/"]
+          }
+        ]
+      },
+      {
+        "name": "Qashqai e-Power (2025 update)",
+        "bodyType": "SUV",
+        "variants": [
+          {
+            "name": "1.5 e-Power 205PS",
+            "yearFrom": 2025, "yearTo": null, "fuelType": "HYBRID",
+            "engineDisplacement": 1497, "cylinders": 3,
+            "powerKw": 151, "powerBhp": 201, "powerNote": "Motor output; petrol engine acts as generator only. 205 PS in Sport mode",
+            "torqueNm": 330,
+            "gearboxType": "AUTOMATIC", "gears": 1, "gearsNote": "Single-speed reduction (series hybrid)",
+            "drivetrain": "FWD",
+            "acceleration0100": 7.9, "topSpeedKph": 170, "combinedMpg": 62.8, "co2Gkm": 102,
+            "batteryKwh": 2.1, "electricRangeKm": null, "chargingKw": null,
+            "lengthMm": 4425, "widthMm": 1835, "heightMm": 1625, "weightKg": null,
+            "bootLitres": 479, "doors": 5, "seats": 5,
+            "notes": "3rd-gen e-Power unit (5-in-1), significant efficiency gain over 190PS pre-update system",
+            "sources": ["https://europe.nissannews.com/en-GB/releases/an-electrifying-2025-ahead-for-nissan-return-of-micra-as-an-ev-third-generation-leaf-to-launch-and-updated-e-power-for-qashqai", "https://www.autoexpress.co.uk/nissan/qashqai/e-power"]
+          }
+        ]
+      }
+    ]
+  }
+]

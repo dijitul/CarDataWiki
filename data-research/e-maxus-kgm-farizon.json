@@ -1,0 +1,225 @@
+[
+  {
+    "make": "Maxus",
+    "country": "China",
+    "models": [
+      {
+        "name": "eDeliver 3",
+        "bodyType": "VAN",
+        "ukLaunchYear": 2020,
+        "variants": [
+          {"name": "SWB 35kWh", "yearFrom": 2020, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 90, "powerBhp": 121, "torqueNm": 255, "batteryKwh": 35.0, "batteryKwhNote": "gross; usable unverified", "electricRangeKm": 159, "chargingKw": 50, "acceleration0100": 11.0, "topSpeedKph": 121, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": null, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": 4.8, "doors": 4, "seats": 2, "engineDisplacement": null, "cylinders": null, "sources": ["https://vanreviewer.co.uk/maxus/edeliver-3/review/3434/", "https://www.whatcar.com/maxus/e-deliver-3/van/review/n22665"]},
+          {"name": "SWB 50kWh", "yearFrom": 2020, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 90, "powerBhp": 121, "torqueNm": 255, "batteryKwh": 50.2, "batteryKwhNote": "gross", "electricRangeKm": 243, "chargingKw": 50, "acceleration0100": 12.0, "topSpeedKph": 121, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": null, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": 4.8, "doors": 4, "seats": 2, "engineDisplacement": null, "cylinders": null, "sources": ["https://vanreviewer.co.uk/maxus/edeliver-3/review/3434/", "https://vans.honestjohn.co.uk/maxus/edeliver-3/"]},
+          {"name": "LWB 50kWh", "yearFrom": 2020, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 90, "powerBhp": 121, "torqueNm": 255, "batteryKwh": 50.2, "batteryKwhNote": "gross; LWB availability in current range unconfirmed", "electricRangeKm": 243, "chargingKw": 50, "acceleration0100": null, "topSpeedKph": 121, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": null, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": 6.3, "doors": 4, "seats": 2, "engineDisplacement": null, "cylinders": null, "sources": ["https://vanreviewer.co.uk/maxus/edeliver-3/review/3434/", "https://vans.honestjohn.co.uk/maxus/edeliver-3/"]}
+        ]
+      },
+      {
+        "name": "eDeliver 5",
+        "bodyType": "VAN",
+        "ukLaunchYear": 2024,
+        "variants": [
+          {"name": "L1 H1 64kWh", "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 120, "powerBhp": 161, "torqueNm": 240, "batteryKwh": 64.0, "batteryKwhNote": "LFP; usable unverified; auto-data quotes 163hp vs 120kW press figure", "electricRangeKm": 335, "chargingKw": 80, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": 4800, "widthMm": 1870, "heightMm": 1960, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": 6.6, "doors": 4, "seats": 3, "engineDisplacement": null, "cylinders": null, "sources": ["https://saicmaxus.co.uk/our-range/edeliver-5/", "https://www.autoexpress.co.uk/maxus/362942/new-maxus-edeliver-5-electric-van-revealed-208-mile-range", "https://vanreviewer.co.uk/maxus/edeliver-5/dimensions/4622/"]},
+          {"name": "L1 H2 64kWh", "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 120, "powerBhp": 161, "torqueNm": 240, "batteryKwh": 64.0, "batteryKwhNote": "LFP", "electricRangeKm": 335, "chargingKw": 80, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": 4800, "widthMm": 1870, "heightMm": 2180, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": 7.6, "doors": 4, "seats": 3, "engineDisplacement": null, "cylinders": null, "sources": ["https://saicmaxus.co.uk/our-range/edeliver-5/", "https://vanreviewer.co.uk/maxus/edeliver-5/dimensions/4622/"]}
+        ]
+      },
+      {
+        "name": "eDeliver 7",
+        "bodyType": "VAN",
+        "ukLaunchYear": 2024,
+        "variants": [
+          {"name": "L1 H1 77kWh", "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 150, "powerBhp": 201, "torqueNm": 330, "batteryKwh": 77.0, "batteryKwhNote": "gross; usable unverified", "electricRangeKm": null, "chargingKw": 90, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": 4998, "widthMm": 2030, "heightMm": 1990, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": 5.9, "doors": 4, "seats": 3, "engineDisplacement": null, "cylinders": null, "sources": ["https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/", "https://saicmaxus.co.uk/our-range/"]},
+          {"name": "L2 H1 88kWh", "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 150, "powerBhp": 201, "torqueNm": 330, "batteryKwh": 88.0, "batteryKwhNote": "gross", "electricRangeKm": 306, "chargingKw": 90, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": 5364, "widthMm": 2030, "heightMm": 1990, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": 7.2, "doors": 4, "seats": 3, "engineDisplacement": null, "cylinders": null, "sources": ["https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/", "https://saicmaxus.co.uk/our-range/"]},
+          {"name": "L2 H2 88kWh", "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 150, "powerBhp": 201, "torqueNm": 330, "batteryKwh": 88.0, "batteryKwhNote": "gross", "electricRangeKm": 306, "chargingKw": 90, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": 5364, "widthMm": 2030, "heightMm": 2390, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": 8.7, "doors": 4, "seats": 3, "engineDisplacement": null, "cylinders": null, "sources": ["https://vanreviewer.co.uk/maxus/e-deliver-7/review/2439/", "https://saicmaxus.co.uk/our-range/"]}
+        ]
+      },
+      {
+        "name": "eDeliver 9",
+        "bodyType": "VAN",
+        "ukLaunchYear": 2020,
+        "variants": [
+          {"name": "L2 MH 51.5kWh", "yearFrom": 2020, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 150, "powerBhp": 201, "torqueNm": null, "batteryKwh": 51.5, "batteryKwhNote": "gross", "electricRangeKm": 180, "chargingKw": null, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": 5546, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": 9.7, "doors": 4, "seats": 3, "engineDisplacement": null, "cylinders": null, "sources": ["https://vans.honestjohn.co.uk/maxus/edeliver-9/", "https://saicmaxus.co.uk/our-range/edeliver-9/"]},
+          {"name": "L2 MH 72kWh", "yearFrom": 2020, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 150, "powerBhp": 201, "torqueNm": null, "batteryKwh": 72.0, "batteryKwhNote": "gross", "electricRangeKm": 235, "chargingKw": null, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": 5546, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": 9.7, "doors": 4, "seats": 3, "engineDisplacement": null, "cylinders": null, "sources": ["https://vans.honestjohn.co.uk/maxus/edeliver-9/", "https://vanreviewer.co.uk/maxus/e-deliver-9/review/1766/"]},
+          {"name": "L3 LH 88.55kWh", "yearFrom": 2020, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 150, "powerBhp": 201, "torqueNm": null, "batteryKwh": 88.55, "batteryKwhNote": "gross", "electricRangeKm": 298, "chargingKw": null, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": 5940, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": 11.0, "doors": 4, "seats": 3, "engineDisplacement": null, "cylinders": null, "sources": ["https://vans.honestjohn.co.uk/maxus/edeliver-9/", "https://saicmaxus.co.uk/our-range/edeliver-9/"]}
+        ]
+      },
+      {
+        "name": "Deliver 7",
+        "bodyType": "VAN",
+        "ukLaunchYear": 2024,
+        "variants": [
+          {"name": "L1 H1 2.0D 150 manual", "yearFrom": 2024, "yearTo": null, "fuelType": "DIESEL", "powerKw": 110, "powerBhp": 148, "torqueNm": 375, "batteryKwh": null, "batteryKwhNote": null, "electricRangeKm": null, "chargingKw": null, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": null, "combinedMpg": 29.8, "gearboxType": "MANUAL", "gears": 6, "drivetrain": "FWD", "lengthMm": 4998, "widthMm": null, "heightMm": 1990, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": 5.9, "doors": 4, "seats": 3, "engineDisplacement": 1996, "cylinders": 4, "sources": ["https://saicmaxus.co.uk/our-range/deliver-7/", "https://www.swissvans.com/product/maxus-deliver-7/"], "note": "Power conflict: 110kW (150PS) vs 163hp quoted by same source; displacement 1996cc assumed from 2.0L class, unverified"},
+          {"name": "L2 H2 2.0D 150 manual", "yearFrom": 2024, "yearTo": null, "fuelType": "DIESEL", "powerKw": 110, "powerBhp": 148, "torqueNm": 375, "batteryKwh": null, "batteryKwhNote": null, "electricRangeKm": null, "chargingKw": null, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": null, "combinedMpg": 29.4, "gearboxType": "MANUAL", "gears": 6, "drivetrain": "FWD", "lengthMm": 5364, "widthMm": null, "heightMm": 2390, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": 8.7, "doors": 4, "seats": 3, "engineDisplacement": 1996, "cylinders": 4, "sources": ["https://saicmaxus.co.uk/our-range/deliver-7/", "https://www.swissvans.com/product/maxus-deliver-7/"]}
+        ]
+      },
+      {
+        "name": "Deliver 9",
+        "bodyType": "VAN",
+        "ukLaunchYear": 2020,
+        "variants": [
+          {"name": "2.0D 163 FWD manual", "yearFrom": 2020, "yearTo": null, "fuelType": "DIESEL", "powerKw": 120, "powerBhp": 161, "torqueNm": 375, "batteryKwh": null, "batteryKwhNote": null, "electricRangeKm": null, "chargingKw": null, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": null, "combinedMpg": null, "gearboxType": "MANUAL", "gears": 6, "drivetrain": "FWD", "lengthMm": null, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": 11.0, "doors": 4, "seats": 3, "engineDisplacement": null, "cylinders": 4, "sources": ["https://vans.honestjohn.co.uk/maxus/deliver-9/", "https://www.vansdirect.co.uk/blognews/maxus-deliver-9-everything-you-need-to-know/"], "note": "163PS; load volume 11.0-12.9 m3 depending on body"},
+          {"name": "2.0D 163 RWD manual", "yearFrom": 2020, "yearTo": null, "fuelType": "DIESEL", "powerKw": 120, "powerBhp": 161, "torqueNm": 375, "batteryKwh": null, "batteryKwhNote": null, "electricRangeKm": null, "chargingKw": null, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": null, "combinedMpg": null, "gearboxType": "MANUAL", "gears": 6, "drivetrain": "RWD", "lengthMm": null, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": 12.9, "doors": 4, "seats": 3, "engineDisplacement": null, "cylinders": 4, "sources": ["https://vans.honestjohn.co.uk/maxus/deliver-9/", "https://www.vansdirect.co.uk/blognews/maxus-deliver-9-everything-you-need-to-know/"]}
+        ]
+      },
+      {
+        "name": "T60 Max",
+        "bodyType": "PICKUP",
+        "ukLaunchYear": 2023,
+        "variants": [
+          {"name": "2.0 D Double Cab 4WD auto", "yearFrom": 2023, "yearTo": null, "fuelType": "DIESEL", "powerKw": 158, "powerBhp": 212, "torqueNm": 500, "batteryKwh": null, "batteryKwhNote": null, "electricRangeKm": null, "chargingKw": null, "acceleration0100": null, "topSpeedKph": 169, "co2Gkm": null, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 8, "drivetrain": "AWD", "lengthMm": null, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "doors": 4, "seats": 5, "engineDisplacement": 1996, "cylinders": 4, "sources": ["https://www.rivervale.co.uk/content-hub/reviews/maxus-t60-max-review", "https://www.selectcarleasing.co.uk/car-leasing/reviews/maxus/t60-max-pick-up"], "note": "215PS twin-turbo; payload 1050kg; towing 3500kg; selectable 4WD; displacement unverified"}
+        ]
+      },
+      {
+        "name": "T90EV",
+        "bodyType": "PICKUP",
+        "ukLaunchYear": 2022,
+        "variants": [
+          {"name": "88.5kWh RWD Double Cab", "yearFrom": 2022, "yearTo": 2025, "fuelType": "ELECTRIC", "powerKw": 150, "powerBhp": 201, "torqueNm": 375, "batteryKwh": 88.5, "batteryKwhNote": "gross; torque conflict 310Nm quoted elsewhere", "electricRangeKm": 354, "chargingKw": 80, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "RWD", "lengthMm": 5365, "widthMm": 1900, "heightMm": 1809, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "doors": 4, "seats": 5, "engineDisplacement": null, "cylinders": null, "sources": ["https://vanreviewer.co.uk/maxus/t90ev/review/2530/", "https://www.autocar.co.uk/car-review/maxus/t90ev"], "note": "Range conflict 205 vs 220 mi across sources; yearTo 2025 estimated (dropped from range page by mid-2026); payload 1000kg, towing 1500kg"}
+        ]
+      },
+      {
+        "name": "eTerron 9",
+        "bodyType": "PICKUP",
+        "ukLaunchYear": 2025,
+        "variants": [
+          {"name": "102kWh AWD Double Cab", "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 325, "powerBhp": 436, "torqueNm": null, "batteryKwh": 102.2, "batteryKwhNote": "gross; 170hp front + 272hp rear motors", "electricRangeKm": 430, "chargingKw": null, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD", "lengthMm": null, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "doors": 4, "seats": 5, "engineDisplacement": null, "cylinders": null, "sources": ["https://www.parkers.co.uk/vans-pickups/news/2024/maxus-eterron-9-electric-pickup/", "https://www.topgear.com/car-news/electric/maxus-eterron-9-europes-first-all-electric-awd-pick"], "note": "20-80% DC in 42 min (peak kW unverified); 0-62 ~5s claimed; payload 620kg (1050kg Utility); towing 3500kg; V2L"}
+        ]
+      },
+      {
+        "name": "Mifa 9",
+        "bodyType": "MPV",
+        "ukLaunchYear": 2023,
+        "variants": [
+          {"name": "90kWh 180kW (Elite/Luxury/Premium)", "yearFrom": 2023, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 180, "powerBhp": 241, "torqueNm": 350, "batteryKwh": 90.0, "batteryKwhNote": "90 gross / 84 usable", "electricRangeKm": 439, "chargingKw": 114, "acceleration0100": 9.2, "topSpeedKph": 180, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": 5270, "widthMm": 2000, "heightMm": 1840, "wheelbaseMm": 3200, "weightKg": 2485, "bootLitres": 466, "doors": 5, "seats": 7, "engineDisplacement": null, "cylinders": null, "sources": ["https://ev-database.org/uk/car/1837/Maxus-MIFA-9", "https://www.parkers.co.uk/maxus/mifa-9/mpv-2022/180kw-luxury-%5B7-seat%5D-90kwh-5dr-auto/specs/"], "note": "Some UK sources quote up to 323 mi WLTP - EV Database 273 mi used; boot 466L (2179L max)"}
+        ]
+      },
+      {
+        "name": "Mifa 7",
+        "bodyType": "MPV",
+        "ukLaunchYear": 2025,
+        "variants": [
+          {"name": "77kWh", "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 180, "powerBhp": 241, "torqueNm": 350, "batteryKwh": 77.0, "batteryKwhNote": "gross; UK availability of 77kWh confirmed but range unverified", "electricRangeKm": null, "chargingKw": 150, "acceleration0100": null, "topSpeedKph": 180, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": 4907, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": null, "bootLitres": 280, "doors": 5, "seats": 7, "engineDisplacement": null, "cylinders": null, "sources": ["https://www.leasingpro.co.uk/blog/maxus-mifa-7-review", "https://www.parkers.co.uk/maxus/mifa-7/mpv-2024/180kw-premium-%5B7-seat%5D-90kwh-5dr-auto/specs/"]},
+          {"name": "90kWh Premium", "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 180, "powerBhp": 241, "torqueNm": 350, "batteryKwh": 90.0, "batteryKwhNote": "gross; usable unverified", "electricRangeKm": 480, "chargingKw": 150, "acceleration0100": null, "topSpeedKph": 180, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": 4907, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": 2239, "bootLitres": 280, "doors": 5, "seats": 7, "engineDisplacement": null, "cylinders": null, "sources": ["https://www.parkers.co.uk/maxus/mifa-7/mpv-2024/180kw-premium-%5B7-seat%5D-90kwh-5dr-auto/specs/", "https://www.leasingpro.co.uk/blog/maxus-mifa-7-review"], "note": "Power conflict: 245hp (LeasingPro) vs 241bhp/180kW (Parkers); Parkers wheelbase 2975mm doubtful vs ~3200mm elsewhere - nulled"}
+        ]
+      }
+    ]
+  },
+  {
+    "make": "KGM",
+    "country": "South Korea",
+    "models": [
+      {
+        "name": "Tivoli",
+        "bodyType": "SUV",
+        "ukLaunchYear": 2015,
+        "variants": [
+          {"name": "1.5 T-GDI manual", "yearFrom": 2024, "yearTo": null, "fuelType": "PETROL", "powerKw": 120, "powerBhp": 161, "torqueNm": 280, "batteryKwh": null, "batteryKwhNote": null, "electricRangeKm": null, "chargingKw": null, "acceleration0100": null, "topSpeedKph": 191, "co2Gkm": null, "combinedMpg": 34.0, "gearboxType": "MANUAL", "gears": 6, "drivetrain": "FWD", "lengthMm": 4225, "widthMm": 1810, "heightMm": 1613, "wheelbaseMm": null, "weightKg": null, "bootLitres": 395, "doors": 5, "seats": 5, "engineDisplacement": 1497, "cylinders": 4, "sources": ["https://www.kgm-motors.co.uk/new-cars/tivoli/", "https://www.auto-data.net/en/kgm-tivoli-1.5-t-gdi-163hp-50478"], "note": "163PS facelift engine (KGM badge from 2024); SsangYong Tivoli sold in UK since 2015 with earlier engines not captured"},
+          {"name": "1.5 T-GDI auto", "yearFrom": 2024, "yearTo": null, "fuelType": "PETROL", "powerKw": 120, "powerBhp": 161, "torqueNm": 280, "batteryKwh": null, "batteryKwhNote": null, "electricRangeKm": null, "chargingKw": null, "acceleration0100": null, "topSpeedKph": 191, "co2Gkm": null, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 6, "drivetrain": "FWD", "lengthMm": 4225, "widthMm": 1810, "heightMm": 1613, "wheelbaseMm": null, "weightKg": null, "bootLitres": 395, "doors": 5, "seats": 5, "engineDisplacement": 1497, "cylinders": 4, "sources": ["https://www.kgm-motors.co.uk/new-cars/tivoli/", "https://www.auto-data.net/en/kgm-tivoli-1.5-t-gdi-163hp-50478"]}
+        ]
+      },
+      {
+        "name": "Korando",
+        "bodyType": "SUV",
+        "ukLaunchYear": 2019,
+        "variants": [
+          {"name": "1.5 T-GDI manual", "yearFrom": 2019, "yearTo": 2025, "fuelType": "PETROL", "powerKw": 120, "powerBhp": 161, "torqueNm": 280, "batteryKwh": null, "batteryKwhNote": null, "electricRangeKm": null, "chargingKw": null, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": null, "combinedMpg": null, "gearboxType": "MANUAL", "gears": 6, "drivetrain": "FWD", "lengthMm": 4450, "widthMm": 1870, "heightMm": 1629, "wheelbaseMm": null, "weightKg": null, "bootLitres": 551, "doors": 5, "seats": 5, "engineDisplacement": 1497, "cylinders": 4, "sources": ["https://heycar.com/uk/reviews/ssangyong/korando", "https://www.carwow.co.uk/kgm-motors/korando"], "note": "yearTo 2025 estimated - dropped from KGM UK new-car range; SsangYong-badged until 2024 rebrand"},
+          {"name": "1.5 T-GDI auto", "yearFrom": 2019, "yearTo": 2025, "fuelType": "PETROL", "powerKw": 120, "powerBhp": 161, "torqueNm": 280, "batteryKwh": null, "batteryKwhNote": null, "electricRangeKm": null, "chargingKw": null, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": null, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 6, "drivetrain": "FWD", "lengthMm": 4450, "widthMm": 1870, "heightMm": 1629, "wheelbaseMm": null, "weightKg": null, "bootLitres": 551, "doors": 5, "seats": 5, "engineDisplacement": 1497, "cylinders": 4, "sources": ["https://heycar.com/uk/reviews/ssangyong/korando", "https://www.carwow.co.uk/kgm-motors/korando"]}
+        ]
+      },
+      {
+        "name": "Korando e-Motion",
+        "bodyType": "SUV",
+        "ukLaunchYear": 2022,
+        "variants": [
+          {"name": "61.5kWh", "yearFrom": 2022, "yearTo": 2024, "fuelType": "ELECTRIC", "powerKw": 140, "powerBhp": 187, "torqueNm": 360, "batteryKwh": 61.5, "batteryKwhNote": "61.5 gross / 55.3 usable", "electricRangeKm": 339, "chargingKw": 100, "acceleration0100": 8.5, "topSpeedKph": null, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": 4450, "widthMm": 1870, "heightMm": 1629, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "doors": 5, "seats": 5, "engineDisplacement": null, "cylinders": null, "sources": ["https://www.autoexpress.co.uk/electric-cars/108291/new-2022-ssangyong-korando-e-motion-uk-prices-and-specs-revealed", "https://ev-database.org/uk/car/1589/SsangYong-Korando-e-Motion"], "note": "SsangYong-badged; dropped from UK range in 2024 KGM overhaul"}
+        ]
+      },
+      {
+        "name": "Torres",
+        "bodyType": "SUV",
+        "ukLaunchYear": 2024,
+        "variants": [
+          {"name": "1.5 T-GDI auto FWD", "yearFrom": 2024, "yearTo": null, "fuelType": "PETROL", "powerKw": 120, "powerBhp": 161, "torqueNm": 280, "batteryKwh": null, "batteryKwhNote": null, "electricRangeKm": null, "chargingKw": null, "acceleration0100": null, "topSpeedKph": 194, "co2Gkm": null, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 6, "drivetrain": "FWD", "lengthMm": 4700, "widthMm": 1890, "heightMm": 1720, "wheelbaseMm": null, "weightKg": 1498, "bootLitres": 703, "doors": 5, "seats": 5, "engineDisplacement": 1497, "cylinders": 4, "sources": ["https://www.auto-data.net/en/kgm-torres-1.5-t-gdi-163hp-50489", "https://heycar.com/uk/reviews/kgm/torres"], "note": "Boot conflict: 703L (heycar UK) vs 599L (auto-data); petrol may be phased out after 2026 Torres Hybrid launch"},
+          {"name": "1.5 T-GDI auto AWD", "yearFrom": 2024, "yearTo": null, "fuelType": "PETROL", "powerKw": 120, "powerBhp": 161, "torqueNm": 280, "batteryKwh": null, "batteryKwhNote": null, "electricRangeKm": null, "chargingKw": null, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": null, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 6, "drivetrain": "AWD", "lengthMm": 4700, "widthMm": 1890, "heightMm": 1720, "wheelbaseMm": null, "weightKg": null, "bootLitres": 703, "doors": 5, "seats": 5, "engineDisplacement": 1497, "cylinders": 4, "sources": ["https://www.ultimatespecs.com/car-specs/KGM/142120/KGM-Torres-15-T-GDI-4x4-Automatic.html", "https://heycar.com/uk/reviews/kgm/torres"]}
+        ]
+      },
+      {
+        "name": "Torres EVX",
+        "bodyType": "SUV",
+        "ukLaunchYear": 2024,
+        "variants": [
+          {"name": "73.4kWh (K30/K40)", "yearFrom": 2024, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 152, "powerBhp": 207, "torqueNm": 339, "batteryKwh": 73.4, "batteryKwhNote": "BYD LFP; usable unverified", "electricRangeKm": 462, "chargingKw": 120, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": 4715, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": 1915, "bootLitres": 839, "doors": 5, "seats": 5, "engineDisplacement": null, "cylinders": null, "sources": ["https://www.carwow.co.uk/kgm-motors/torres-evx", "https://www.autoevolution.com/news/kgm-launches-torres-evx-an-all-electric-mid-size-suv-with-fwd-and-a-range-of-287-miles-261576.html"], "note": "839L boot likely incl. underfloor storage; towing 1500kg"}
+        ]
+      },
+      {
+        "name": "Torres Hybrid",
+        "bodyType": "SUV",
+        "ukLaunchYear": 2026,
+        "variants": [
+          {"name": "1.5 T-GDI e-DHT K40", "yearFrom": 2026, "yearTo": null, "fuelType": "HYBRID_PETROL", "powerKw": 129, "powerBhp": 174, "torqueNm": 300, "batteryKwh": 1.83, "batteryKwhNote": "hybrid buffer battery", "electricRangeKm": null, "chargingKw": null, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": 139, "combinedMpg": 46.1, "gearboxType": "AUTOMATIC", "gears": 6, "drivetrain": "FWD", "lengthMm": 4700, "widthMm": 1890, "heightMm": 1720, "wheelbaseMm": null, "weightKg": null, "bootLitres": 703, "doors": 5, "seats": 5, "engineDisplacement": 1497, "cylinders": 4, "sources": ["https://www.autoevolution.com/news/kgm-motors-formerly-ssangyong-launches-the-all-new-torres-hybrid-in-the-uk-from-35995-259166.html", "https://www.whatcar.com/news/kgm-torres-suv-gains-new-hybrid-variant-for-pound36k/n28284"], "note": "Combined output conflict: 176-177PS (UK press, used) vs 204PS (auto-data/Korean spec); 6-speed e-DHT"}
+        ]
+      },
+      {
+        "name": "Actyon",
+        "bodyType": "SUV",
+        "ukLaunchYear": 2025,
+        "variants": [
+          {"name": "1.5 T-GDI K50 auto", "yearFrom": 2025, "yearTo": null, "fuelType": "PETROL", "powerKw": 120, "powerBhp": 161, "torqueNm": 280, "batteryKwh": null, "batteryKwhNote": null, "electricRangeKm": null, "chargingKw": null, "acceleration0100": 10.8, "topSpeedKph": 191, "co2Gkm": null, "combinedMpg": 33.1, "gearboxType": "AUTOMATIC", "gears": 6, "drivetrain": "FWD", "lengthMm": 4740, "widthMm": 1920, "heightMm": 1680, "wheelbaseMm": null, "weightKg": null, "bootLitres": 668, "doors": 5, "seats": 5, "engineDisplacement": 1497, "cylinders": 4, "sources": ["https://www.carwow.co.uk/kgm-motors/actyon", "https://www.autocar.co.uk/car-review/kgm/actyon"], "note": "UK press quotes 163PS; Korean market 170PS (Wikipedia) - UK figure used; Aisin 6AT"},
+          {"name": "Hybrid (e-DHT)", "yearFrom": 2026, "yearTo": null, "fuelType": "HYBRID_PETROL", "powerKw": null, "powerBhp": null, "torqueNm": null, "batteryKwh": 1.83, "batteryKwhNote": "hybrid buffer battery; outputs assumed shared with Torres Hybrid but unverified", "electricRangeKm": null, "chargingKw": null, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": null, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 6, "drivetrain": "FWD", "lengthMm": 4740, "widthMm": 1920, "heightMm": 1680, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "doors": 5, "seats": 5, "engineDisplacement": 1497, "cylinders": 4, "sources": ["https://www.kgm-motors.co.uk/new-cars/all-new-actyon-hybrid/", "https://www.autoexpress.co.uk/kgm/torres/368026/new-kgm-torres-hybrid-rolls-and-its-cheaper-petrol"]}
+        ]
+      },
+      {
+        "name": "Rexton",
+        "bodyType": "SUV",
+        "ukLaunchYear": 2017,
+        "variants": [
+          {"name": "2.2 e-XDi diesel auto 4WD", "yearFrom": 2017, "yearTo": null, "fuelType": "DIESEL", "powerKw": 149, "powerBhp": 199, "torqueNm": 441, "batteryKwh": null, "batteryKwhNote": null, "electricRangeKm": null, "chargingKw": null, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": null, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 8, "drivetrain": "AWD", "lengthMm": 4850, "widthMm": 1960, "heightMm": 1825, "wheelbaseMm": 2865, "weightKg": null, "bootLitres": null, "doors": 5, "seats": 7, "engineDisplacement": 2157, "cylinders": 4, "sources": ["https://www.carexpert.com.au/car-news/2024-ssangyong-rexton-price-and-specs", "https://www.kgm-motors.co.uk/"], "note": "202PS current tune (181PS pre-2021 not captured); selectable 4WD; towing 3500kg; 2-seat Rexton Commercial variant also sold"}
+        ]
+      },
+      {
+        "name": "Musso",
+        "bodyType": "PICKUP",
+        "ukLaunchYear": 2018,
+        "variants": [
+          {"name": "2.2D Double Cab manual", "yearFrom": 2018, "yearTo": null, "fuelType": "DIESEL", "powerKw": 149, "powerBhp": 199, "torqueNm": 400, "batteryKwh": null, "batteryKwhNote": null, "electricRangeKm": null, "chargingKw": null, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": null, "combinedMpg": null, "gearboxType": "MANUAL", "gears": 6, "drivetrain": "AWD", "lengthMm": 5095, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "doors": 4, "seats": 5, "engineDisplacement": 2157, "cylinders": 4, "sources": ["https://www.kgm-motors.co.uk/new-cars/musso/power/", "https://www.autocar.co.uk/car-review/kgm/musso"], "note": "202PS; 400Nm manual vs 441Nm auto; selectable 4WD; gross train weight 6450kg (manual)"},
+          {"name": "2.2D Double Cab auto", "yearFrom": 2018, "yearTo": null, "fuelType": "DIESEL", "powerKw": 149, "powerBhp": 199, "torqueNm": 441, "batteryKwh": null, "batteryKwhNote": null, "electricRangeKm": null, "chargingKw": null, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": null, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 6, "drivetrain": "AWD", "lengthMm": 5095, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "doors": 4, "seats": 5, "engineDisplacement": 2157, "cylinders": 4, "sources": ["https://www.kgm-motors.co.uk/new-cars/musso/power/", "https://www.autocar.co.uk/car-review/kgm/musso"], "note": "Towing 3500kg; gross train weight 6750kg"},
+          {"name": "Musso Rhino LWB auto", "yearFrom": 2019, "yearTo": null, "fuelType": "DIESEL", "powerKw": 149, "powerBhp": 199, "torqueNm": 441, "batteryKwh": null, "batteryKwhNote": null, "electricRangeKm": null, "chargingKw": null, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": null, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 6, "drivetrain": "AWD", "lengthMm": 5405, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "doors": 4, "seats": 5, "engineDisplacement": 2157, "cylinders": 4, "sources": ["https://www.kgm-motors.co.uk/", "https://www.vansdirect.co.uk/blognews/2025-kgm-musso-everything-you-need-to-know/"], "note": "Long-bed version; towing 3500kg"}
+        ]
+      },
+      {
+        "name": "Musso EV",
+        "bodyType": "PICKUP",
+        "ukLaunchYear": 2026,
+        "variants": [
+          {"name": "80.6kWh AWD", "yearFrom": 2026, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 152, "powerBhp": 204, "torqueNm": 339, "batteryKwh": 80.6, "batteryKwhNote": "BYD LFP, gross", "electricRangeKm": 386, "chargingKw": null, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "AWD", "lengthMm": null, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "doors": 4, "seats": 5, "engineDisplacement": null, "cylinders": null, "sources": ["https://www.electrive.com/2026/03/18/kgm-launches-musso-ev-electric-pick-up-in-the-uk/", "https://www.autotrader.co.uk/vans/content/kgm-musso-ev-review-2026"], "note": "207PS dual-motor full-time AWD; 20-80% in 31 min (peak DC kW not published); payload 690kg; towing 2300kg; V2L"}
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Farizon",
+    "country": "China",
+    "models": [
+      {
+        "name": "SV",
+        "bodyType": "VAN",
+        "ukLaunchYear": 2025,
+        "variants": [
+          {"name": "L1 H1 67kWh", "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 170, "powerBhp": 228, "torqueNm": 336, "batteryKwh": 67.0, "batteryKwhNote": "LFP, gross", "electricRangeKm": 302, "chargingKw": 120, "acceleration0100": null, "topSpeedKph": 135, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": 4990, "widthMm": null, "heightMm": 1980, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": 6.95, "doors": 4, "seats": 3, "engineDisplacement": null, "cylinders": null, "sources": ["https://vanreviewer.co.uk/farizon/sv/review/6715/", "https://www.parkers.co.uk/vans-pickups/news/2025/farizon-sv-electric-van/"]},
+          {"name": "L1 H2 83kWh", "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 170, "powerBhp": 228, "torqueNm": 336, "batteryKwh": 83.0, "batteryKwhNote": "LFP, gross", "electricRangeKm": 376, "chargingKw": 120, "acceleration0100": null, "topSpeedKph": 135, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": 4990, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": null, "doors": 4, "seats": 3, "engineDisplacement": null, "cylinders": null, "sources": ["https://vanreviewer.co.uk/farizon/sv/review/6715/", "https://www.parkers.co.uk/vans-pickups/news/2025/farizon-sv-electric-van/"]},
+          {"name": "L2 H2 83kWh", "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 170, "powerBhp": 228, "torqueNm": 336, "batteryKwh": 83.0, "batteryKwhNote": "LFP, gross", "electricRangeKm": 344, "chargingKw": 120, "acceleration0100": null, "topSpeedKph": 135, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": null, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": null, "doors": 4, "seats": 3, "engineDisplacement": null, "cylinders": null, "sources": ["https://vanreviewer.co.uk/farizon/sv/review/6715/", "https://www.parkers.co.uk/vans-pickups/news/2025/farizon-sv-electric-van/"]},
+          {"name": "L3 H3 83kWh", "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 170, "powerBhp": 228, "torqueNm": 336, "batteryKwh": 83.0, "batteryKwhNote": "LFP, gross", "electricRangeKm": 328, "chargingKw": 120, "acceleration0100": null, "topSpeedKph": 135, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": 5995, "widthMm": null, "heightMm": 2500, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": 13.0, "doors": 4, "seats": 3, "engineDisplacement": null, "cylinders": null, "sources": ["https://vanreviewer.co.uk/farizon/sv/review/6715/", "https://theevreport.com/farizon-sv-vans-arrive-in-the-uk-market"]},
+          {"name": "L3 H3 106kWh", "yearFrom": 2025, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": 170, "powerBhp": 228, "torqueNm": 336, "batteryKwh": 106.0, "batteryKwhNote": "NMC, gross", "electricRangeKm": 397, "chargingKw": 140, "acceleration0100": null, "topSpeedKph": 135, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": "FWD", "lengthMm": 5995, "widthMm": null, "heightMm": 2500, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": 13.0, "doors": 4, "seats": 3, "engineDisplacement": null, "cylinders": null, "sources": ["https://vanreviewer.co.uk/farizon/sv/review/6715/", "https://www.parkers.co.uk/vans-pickups/news/2025/farizon-sv-electric-van/"], "note": "Eight UK variants total; payload family range 1035-1390kg per-variant split unverified; pricing conflict GBP45-56k+VAT launch vs from GBP28k excl VAT on farizonauto.co.uk July 2026"}
+        ]
+      },
+      {
+        "name": "V7E",
+        "bodyType": "VAN",
+        "ukLaunchYear": 2026,
+        "variants": [
+          {"name": "L1 H1 50kWh", "yearFrom": 2026, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": null, "powerBhp": null, "torqueNm": null, "batteryKwh": 50.23, "batteryKwhNote": "LFP, gross", "electricRangeKm": 240, "chargingKw": 100, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": null, "lengthMm": null, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": 6.95, "doors": 4, "seats": 3, "engineDisplacement": null, "cylinders": null, "sources": ["https://www.electrive.com/2026/04/24/farizon-launches-v7e-electric-van-with-focus-on-urban-logistics/", "https://fleetworld.co.uk/farizon-v7e-debuts-as-29k-medium-ev-van-to-master-urban-logistics/"], "note": "Motor output not published at launch; WLTP city 210mi; payload up to 1338kg"},
+          {"name": "L1 H1 67kWh", "yearFrom": 2026, "yearTo": null, "fuelType": "ELECTRIC", "powerKw": null, "powerBhp": null, "torqueNm": null, "batteryKwh": 67.67, "batteryKwhNote": "LFP, gross", "electricRangeKm": 328, "chargingKw": 100, "acceleration0100": null, "topSpeedKph": null, "co2Gkm": 0, "combinedMpg": null, "gearboxType": "AUTOMATIC", "gears": 1, "drivetrain": null, "lengthMm": null, "widthMm": null, "heightMm": null, "wheelbaseMm": null, "weightKg": null, "bootLitres": null, "loadVolumeM3": 6.95, "doors": 4, "seats": 3, "engineDisplacement": null, "cylinders": null, "sources": ["https://www.electrive.com/2026/04/24/farizon-launches-v7e-electric-van-with-focus-on-urban-logistics/", "https://farizonauto.co.uk/v7e"], "note": "WLTP city 295mi"}
+        ]
+      }
+    ]
+  }
+]
