@@ -33,8 +33,14 @@ function download(): string {
   console.log('📥 Downloading VCA latest dataset…')
   execSync(`curl -s -c "${jar}" -A "${UA}" "${BASE}/downloads/default.aspx" -o nul`, { shell: 'cmd.exe' })
   execSync(`curl -s -b "${jar}" -A "${UA}" -e "${BASE}/downloads/default.aspx" -L "${BASE}/downloads/create_latest_data_csv.asp?id=6" -o "${zip}"`, { shell: 'cmd.exe' })
-  const tar = process.platform === 'win32' ? `${process.env.SystemRoot}\\System32\\tar.exe` : 'tar'
-  execSync(`"${tar}" -xf "${zip}" -C "${TMP}"`)
+  // GNU tar (Linux) can't read .zip; Windows bundles bsdtar which can. Use
+  // the platform-appropriate extractor.
+  if (process.platform === 'win32') {
+    const tar = `${process.env.SystemRoot}\\System32\\tar.exe`
+    execSync(`"${tar}" -xf "${zip}" -C "${TMP}"`)
+  } else {
+    execSync(`unzip -o "${zip}" -d "${TMP}"`)
+  }
   return csv
 }
 

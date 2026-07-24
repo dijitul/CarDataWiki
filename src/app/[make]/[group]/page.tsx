@@ -91,12 +91,24 @@ export default async function GroupPage({ params }: Props) {
         { label: groupName },
       ]} />
 
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold text-slate-900">{make.name} {groupName}</h1>
-        <p className="text-slate-500 text-sm mt-1">
-          {models.length} body style{models.length === 1 ? '' : 's'}
-          {' · '}{models.reduce((s, m) => s + m._count.variants, 0)} variants
-        </p>
+      <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-8">
+        <div>
+          <h1 className="text-3xl font-bold text-slate-900">{make.name} {groupName}</h1>
+          <p className="text-slate-500 text-sm mt-1">
+            {models.length} body style{models.length === 1 ? '' : 's'}
+            {' · '}{models.reduce((s, m) => s + m._count.variants, 0)} variants
+          </p>
+        </div>
+        <a
+          href={`/api/download/group/${make.slug}/${params.group}`}
+          className="btn-outline flex items-center gap-2 self-start"
+          download
+        >
+          <svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+            <path fillRule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"/>
+          </svg>
+          Download {make.name} {groupName} specs (CSV)
+        </a>
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">

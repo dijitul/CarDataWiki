@@ -1,6 +1,8 @@
 import Link from 'next/link'
+import { getSiteCounts } from '@/lib/stats'
 
-export function Footer() {
+export async function Footer() {
+  const { makes, models, variants } = await getSiteCounts()
   return (
     <footer className="border-t border-slate-200 bg-slate-50 mt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -15,7 +17,7 @@ export function Footer() {
               <span className="font-bold text-sm text-slate-900">cardata<span className="text-primary-700">.wiki</span></span>
             </div>
             <p className="text-xs text-slate-500 leading-relaxed">
-              Free, community-edited vehicle specifications database. 124 makes, 7,000+ models, 30,000+ variants.
+              Free, community-edited vehicle specifications database. {makes.toLocaleString()} makes, {models.toLocaleString()} models, {variants.toLocaleString()} variants.
             </p>
           </div>
 

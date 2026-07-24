@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { getSiteCounts } from '@/lib/stats'
 
 export const metadata: Metadata = {
   title: 'About cardata.wiki — Free Community Car Specifications Database',
@@ -7,7 +8,8 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://cardata.wiki/about' },
 }
 
-export default function AboutPage() {
+export default async function AboutPage() {
+  const counts = await getSiteCounts()
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
@@ -29,8 +31,8 @@ export default function AboutPage() {
           <p>
             cardata.wiki is a Wikipedia-style database of car specifications. We cover
             engine data, performance figures, dimensions, fuel economy, emissions,
-            drivetrain configurations, and more — for over 30,000 vehicle variants across
-            124 manufacturers.
+            drivetrain configurations, and more — for over {counts.variants.toLocaleString()} vehicle
+            variants across {counts.makes.toLocaleString()} manufacturers.
           </p>
           <p>
             The data is free. Not free-with-a-catch, not free-for-personal-use-only. Genuinely
@@ -144,9 +146,9 @@ export default function AboutPage() {
         <h2 className="text-2xl font-bold text-slate-900 mb-6">By the numbers</h2>
         <div className="grid grid-cols-3 gap-4">
           {[
-            { value: '124',    label: 'Manufacturers' },
-            { value: '5,000+', label: 'Model variants' },
-            { value: '30,000+', label: 'Spec entries' },
+            { value: counts.makes.toLocaleString(),    label: 'Manufacturers' },
+            { value: counts.models.toLocaleString(),    label: 'Models' },
+            { value: counts.variants.toLocaleString(),  label: 'Spec entries' },
           ].map(stat => (
             <div key={stat.label} className="card p-5 text-center">
               <div className="text-3xl font-bold text-primary-800 font-mono">{stat.value}</div>
