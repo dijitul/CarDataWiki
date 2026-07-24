@@ -31,7 +31,7 @@ export function BillingActions({ isActive }: { isActive: boolean }) {
         </button>
       ) : (
         <button onClick={() => go('/api/stripe/checkout')} disabled={loading} className="btn-accent px-6 py-3 text-base font-semibold">
-          {loading ? 'Loading…' : 'Subscribe — £20/month'}
+          {loading ? 'Loading…' : 'Subscribe — £20 + VAT / month'}
         </button>
       )}
       {error && <p className="text-sm text-red-600 mt-3">{error}</p>}

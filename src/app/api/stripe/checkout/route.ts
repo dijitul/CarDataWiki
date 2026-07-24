@@ -40,6 +40,13 @@ export async function POST(req: NextRequest) {
     mode: 'subscription',
     payment_method_types: ['card'],
     line_items: [{ price: STRIPE_PRICE_ID, quantity: 1 }],
+    // VAT: the price is tax-exclusive, so Stripe Tax adds VAT on top at
+    // checkout based on the customer's location (UK +20%; EU B2B reverse-charge
+    // when they supply a VAT number). Requires an address on the customer.
+    automatic_tax: { enabled: true },
+    billing_address_collection: 'required',
+    customer_update: { address: 'auto', name: 'auto' },
+    tax_id_collection: { enabled: true },
     success_url: `${appUrl}/dashboard/billing?success=1`,
     cancel_url:  `${appUrl}/dashboard/billing?cancelled=1`,
     metadata: { userId: session.user.id },

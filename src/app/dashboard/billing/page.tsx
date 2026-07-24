@@ -24,7 +24,7 @@ export default async function BillingPage() {
         <div className="flex items-center justify-between">
           <div>
             <h2 className="font-semibold text-slate-800">API Access Plan</h2>
-            <p className="text-sm text-slate-500 mt-0.5">£20 / month · REST API · usage dashboard · cancel anytime</p>
+            <p className="text-sm text-slate-500 mt-0.5">£20 + VAT / month · REST API · usage dashboard · cancel anytime</p>
           </div>
           <span className={`badge ${isActive ? 'badge-green' : 'badge-grey'}`}>
             {subscription?.status?.replace(/_/g, ' ') ?? 'Inactive'}

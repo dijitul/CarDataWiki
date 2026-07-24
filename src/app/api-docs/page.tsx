@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Vehicle Data API Documentation',
-  description: 'REST API for programmatic access to 30,000+ vehicle specifications. JSON responses, key authentication, £20/month flat rate. Code examples in JavaScript, Python, and PHP.',
+  description: 'REST API for programmatic access to 30,000+ vehicle specifications. JSON responses, key authentication, £20 + VAT/month. Code examples in JavaScript, Python, and PHP.',
 }
 
 const ENDPOINTS = [
@@ -72,10 +72,10 @@ export default function ApiDocsPage() {
       {/* Header */}
       <div className="mb-10">
         <h1 className="text-3xl font-bold text-slate-900 mb-2">Vehicle Data API</h1>
-        <p className="text-slate-500">Programmatic access to 30,000+ vehicle specifications. REST, JSON, £20/month.</p>
+        <p className="text-slate-500">Programmatic access to 30,000+ vehicle specifications. REST, JSON, £20 + VAT/month.</p>
         <div className="flex gap-3 mt-4">
           <Link href="/register" className="btn-primary">Get API key</Link>
-          <Link href="/dashboard/billing" className="btn-outline">Subscribe — £20/mo</Link>
+          <Link href="/dashboard/billing" className="btn-outline">Subscribe — £20 + VAT/mo</Link>
         </div>
       </div>
 
@@ -165,7 +165,7 @@ export default function ApiDocsPage() {
       {/* CTA */}
       <div className="bg-primary-950 text-white rounded-xl p-8 text-center">
         <h2 className="text-xl font-semibold mb-2">Ready to get started?</h2>
-        <p className="text-primary-300 text-sm mb-4">£20/month · REST API · cancel anytime</p>
+        <p className="text-primary-300 text-sm mb-4">£20 + VAT/month · REST API · cancel anytime</p>
         <Link href="/register" className="btn-accent inline-flex px-6 py-2.5 text-base font-semibold">
           Create account & subscribe
         </Link>
