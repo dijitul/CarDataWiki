@@ -6,12 +6,10 @@ import type { Metadata } from 'next'
 
 interface Props { params: { make: string } }
 
-export const revalidate = 3600
-
-export async function generateStaticParams() {
-  const makes = await prisma.make.findMany({ select: { slug: true } })
-  return makes.map(m => ({ make: m.slug }))
-}
+// Dynamic (SSR per request): the root layout reads the session cookie, which
+// forbids static/ISR rendering. Rendering dynamically also means newly-added
+// makes appear immediately without a rebuild.
+export const dynamic = 'force-dynamic'
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const make = await prisma.make.findUnique({

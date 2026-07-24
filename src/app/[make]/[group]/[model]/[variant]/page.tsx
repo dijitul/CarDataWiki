@@ -8,14 +8,10 @@ import type { Metadata } from 'next'
 
 interface Props { params: { make: string; group: string; model: string; variant: string } }
 
-export const revalidate = 3600
-
-// 35k+ variants — rendered on demand and cached via ISR (see `revalidate`
-// below) rather than pre-rendered at build, which would make builds take
-// tens of minutes. dynamicParams defaults to true, so any variant renders.
-export async function generateStaticParams() {
-  return []
-}
+// Dynamic (SSR per request): the root layout reads the session cookie, which
+// forbids static/ISR rendering. Also means new variants appear without a
+// rebuild (and avoids pre-rendering 35k+ pages at build time).
+export const dynamic = 'force-dynamic'
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const variant = await prisma.modelVariant.findUnique({

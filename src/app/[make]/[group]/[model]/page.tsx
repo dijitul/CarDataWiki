@@ -6,13 +6,9 @@ import type { Metadata } from 'next'
 
 interface Props { params: { make: string; group: string; model: string } }
 
-export const revalidate = 3600
-
-// Rendered on demand and cached via ISR (see `revalidate`) rather than
-// pre-rendering all ~5.5k models at build. dynamicParams defaults to true.
-export async function generateStaticParams() {
-  return []
-}
+// Dynamic (SSR per request): the root layout reads the session cookie, which
+// forbids static/ISR rendering. Also means new models appear without a rebuild.
+export const dynamic = 'force-dynamic'
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const model = await prisma.model.findUnique({
