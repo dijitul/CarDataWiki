@@ -8,15 +8,10 @@ interface Props { params: { make: string; group: string; model: string } }
 
 export const revalidate = 3600
 
+// Rendered on demand and cached via ISR (see `revalidate`) rather than
+// pre-rendering all ~5.5k models at build. dynamicParams defaults to true.
 export async function generateStaticParams() {
-  const models = await prisma.model.findMany({
-    select: { slug: true, groupSlug: true, make: { select: { slug: true } } },
-  })
-  return models.map(m => ({
-    make:  m.make.slug,
-    group: m.groupSlug ?? m.slug,
-    model: m.slug,
-  }))
+  return []
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

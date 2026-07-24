@@ -10,19 +10,11 @@ interface Props { params: { make: string; group: string; model: string; variant:
 
 export const revalidate = 3600
 
+// 35k+ variants — rendered on demand and cached via ISR (see `revalidate`
+// below) rather than pre-rendered at build, which would make builds take
+// tens of minutes. dynamicParams defaults to true, so any variant renders.
 export async function generateStaticParams() {
-  const variants = await prisma.modelVariant.findMany({
-    select: {
-      slug: true,
-      model: { select: { slug: true, groupSlug: true, make: { select: { slug: true } } } },
-    },
-  })
-  return variants.map(v => ({
-    make:    v.model.make.slug,
-    group:   v.model.groupSlug ?? v.model.slug,
-    model:   v.model.slug,
-    variant: v.slug,
-  }))
+  return []
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

@@ -8,20 +8,10 @@ interface Props { params: { make: string; group: string } }
 
 export const revalidate = 3600
 
+// Rendered on demand and cached via ISR (see `revalidate`) rather than
+// pre-rendering every group at build. dynamicParams defaults to true.
 export async function generateStaticParams() {
-  const models = await prisma.model.findMany({
-    where:  { groupSlug: { not: null } },
-    select: { groupSlug: true, make: { select: { slug: true } } },
-  })
-  const seen = new Set<string>()
-  return models
-    .filter(m => {
-      const key = `${m.make.slug}/${m.groupSlug}`
-      if (seen.has(key)) return false
-      seen.add(key)
-      return true
-    })
-    .map(m => ({ make: m.make.slug, group: m.groupSlug! }))
+  return []
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
