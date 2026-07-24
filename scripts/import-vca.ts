@@ -30,9 +30,10 @@ function download(): string {
   const jar = join(TMP, 'cookies.txt')
   const zip = join(TMP, 'vca-latest.zip')
   const csv = join(TMP, 'Euro_6_latest.csv')
+  const nul = process.platform === 'win32' ? 'nul' : '/dev/null'
   console.log('📥 Downloading VCA latest dataset…')
-  execSync(`curl -s -c "${jar}" -A "${UA}" "${BASE}/downloads/default.aspx" -o nul`, { shell: 'cmd.exe' })
-  execSync(`curl -s -b "${jar}" -A "${UA}" -e "${BASE}/downloads/default.aspx" -L "${BASE}/downloads/create_latest_data_csv.asp?id=6" -o "${zip}"`, { shell: 'cmd.exe' })
+  execSync(`curl -s -c "${jar}" -A "${UA}" "${BASE}/downloads/default.aspx" -o ${nul}`)
+  execSync(`curl -s -b "${jar}" -A "${UA}" -e "${BASE}/downloads/default.aspx" -L "${BASE}/downloads/create_latest_data_csv.asp?id=6" -o "${zip}"`)
   // GNU tar (Linux) can't read .zip; Windows bundles bsdtar which can. Use
   // the platform-appropriate extractor.
   if (process.platform === 'win32') {
