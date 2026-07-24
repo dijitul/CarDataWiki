@@ -66,6 +66,9 @@ fi
 run "Enriching weights/wheelbase from EEA (slow, ~10-15 min)" npm run enrich:eea
 run "Merging duplicate model families" npx tsx scripts/merge-duplicate-models.ts
 
+# --- 6. Assign browse groups (REQUIRED — pages 404 without this) ------------
+run "Assigning model groups (Make > Group > Model hierarchy)" npx tsx scripts/group-models.ts
+
 echo
 echo "============================================================"
 echo "Import finished. Backup saved as $BACKUP"
